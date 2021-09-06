@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 32da8e1c34cf9564fa508b50fdc61f8b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1025288233923662854
+    second: cogumelos2_0
+  - first:
+      213: 3727808349709419044
+    second: cogumelos2_1
+  - first:
+      213: 8744743104502970356
+    second: cogumelos2_2
+  - first:
+      213: 5109479428261235380
+    second: cogumelos2_3
+  - first:
+      213: 1216025785525351797
+    second: cogumelos2_4
+  - first:
+      213: 8420349519486457343
+    second: cogumelos2_5
+  - first:
+      213: 4747128522155160162
+    second: cogumelos2_6
+  - first:
+      213: -2733081741860997471
+    second: cogumelos2_7
+  - first:
+      213: 1134231379357454296
+    second: cogumelos2_8
+  - first:
+      213: -86093500118626437
+    second: cogumelos2_9
+  - first:
+      213: 5083565886411049816
+    second: cogumelos2_10
+  - first:
+      213: -9172582230221881764
+    second: cogumelos2_11
+  - first:
+      213: -8231662061623032360
+    second: cogumelos2_12
+  - first:
+      213: -1535395856791495112
+    second: cogumelos2_13
+  - first:
+      213: 4633781496362916509
+    second: cogumelos2_14
+  - first:
+      213: -5791011698762052726
+    second: cogumelos2_15
+  - first:
+      213: -7317054286093470891
+    second: cogumelos2_16
+  - first:
+      213: -6078470526394338805
+    second: cogumelos2_17
+  - first:
+      213: -5016993087768208159
+    second: cogumelos2_18
+  - first:
+      213: 8484112747398529128
+    second: cogumelos2_19
+  - first:
+      213: 75142093584972493
+    second: cogumelos2_20
+  - first:
+      213: 2690482956572269377
+    second: cogumelos2_21
+  - first:
+      213: 8260310415578912986
+    second: cogumelos2_22
+  - first:
+      213: 2544066295660355497
+    second: cogumelos2_23
+  - first:
+      213: 7542611614421398889
+    second: cogumelos2_24
+  - first:
+      213: 3941324628055616604
+    second: cogumelos2_25
+  - first:
+      213: -5105648596023912455
+    second: cogumelos2_26
+  - first:
+      213: 6852049337419603068
+    second: cogumelos2_27
+  - first:
+      213: 1139858923711268780
+    second: cogumelos2_28
+  - first:
+      213: 876111787886908762
+    second: cogumelos2_29
+  - first:
+      213: 4420626386870416419
+    second: cogumelos2_30
+  - first:
+      213: -105279511290617261
+    second: cogumelos2_31
+  - first:
+      213: -1507897266948429143
+    second: cogumelos2_32
+  - first:
+      213: -6130239546085111140
+    second: cogumelos2_33
+  - first:
+      213: 2546903226288809831
+    second: cogumelos2_34
+  - first:
+      213: 5174319108455516470
+    second: cogumelos2_35
+  - first:
+      213: -3436080502579208570
+    second: cogumelos2_36
+  - first:
+      213: -8270966606038404488
+    second: cogumelos2_37
+  - first:
+      213: -2661891861565830151
+    second: cogumelos2_38
+  - first:
+      213: 174703896863508311
+    second: cogumelos2_39
+  - first:
+      213: 5810864078978361861
+    second: cogumelos2_40
+  - first:
+      213: 4574689692772285430
+    second: cogumelos2_41
+  - first:
+      213: 5702958267209444005
+    second: cogumelos2_42
+  - first:
+      213: 2247691208731657251
+    second: cogumelos2_43
+  - first:
+      213: 2863791501735005629
+    second: cogumelos2_44
+  - first:
+      213: 8557137584020824948
+    second: cogumelos2_45
+  - first:
+      213: 1681585350158769660
+    second: cogumelos2_46
+  - first:
+      213: 6588185236405547523
+    second: cogumelos2_47
+  - first:
+      213: 7786073061665367788
+    second: cogumelos2_48
+  - first:
+      213: -8487182046852723407
+    second: cogumelos2_49
+  - first:
+      213: 9197557360511777222
+    second: cogumelos2_50
+  - first:
+      213: -910390495714411259
+    second: cogumelos2_51
+  - first:
+      213: 7438828211823415719
+    second: cogumelos2_52
+  - first:
+      213: 5777088156302355387
+    second: cogumelos2_53
+  - first:
+      213: 8088596851676629539
+    second: cogumelos2_54
+  - first:
+      213: 8592282029762024136
+    second: cogumelos2_55
+  - first:
+      213: 3429131947751573475
+    second: cogumelos2_56
+  - first:
+      213: -5539979678434222551
+    second: cogumelos2_57
+  - first:
+      213: 6822861045075367300
+    second: cogumelos2_58
+  - first:
+      213: -4782677395317860379
+    second: cogumelos2_59
+  - first:
+      213: -2181580064911608164
+    second: cogumelos2_60
+  - first:
+      213: -3491371475154394839
+    second: cogumelos2_61
+  - first:
+      213: -8894030525860407862
+    second: cogumelos2_62
+  - first:
+      213: 8311014413011966018
+    second: cogumelos2_63
+  - first:
+      213: 328150457194620017
+    second: cogumelos2_64
+  - first:
+      213: -966852890569286441
+    second: cogumelos2_65
+  - first:
+      213: -1001166503169362781
+    second: cogumelos2_66
+  - first:
+      213: 1200274180799181327
+    second: cogumelos2_67
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cogumelos2_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 73
+        width: 41
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604586f673e8a3e00800000000000000
+      internalID: 1025288233923662854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cogumelos2_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 108
+        width: 21
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4224a2b71f5dbb330800000000000000
+      internalID: 3727808349709419044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cogumelos2_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 108
+        width: 15
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f732fb95819b5970800000000000000
+      internalID: 8744743104502970356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cogumelos2_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 117
+        width: 8
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba4da4087488e640800000000000000
+      internalID: 5109479428261235380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cogumelos2_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 95
+        width: 46
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57534f7520130e010800000000000000
+      internalID: 1216025785525351797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cogumelos2_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 73
+        width: 34
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff51f9966471bd470800000000000000
+      internalID: 8420349519486457343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cogumelos2_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 83
+        width: 25
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262fe225d3031e140800000000000000
+      internalID: 4747128522155160162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cogumelos2_7
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 95
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6f442e2a4221ad0800000000000000
+      internalID: -2733081741860997471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cogumelos2_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 5
+        width: 67
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfc3bb1e699dbf00800000000000000
+      internalID: 1134231379357454296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cogumelos2_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 66
+        width: 18
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e709e5f0174b080800000000000000
+      internalID: -9172582230221881764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cogumelos2_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 41
+        width: 21
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d546e9d7f243cd80800000000000000
+      internalID: -8231662061623032360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cogumelos2_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 41
+        width: 14
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e16566a9d21bae0800000000000000
+      internalID: -1535395856791495112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cogumelos2_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 38
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a5d7958bf7e4040800000000000000
+      internalID: 4633781496362916509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cogumelos2_17
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 5
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b027598e24fe4aba0800000000000000
+      internalID: -6078470526394338805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 77fef6f1e289805448d68acae7d79642
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

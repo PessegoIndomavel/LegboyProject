@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{ac19891c-6f96-45c7-82b8-a0695019c43b}">
+		<property name="name">
+			<value>wallrun certo</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2f58d339-866e-47c6-a658-dd81825e6dbb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d41cced9-1378-4de0-a41b-db9ace482331}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d41cced9-1378-4de0-a41b-db9ace482331}">
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

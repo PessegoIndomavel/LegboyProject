@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f165609da4420964eb7a934ca12de2cb
+  m_SerializeEntries:
+  - m_GUID: f3221d72ab085664b8f3a29e1af1d7aa
+    m_Address: Assets/_Art/Materials/TransitionMat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ffd6fa515035a5345b65364ca918c682
+    m_Address: Assets/_Art/Shaders/AlphaTransitionShader.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a9e766a1e221c4e4ea7cc8fedbd9dc3f
+    m_Address: Assets/_Other/Lighting/UniversalRenderPipelineAsset.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6c0dfc89fa670014880d4b275ffd66b5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0b1a66e09a5eb394f8c21177f64214ef, type: 2}
+    - {fileID: 11400000, guid: ba1933792480f9b4399740f2e35f9256, type: 2}

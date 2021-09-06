@@ -1,0 +1,8064 @@
+fileFormatVersion: 2
+guid: 9e77b371d915f124bb9b51878448ca19
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7346811451782758212
+    second: bgFar_0
+  - first:
+      213: -7520089081484085360
+    second: bgFar_1
+  - first:
+      213: -7133708279969327946
+    second: bgFar_2
+  - first:
+      213: 5099455279510855321
+    second: bgFar_3
+  - first:
+      213: 7141874144544995362
+    second: bgFar_4
+  - first:
+      213: -6488157209907134599
+    second: bgFar_5
+  - first:
+      213: -1080231953754515788
+    second: bgFar_6
+  - first:
+      213: -5273591368670203673
+    second: bgFar_7
+  - first:
+      213: 4490525952654674318
+    second: bgFar_8
+  - first:
+      213: 1594841440686017224
+    second: bgFar_9
+  - first:
+      213: 8510283355638351416
+    second: bgFar_10
+  - first:
+      213: -1457920263542164495
+    second: bgFar_11
+  - first:
+      213: 7550080680488044380
+    second: bgFar_12
+  - first:
+      213: -3598216184052321485
+    second: bgFar_13
+  - first:
+      213: -7543434350696037045
+    second: bgFar_14
+  - first:
+      213: -4442399871355461636
+    second: bgFar_15
+  - first:
+      213: -9000983309551689324
+    second: bgFar_16
+  - first:
+      213: -1944124469286224697
+    second: bgFar_17
+  - first:
+      213: 6911561908628861443
+    second: bgFar_18
+  - first:
+      213: 4148412021822732213
+    second: bgFar_19
+  - first:
+      213: 2593968192353486820
+    second: bgFar_20
+  - first:
+      213: 413929781175296867
+    second: bgFar_21
+  - first:
+      213: 7858265367448967673
+    second: bgFar_22
+  - first:
+      213: 4215713942287293336
+    second: bgFar_23
+  - first:
+      213: 2162689287296307711
+    second: bgFar_24
+  - first:
+      213: -4901226299859429144
+    second: bgFar_25
+  - first:
+      213: -2408647294065179881
+    second: bgFar_26
+  - first:
+      213: -5700196781317957189
+    second: bgFar_27
+  - first:
+      213: -2582567835603703691
+    second: bgFar_28
+  - first:
+      213: 9001213746361791799
+    second: bgFar_29
+  - first:
+      213: 2082103826563293013
+    second: bgFar_30
+  - first:
+      213: 6762824225968900666
+    second: bgFar_31
+  - first:
+      213: 8900369083190214771
+    second: bgFar_32
+  - first:
+      213: 5800703932613858754
+    second: bgFar_33
+  - first:
+      213: 6184174254034176926
+    second: bgFar_34
+  - first:
+      213: -5723108188360812739
+    second: bgFar_35
+  - first:
+      213: -7177071546435785292
+    second: bgFar_36
+  - first:
+      213: -8726947588033354049
+    second: bgFar_37
+  - first:
+      213: -9125991151666072510
+    second: bgFar_38
+  - first:
+      213: 4635276613336644032
+    second: bgFar_39
+  - first:
+      213: -4891233079822461774
+    second: bgFar_40
+  - first:
+      213: -4725660699758811242
+    second: bgFar_41
+  - first:
+      213: 1087211964276949019
+    second: bgFar_42
+  - first:
+      213: 425611328902765904
+    second: bgFar_43
+  - first:
+      213: -3227727724879422928
+    second: bgFar_44
+  - first:
+      213: 6915219612472472212
+    second: bgFar_45
+  - first:
+      213: 3634126842867219607
+    second: bgFar_46
+  - first:
+      213: -3686621373826283263
+    second: bgFar_47
+  - first:
+      213: -454184223549463231
+    second: bgFar_48
+  - first:
+      213: -4917701900841727164
+    second: bgFar_49
+  - first:
+      213: -7750782944887447786
+    second: bgFar_50
+  - first:
+      213: 3951789399609377275
+    second: bgFar_51
+  - first:
+      213: 707451070170369788
+    second: bgFar_52
+  - first:
+      213: 6731394512620469318
+    second: bgFar_53
+  - first:
+      213: -6125852445680800638
+    second: bgFar_54
+  - first:
+      213: -3586901349371150580
+    second: bgFar_55
+  - first:
+      213: -5948015944091169594
+    second: bgFar_56
+  - first:
+      213: -3279172791560175268
+    second: bgFar_57
+  - first:
+      213: 3403930138440049346
+    second: bgFar_58
+  - first:
+      213: 1458624076363411545
+    second: bgFar_59
+  - first:
+      213: -408547042727836377
+    second: bgFar_60
+  - first:
+      213: -5334698637570048188
+    second: bgFar_61
+  - first:
+      213: 6817951258936861864
+    second: bgFar_62
+  - first:
+      213: 7721593228584606287
+    second: bgFar_63
+  - first:
+      213: 1602520182759638308
+    second: bgFar_64
+  - first:
+      213: 6387556230487962356
+    second: bgFar_65
+  - first:
+      213: 8037940494948666590
+    second: bgFar_66
+  - first:
+      213: -1652578700055557029
+    second: bgFar_67
+  - first:
+      213: 3720959711553529285
+    second: bgFar_68
+  - first:
+      213: -5160436442977465438
+    second: bgFar_69
+  - first:
+      213: 6755111060445577084
+    second: bgFar_70
+  - first:
+      213: 3013262208094787894
+    second: bgFar_71
+  - first:
+      213: 6558917214170952724
+    second: bgFar_72
+  - first:
+      213: 8225020256431055573
+    second: bgFar_73
+  - first:
+      213: 2022760890498068920
+    second: bgFar_74
+  - first:
+      213: -6244625778321934066
+    second: bgFar_75
+  - first:
+      213: 4382816537013607106
+    second: bgFar_76
+  - first:
+      213: 2276965621656309866
+    second: bgFar_77
+  - first:
+      213: 2233364732844677360
+    second: bgFar_78
+  - first:
+      213: 8049432739044758872
+    second: bgFar_79
+  - first:
+      213: 1513017195726155453
+    second: bgFar_80
+  - first:
+      213: -4996147299689774337
+    second: bgFar_81
+  - first:
+      213: -6679685134525748667
+    second: bgFar_82
+  - first:
+      213: 3653243979898109086
+    second: bgFar_83
+  - first:
+      213: 61907659146749928
+    second: bgFar_84
+  - first:
+      213: 6591864647456069727
+    second: bgFar_85
+  - first:
+      213: -3133942816175836262
+    second: bgFar_86
+  - first:
+      213: -4373266730021710365
+    second: bgFar_87
+  - first:
+      213: 853785604262801126
+    second: bgFar_88
+  - first:
+      213: -1801057907788272549
+    second: bgFar_89
+  - first:
+      213: 2025817846382557432
+    second: bgFar_90
+  - first:
+      213: -6520493425008769640
+    second: bgFar_91
+  - first:
+      213: -8185842884900351334
+    second: bgFar_92
+  - first:
+      213: -3286646367362781688
+    second: bgFar_93
+  - first:
+      213: 256307094859766207
+    second: bgFar_94
+  - first:
+      213: 7230234833715626957
+    second: bgFar_95
+  - first:
+      213: 2755594998581751833
+    second: bgFar_96
+  - first:
+      213: 2563288173204050677
+    second: bgFar_97
+  - first:
+      213: -1315742992731514217
+    second: bgFar_98
+  - first:
+      213: -6303460845422654796
+    second: bgFar_99
+  - first:
+      213: 9193354159543494821
+    second: bgFar_100
+  - first:
+      213: -1032648480029608534
+    second: bgFar_101
+  - first:
+      213: 8177877766052831065
+    second: bgFar_102
+  - first:
+      213: -7030678796791432260
+    second: bgFar_103
+  - first:
+      213: -6009875826259250832
+    second: bgFar_104
+  - first:
+      213: -2778397681587149776
+    second: bgFar_105
+  - first:
+      213: -7350799175323849380
+    second: bgFar_106
+  - first:
+      213: -7340681688905404156
+    second: bgFar_107
+  - first:
+      213: -939072702181503336
+    second: bgFar_108
+  - first:
+      213: 4526893201480969692
+    second: bgFar_109
+  - first:
+      213: 3541015145129142922
+    second: bgFar_110
+  - first:
+      213: -4050741135686920540
+    second: bgFar_111
+  - first:
+      213: 8148882463362196708
+    second: bgFar_112
+  - first:
+      213: 8300590319192249345
+    second: bgFar_113
+  - first:
+      213: -208042537441774192
+    second: bgFar_114
+  - first:
+      213: -5950260493150230785
+    second: bgFar_115
+  - first:
+      213: -3595541631741356432
+    second: bgFar_116
+  - first:
+      213: -5949685037594572326
+    second: bgFar_117
+  - first:
+      213: 802317006093696836
+    second: bgFar_118
+  - first:
+      213: 6524416881956758371
+    second: bgFar_119
+  - first:
+      213: 2494368776852821444
+    second: bgFar_120
+  - first:
+      213: -8361795701788111679
+    second: bgFar_121
+  - first:
+      213: -2718233266824432239
+    second: bgFar_122
+  - first:
+      213: -8754910782218534355
+    second: bgFar_123
+  - first:
+      213: 354976931524644721
+    second: bgFar_124
+  - first:
+      213: 5118926976386236850
+    second: bgFar_125
+  - first:
+      213: -3716652601897675849
+    second: bgFar_126
+  - first:
+      213: -7936908469272885063
+    second: bgFar_127
+  - first:
+      213: -9176607584341260374
+    second: bgFar_128
+  - first:
+      213: -3353015644016049435
+    second: bgFar_129
+  - first:
+      213: 5301507900867781478
+    second: bgFar_130
+  - first:
+      213: -4039226312137903102
+    second: bgFar_131
+  - first:
+      213: 8612751227945837698
+    second: bgFar_132
+  - first:
+      213: -338651664301333370
+    second: bgFar_133
+  - first:
+      213: 4071334587009086379
+    second: bgFar_134
+  - first:
+      213: 134321120012150243
+    second: bgFar_135
+  - first:
+      213: 5098108048522315073
+    second: bgFar_136
+  - first:
+      213: 2651794837130892295
+    second: bgFar_137
+  - first:
+      213: 8311683703105408998
+    second: bgFar_138
+  - first:
+      213: 3098382223689472338
+    second: bgFar_139
+  - first:
+      213: 4676827010773722640
+    second: bgFar_140
+  - first:
+      213: 2467909742753301174
+    second: bgFar_141
+  - first:
+      213: -9117724736053934576
+    second: bgFar_142
+  - first:
+      213: 705634986575984050
+    second: bgFar_143
+  - first:
+      213: 8039745193394868467
+    second: bgFar_144
+  - first:
+      213: 4832279828297687942
+    second: bgFar_145
+  - first:
+      213: 2452192726751176523
+    second: bgFar_146
+  - first:
+      213: 6428582879049241935
+    second: bgFar_147
+  - first:
+      213: 1158840470436811476
+    second: bgFar_148
+  - first:
+      213: 363900780424192624
+    second: bgFar_149
+  - first:
+      213: 2914286564050915016
+    second: bgFar_150
+  - first:
+      213: -8233855844432994215
+    second: bgFar_151
+  - first:
+      213: -3348304860578517843
+    second: bgFar_152
+  - first:
+      213: -6489042313237963937
+    second: bgFar_153
+  - first:
+      213: 577820300290913830
+    second: bgFar_154
+  - first:
+      213: 6293674105997205835
+    second: bgFar_155
+  - first:
+      213: 1608813995513528784
+    second: bgFar_156
+  - first:
+      213: -6755604737270233054
+    second: bgFar_157
+  - first:
+      213: -3451021922541724272
+    second: bgFar_158
+  - first:
+      213: -7371060153175431739
+    second: bgFar_159
+  - first:
+      213: -1079148840729384440
+    second: bgFar_160
+  - first:
+      213: 7137630112837349441
+    second: bgFar_161
+  - first:
+      213: -1302621029931361118
+    second: bgFar_162
+  - first:
+      213: -520163988420519965
+    second: bgFar_163
+  - first:
+      213: -2546213242680927755
+    second: bgFar_164
+  - first:
+      213: -1553066282978587638
+    second: bgFar_165
+  - first:
+      213: 4040904253431607163
+    second: bgFar_166
+  - first:
+      213: 5394899649404228980
+    second: bgFar_167
+  - first:
+      213: 1459738151371589738
+    second: bgFar_168
+  - first:
+      213: 4699550091078998307
+    second: bgFar_169
+  - first:
+      213: -1445384004670533904
+    second: bgFar_170
+  - first:
+      213: -8920096015072001084
+    second: bgFar_171
+  - first:
+      213: 4293151731263059220
+    second: bgFar_172
+  - first:
+      213: 6531599188863774572
+    second: bgFar_173
+  - first:
+      213: -4634877254087043353
+    second: bgFar_174
+  - first:
+      213: 6599655392954589405
+    second: bgFar_175
+  - first:
+      213: 5204328452872928983
+    second: bgFar_176
+  - first:
+      213: -4003242423380597350
+    second: bgFar_177
+  - first:
+      213: 7721107965628792308
+    second: bgFar_178
+  - first:
+      213: 7726444098832967442
+    second: bgFar_179
+  - first:
+      213: -7553321893423407365
+    second: bgFar_180
+  - first:
+      213: 5612428229186875938
+    second: bgFar_181
+  - first:
+      213: 3213194022258134667
+    second: bgFar_182
+  - first:
+      213: -3543693708117600211
+    second: bgFar_183
+  - first:
+      213: 455211745765103820
+    second: bgFar_184
+  - first:
+      213: 7632310883079702611
+    second: bgFar_185
+  - first:
+      213: -7524019922238491548
+    second: bgFar_186
+  - first:
+      213: -8704798024053399177
+    second: bgFar_187
+  - first:
+      213: -624994840842121800
+    second: bgFar_188
+  - first:
+      213: 7194063593439942822
+    second: bgFar_189
+  - first:
+      213: 2556358175638646337
+    second: bgFar_190
+  - first:
+      213: -6859613604246514880
+    second: bgFar_191
+  - first:
+      213: 5115615328263541053
+    second: bgFar_192
+  - first:
+      213: 5275306719804938477
+    second: bgFar_193
+  - first:
+      213: 8054893007813574099
+    second: bgFar_194
+  - first:
+      213: 80441574159803427
+    second: bgFar_195
+  - first:
+      213: -3428851505188127800
+    second: bgFar_196
+  - first:
+      213: 852602155308758772
+    second: bgFar_197
+  - first:
+      213: 8875880560450175277
+    second: bgFar_198
+  - first:
+      213: -5228239501044697933
+    second: bgFar_199
+  - first:
+      213: -4119300675355727
+    second: bgFar_200
+  - first:
+      213: -7951404645968648689
+    second: bgFar_201
+  - first:
+      213: -1715015900011540177
+    second: bgFar_202
+  - first:
+      213: 7368463663808172877
+    second: bgFar_203
+  - first:
+      213: 6742093912896498040
+    second: bgFar_204
+  - first:
+      213: -5560018977890131099
+    second: bgFar_205
+  - first:
+      213: -7882688837183344539
+    second: bgFar_206
+  - first:
+      213: 3806767514748186919
+    second: bgFar_207
+  - first:
+      213: 7876721868731450563
+    second: bgFar_208
+  - first:
+      213: 2201742382907996918
+    second: bgFar_209
+  - first:
+      213: -7942974066207165706
+    second: bgFar_210
+  - first:
+      213: 5084857148864126824
+    second: bgFar_211
+  - first:
+      213: 7461353487869481988
+    second: bgFar_212
+  - first:
+      213: -8462046579360907287
+    second: bgFar_213
+  - first:
+      213: -1124946773159177150
+    second: bgFar_214
+  - first:
+      213: 8023396450353102559
+    second: bgFar_215
+  - first:
+      213: -4891886149211045852
+    second: bgFar_216
+  - first:
+      213: 4410297321788881524
+    second: bgFar_217
+  - first:
+      213: 9071407587033499296
+    second: bgFar_218
+  - first:
+      213: -6156069848707528522
+    second: bgFar_219
+  - first:
+      213: -557835093212192585
+    second: bgFar_220
+  - first:
+      213: -4245839652401574384
+    second: bgFar_221
+  - first:
+      213: 4046689296376513443
+    second: bgFar_222
+  - first:
+      213: -8058155516264475630
+    second: bgFar_223
+  - first:
+      213: 4330106288995414138
+    second: bgFar_224
+  - first:
+      213: -8222439946813138082
+    second: bgFar_225
+  - first:
+      213: 9213743761194309187
+    second: bgFar_226
+  - first:
+      213: -5434312781947080788
+    second: bgFar_227
+  - first:
+      213: -7765577522250715127
+    second: bgFar_228
+  - first:
+      213: 4436503147214507263
+    second: bgFar_229
+  - first:
+      213: 711530295020718585
+    second: bgFar_230
+  - first:
+      213: -2596590044127164495
+    second: bgFar_231
+  - first:
+      213: -6984067464071917426
+    second: bgFar_232
+  - first:
+      213: 727419037606486634
+    second: bgFar_233
+  - first:
+      213: -1499978807189054582
+    second: bgFar_234
+  - first:
+      213: 7667764295221349921
+    second: bgFar_235
+  - first:
+      213: 1804204106192559638
+    second: bgFar_236
+  - first:
+      213: 3473649499557646764
+    second: bgFar_237
+  - first:
+      213: -7463932904184691489
+    second: bgFar_238
+  - first:
+      213: 5302195933609785424
+    second: bgFar_239
+  - first:
+      213: 814182865644009363
+    second: bgFar_240
+  - first:
+      213: -2527116054688860184
+    second: bgFar_241
+  - first:
+      213: 4173837277104328984
+    second: bgFar_242
+  - first:
+      213: 7468701880926794942
+    second: bgFar_243
+  - first:
+      213: 5212952509916853460
+    second: bgFar_244
+  - first:
+      213: -8101493738117140334
+    second: bgFar_245
+  - first:
+      213: 6381252907305058052
+    second: bgFar_246
+  - first:
+      213: 8225364298495704338
+    second: bgFar_247
+  - first:
+      213: 8097198132399961811
+    second: bgFar_248
+  - first:
+      213: 7269562295759966868
+    second: bgFar_249
+  - first:
+      213: -4635456945763265414
+    second: bgFar_250
+  - first:
+      213: -701878192721520507
+    second: bgFar_251
+  - first:
+      213: -6301273425399171055
+    second: bgFar_252
+  - first:
+      213: -9184949986425523933
+    second: bgFar_253
+  - first:
+      213: -8431701554788137638
+    second: bgFar_254
+  - first:
+      213: -8324390121652018749
+    second: bgFar_255
+  - first:
+      213: 9053166148494417220
+    second: bgFar_256
+  - first:
+      213: 3497220206645638867
+    second: bgFar_257
+  - first:
+      213: -5043346387283869443
+    second: bgFar_258
+  - first:
+      213: -1060028983168039324
+    second: bgFar_259
+  - first:
+      213: -9184108974472053126
+    second: bgFar_260
+  - first:
+      213: 7960427171452462650
+    second: bgFar_261
+  - first:
+      213: 7771146153856822524
+    second: bgFar_262
+  - first:
+      213: -1040039904896603804
+    second: bgFar_263
+  - first:
+      213: -7704153188387329669
+    second: bgFar_264
+  - first:
+      213: -3013844032137036623
+    second: bgFar_265
+  - first:
+      213: 8920226486882986447
+    second: bgFar_266
+  - first:
+      213: 469584583014376627
+    second: bgFar_267
+  - first:
+      213: -7645495313201811891
+    second: bgFar_268
+  - first:
+      213: 1404119440249293706
+    second: bgFar_269
+  - first:
+      213: 5154879542880212861
+    second: bgFar_270
+  - first:
+      213: -8630758200976620577
+    second: bgFar_271
+  - first:
+      213: -6034543861962602577
+    second: bgFar_272
+  - first:
+      213: -5359118229802133382
+    second: bgFar_273
+  - first:
+      213: -2351973195125495048
+    second: bgFar_274
+  - first:
+      213: 580262925758990823
+    second: bgFar_275
+  - first:
+      213: 2609821510862610829
+    second: bgFar_276
+  - first:
+      213: 2694465137405941435
+    second: bgFar_277
+  - first:
+      213: -7576598000426780310
+    second: bgFar_278
+  - first:
+      213: -60067907985017152
+    second: bgFar_279
+  - first:
+      213: 4498956185248203784
+    second: bgFar_280
+  - first:
+      213: -7733873820625409864
+    second: bgFar_281
+  - first:
+      213: 4601269297771132821
+    second: bgFar_282
+  - first:
+      213: 4564988414412816043
+    second: bgFar_283
+  - first:
+      213: -6262020405385969338
+    second: bgFar_284
+  - first:
+      213: 2789158533463053676
+    second: bgFar_285
+  - first:
+      213: -6731713645575914516
+    second: bgFar_286
+  - first:
+      213: 4612569240672524491
+    second: bgFar_287
+  - first:
+      213: -8421406434032551551
+    second: bgFar_288
+  - first:
+      213: -6156184896488741620
+    second: bgFar_289
+  - first:
+      213: -3893222758247920841
+    second: bgFar_290
+  - first:
+      213: -5229241595169279570
+    second: bgFar_291
+  - first:
+      213: -2268921777400962982
+    second: bgFar_292
+  - first:
+      213: 2983243208282787149
+    second: bgFar_293
+  - first:
+      213: -6617919511469888589
+    second: bgFar_294
+  - first:
+      213: 6840943757787099622
+    second: bgFar_295
+  - first:
+      213: 4385725110160852859
+    second: bgFar_296
+  - first:
+      213: -809101454506373654
+    second: bgFar_297
+  - first:
+      213: 9035688862901495651
+    second: bgFar_298
+  - first:
+      213: -4026148292979902720
+    second: bgFar_299
+  - first:
+      213: 6888454494732770528
+    second: bgFar_300
+  - first:
+      213: 1335405532436281158
+    second: bgFar_301
+  - first:
+      213: -3713475231955930028
+    second: bgFar_302
+  - first:
+      213: 2736843388146159667
+    second: bgFar_303
+  - first:
+      213: 3936449872994791802
+    second: bgFar_304
+  - first:
+      213: 1755267340037121913
+    second: bgFar_305
+  - first:
+      213: -3149921847264978609
+    second: bgFar_306
+  - first:
+      213: 5471804217009792822
+    second: bgFar_307
+  - first:
+      213: -7293106641562265631
+    second: bgFar_308
+  - first:
+      213: -5428169050836773934
+    second: bgFar_309
+  - first:
+      213: 8899101429556315041
+    second: bgFar_310
+  - first:
+      213: -6766527413751580959
+    second: bgFar_311
+  - first:
+      213: -8779358351599453263
+    second: bgFar_312
+  - first:
+      213: 4038724044504507550
+    second: bgFar_313
+  - first:
+      213: -4426109061372836601
+    second: bgFar_314
+  - first:
+      213: 4427261863988734812
+    second: bgFar_315
+  - first:
+      213: -8930772290220515773
+    second: bgFar_316
+  - first:
+      213: -3692514970038849622
+    second: bgFar_317
+  - first:
+      213: -8116502462174341317
+    second: bgFar_318
+  - first:
+      213: -8803900186623780244
+    second: bgFar_319
+  - first:
+      213: 8763703373010269199
+    second: bgFar_320
+  - first:
+      213: 7558660973160849070
+    second: bgFar_321
+  - first:
+      213: -7406026510315541733
+    second: bgFar_322
+  - first:
+      213: 3611279863558262994
+    second: bgFar_323
+  - first:
+      213: 782734994230495642
+    second: bgFar_324
+  - first:
+      213: 6669740392267845727
+    second: bgFar_325
+  - first:
+      213: -5780385923093380242
+    second: bgFar_326
+  - first:
+      213: -4090874939826713893
+    second: bgFar_327
+  - first:
+      213: -3133012999501405503
+    second: bgFar_328
+  - first:
+      213: 8291620022595497850
+    second: bgFar_329
+  - first:
+      213: 3070735478120671503
+    second: bgFar_330
+  - first:
+      213: -6859709156727562927
+    second: bgFar_331
+  - first:
+      213: 6575352784293095876
+    second: bgFar_332
+  - first:
+      213: 6014020040018307191
+    second: bgFar_333
+  - first:
+      213: 8222130046671431655
+    second: bgFar_334
+  - first:
+      213: -6646626243897385144
+    second: bgFar_335
+  - first:
+      213: 1230258230356619668
+    second: bgFar_336
+  - first:
+      213: -6510571769273651299
+    second: bgFar_337
+  - first:
+      213: -587522967797936861
+    second: bgFar_338
+  - first:
+      213: -8575336943777672705
+    second: bgFar_339
+  - first:
+      213: 6624382256374004141
+    second: bgFar_340
+  - first:
+      213: -2567639964256111918
+    second: bgFar_341
+  - first:
+      213: 9033727114383695703
+    second: bgFar_342
+  - first:
+      213: 8490215144863121509
+    second: bgFar_343
+  - first:
+      213: 7955397113284874418
+    second: bgFar_344
+  - first:
+      213: -7009790270175906310
+    second: bgFar_345
+  - first:
+      213: -4372751117926286288
+    second: bgFar_346
+  - first:
+      213: 6860070161345184643
+    second: bgFar_347
+  - first:
+      213: 8785099573299819317
+    second: bgFar_348
+  - first:
+      213: -2848653640767670763
+    second: bgFar_349
+  - first:
+      213: -2899675246995953102
+    second: bgFar_350
+  - first:
+      213: -6552074856603062627
+    second: bgFar_351
+  - first:
+      213: -7452361946929245560
+    second: bgFar_352
+  - first:
+      213: 1852709573388479577
+    second: bgFar_353
+  - first:
+      213: 5584022149250506156
+    second: bgFar_354
+  - first:
+      213: 8873087887082928788
+    second: bgFar_355
+  - first:
+      213: -677723189408671703
+    second: bgFar_356
+  - first:
+      213: -7475678410170798785
+    second: bgFar_357
+  - first:
+      213: -6388863790038392340
+    second: bgFar_358
+  - first:
+      213: 5694172434294811444
+    second: bgFar_359
+  - first:
+      213: -5725999262117255912
+    second: bgFar_360
+  - first:
+      213: -2429661018553334356
+    second: bgFar_361
+  - first:
+      213: -3412794507356192431
+    second: bgFar_362
+  - first:
+      213: -572493736855662428
+    second: bgFar_363
+  - first:
+      213: 5257753325158497539
+    second: bgFar_364
+  - first:
+      213: -3074515369971162283
+    second: bgFar_365
+  - first:
+      213: 4503785079631753533
+    second: bgFar_366
+  - first:
+      213: 5066778728377976216
+    second: bgFar_367
+  - first:
+      213: -8697087001668655388
+    second: bgFar_368
+  - first:
+      213: -3155042738091359046
+    second: bgFar_369
+  - first:
+      213: -5777150326903448186
+    second: bgFar_370
+  - first:
+      213: 2233414090111103586
+    second: bgFar_371
+  - first:
+      213: 8739519305716246803
+    second: bgFar_372
+  - first:
+      213: 4979021017778400450
+    second: bgFar_373
+  - first:
+      213: 879926475255769492
+    second: bgFar_374
+  - first:
+      213: 6795245547206065695
+    second: bgFar_375
+  - first:
+      213: 4781294968581300180
+    second: bgFar_376
+  - first:
+      213: -6838103667424794360
+    second: bgFar_377
+  - first:
+      213: -5413780918738912436
+    second: bgFar_378
+  - first:
+      213: -1481553933009034289
+    second: bgFar_379
+  - first:
+      213: 2802143773282610861
+    second: bgFar_380
+  - first:
+      213: 793286036315990330
+    second: bgFar_381
+  - first:
+      213: -3244246057071597505
+    second: bgFar_382
+  - first:
+      213: 1770067285010420555
+    second: bgFar_383
+  - first:
+      213: -1633543215400723053
+    second: bgFar_384
+  - first:
+      213: -2188201290907728980
+    second: bgFar_385
+  - first:
+      213: -7843844061691319677
+    second: bgFar_386
+  - first:
+      213: -4736218603838082815
+    second: bgFar_387
+  - first:
+      213: -5080479488699128736
+    second: bgFar_388
+  - first:
+      213: -4945097980924359937
+    second: bgFar_389
+  - first:
+      213: -5250306678904010714
+    second: bgFar_390
+  - first:
+      213: 1631317388538020566
+    second: bgFar_391
+  - first:
+      213: -2008623299674711007
+    second: bgFar_392
+  - first:
+      213: 5493535441873579194
+    second: bgFar_393
+  - first:
+      213: -6036197070787634976
+    second: bgFar_394
+  - first:
+      213: 8140747228563270864
+    second: bgFar_395
+  - first:
+      213: -7044783113449022246
+    second: bgFar_396
+  - first:
+      213: 8345760054292818730
+    second: bgFar_397
+  - first:
+      213: 811209717055377359
+    second: bgFar_398
+  - first:
+      213: -3790895323899190108
+    second: bgFar_399
+  - first:
+      213: 6528175121098221002
+    second: bgFar_400
+  - first:
+      213: 256026039022973491
+    second: bgFar_401
+  - first:
+      213: 5567095599520338974
+    second: bgFar_402
+  - first:
+      213: -3691001299642308900
+    second: bgFar_403
+  - first:
+      213: -1655638987794223045
+    second: bgFar_404
+  - first:
+      213: 8847031446491329156
+    second: bgFar_405
+  - first:
+      213: -1014505760833587816
+    second: bgFar_406
+  - first:
+      213: -5370006144584307991
+    second: bgFar_407
+  - first:
+      213: -3276121035055693078
+    second: bgFar_408
+  - first:
+      213: -4380688481505211137
+    second: bgFar_409
+  - first:
+      213: 7778317856610716983
+    second: bgFar_410
+  - first:
+      213: 7950440644211822996
+    second: bgFar_411
+  - first:
+      213: -5093574956980145498
+    second: bgFar_412
+  - first:
+      213: -6703350669628889651
+    second: bgFar_413
+  - first:
+      213: -7657711225133998724
+    second: bgFar_414
+  - first:
+      213: 5486386540670337830
+    second: bgFar_415
+  - first:
+      213: 8300513448817613987
+    second: bgFar_416
+  - first:
+      213: 4952820958069538651
+    second: bgFar_417
+  - first:
+      213: -1867436543497636320
+    second: bgFar_418
+  - first:
+      213: 2053790602721785317
+    second: bgFar_419
+  - first:
+      213: 4638145406228929926
+    second: bgFar_420
+  - first:
+      213: -3111790904829520889
+    second: bgFar_421
+  - first:
+      213: 768345667492538842
+    second: bgFar_422
+  - first:
+      213: 7902713795467882224
+    second: bgFar_423
+  - first:
+      213: -8072697937889112657
+    second: bgFar_424
+  - first:
+      213: -3580692093220616143
+    second: bgFar_425
+  - first:
+      213: 2461217621051262846
+    second: bgFar_426
+  - first:
+      213: 6852304343502453877
+    second: bgFar_427
+  - first:
+      213: -5787736705372738258
+    second: bgFar_428
+  - first:
+      213: -4123331193424049610
+    second: bgFar_429
+  - first:
+      213: 4987466800076018322
+    second: bgFar_430
+  - first:
+      213: 3323313349390488789
+    second: bgFar_431
+  - first:
+      213: 3357737029760879951
+    second: bgFar_432
+  - first:
+      213: -7593888977126803723
+    second: bgFar_433
+  - first:
+      213: 1735269739265527876
+    second: bgFar_434
+  - first:
+      213: 3267454733970550192
+    second: bgFar_435
+  - first:
+      213: -3489854528078821853
+    second: bgFar_436
+  - first:
+      213: -7772761038817689365
+    second: bgFar_437
+  - first:
+      213: -8829749118360524707
+    second: bgFar_438
+  - first:
+      213: -9157042750101147148
+    second: bgFar_439
+  - first:
+      213: 8109631413811601387
+    second: bgFar_440
+  - first:
+      213: 5436184175346172420
+    second: bgFar_441
+  - first:
+      213: -3171600681154313851
+    second: bgFar_442
+  - first:
+      213: -3096031051253432154
+    second: bgFar_443
+  - first:
+      213: 6369051711685470459
+    second: bgFar_444
+  - first:
+      213: -8819820593132634509
+    second: bgFar_445
+  - first:
+      213: 8523651544981759932
+    second: bgFar_446
+  - first:
+      213: -8668160803343981617
+    second: bgFar_447
+  - first:
+      213: 5867595720022039198
+    second: bgFar_448
+  - first:
+      213: -7836730885535973612
+    second: bgFar_449
+  - first:
+      213: -726225644307761629
+    second: bgFar_450
+  - first:
+      213: -3989219478426935921
+    second: bgFar_451
+  - first:
+      213: -1548799080762343693
+    second: bgFar_452
+  - first:
+      213: -4428317252396173935
+    second: bgFar_453
+  - first:
+      213: -5251161091447344010
+    second: bgFar_454
+  - first:
+      213: -2979293468564380419
+    second: bgFar_455
+  - first:
+      213: -3663472443314913880
+    second: bgFar_456
+  - first:
+      213: -8648391654478819280
+    second: bgFar_457
+  - first:
+      213: 8854375301274678623
+    second: bgFar_458
+  - first:
+      213: 8011505486512562203
+    second: bgFar_459
+  - first:
+      213: 5117916067650887575
+    second: bgFar_460
+  - first:
+      213: 338748839393012686
+    second: bgFar_461
+  - first:
+      213: -4753633647097716975
+    second: bgFar_462
+  - first:
+      213: 3409907689540452548
+    second: bgFar_463
+  - first:
+      213: -1632444484084923232
+    second: bgFar_464
+  - first:
+      213: 3992599684989666535
+    second: bgFar_465
+  - first:
+      213: 6643763772328844810
+    second: bgFar_466
+  - first:
+      213: -3987135372252152647
+    second: bgFar_467
+  - first:
+      213: 8254099201566616115
+    second: bgFar_468
+  - first:
+      213: -6800443493329259208
+    second: bgFar_469
+  - first:
+      213: 231355083979917240
+    second: bgFar_470
+  - first:
+      213: -5012550305261362231
+    second: bgFar_471
+  - first:
+      213: 2122821114255503750
+    second: bgFar_472
+  - first:
+      213: 476819267357283476
+    second: bgFar_473
+  - first:
+      213: 8019191974741928313
+    second: bgFar_474
+  - first:
+      213: -6541623363825915716
+    second: bgFar_475
+  - first:
+      213: 4730075772631116579
+    second: bgFar_476
+  - first:
+      213: -7116521899285564519
+    second: bgFar_477
+  - first:
+      213: -2828226736030138536
+    second: bgFar_478
+  - first:
+      213: 1035606409756934075
+    second: bgFar_479
+  - first:
+      213: 3384207233029632840
+    second: bgFar_480
+  - first:
+      213: -3113317777011196123
+    second: bgFar_481
+  - first:
+      213: 4044464605322970988
+    second: bgFar_482
+  - first:
+      213: -184818914601889369
+    second: bgFar_483
+  - first:
+      213: 662276441688906869
+    second: bgFar_484
+  - first:
+      213: 537506402226601368
+    second: bgFar_485
+  - first:
+      213: 3927721659070758815
+    second: bgFar_486
+  - first:
+      213: 2145855816152995142
+    second: bgFar_487
+  - first:
+      213: -705833767435620810
+    second: bgFar_488
+  - first:
+      213: -3600377971840123198
+    second: bgFar_489
+  - first:
+      213: -480775945842979815
+    second: bgFar_490
+  - first:
+      213: 9220579494254949790
+    second: bgFar_491
+  - first:
+      213: -2322647059008981861
+    second: bgFar_492
+  - first:
+      213: 2572262656316005874
+    second: bgFar_493
+  - first:
+      213: 262635534508485578
+    second: bgFar_494
+  - first:
+      213: -2041070964204215066
+    second: bgFar_495
+  - first:
+      213: -3125092439576389545
+    second: bgFar_496
+  - first:
+      213: -5817670976935736107
+    second: bgFar_497
+  - first:
+      213: -5191705447088748742
+    second: bgFar_498
+  - first:
+      213: 3206241656913297053
+    second: bgFar_499
+  - first:
+      213: 1158833862126649889
+    second: bgFar_500
+  - first:
+      213: -4116125386605219110
+    second: bgFar_501
+  - first:
+      213: 992975485416499007
+    second: bgFar_502
+  - first:
+      213: 480036516612971113
+    second: bgFar_503
+  - first:
+      213: 273556499297018893
+    second: bgFar_504
+  - first:
+      213: 5318165758326277045
+    second: bgFar_505
+  - first:
+      213: -3552394616185357248
+    second: bgFar_506
+  - first:
+      213: 8417993645837205854
+    second: bgFar_507
+  - first:
+      213: 5278534931048528840
+    second: bgFar_508
+  - first:
+      213: -4941615506901448492
+    second: bgFar_509
+  - first:
+      213: -7928158882675877890
+    second: bgFar_510
+  - first:
+      213: -4527453506739085044
+    second: bgFar_511
+  - first:
+      213: 8634121175007793805
+    second: bgFar_512
+  - first:
+      213: 1623282992353011546
+    second: bgFar_513
+  - first:
+      213: -2623779005690674177
+    second: bgFar_514
+  - first:
+      213: 1392093253725261435
+    second: bgFar_515
+  - first:
+      213: 5606676431127678497
+    second: bgFar_516
+  - first:
+      213: 5342694129535546030
+    second: bgFar_517
+  - first:
+      213: -3880896881195680627
+    second: bgFar_518
+  - first:
+      213: 8042681674221567636
+    second: bgFar_519
+  - first:
+      213: -1973374928722290243
+    second: bgFar_520
+  - first:
+      213: -5574690957592053227
+    second: bgFar_521
+  - first:
+      213: -4052939114494809009
+    second: bgFar_522
+  - first:
+      213: 3703143628679460774
+    second: bgFar_523
+  - first:
+      213: -2642474687464420138
+    second: bgFar_524
+  - first:
+      213: -39790274445578775
+    second: bgFar_525
+  - first:
+      213: -8421189648132839253
+    second: bgFar_526
+  - first:
+      213: -1742872004549619019
+    second: bgFar_527
+  - first:
+      213: -4999286746835237175
+    second: bgFar_528
+  - first:
+      213: -4099657016601393064
+    second: bgFar_529
+  - first:
+      213: 7188073240059324278
+    second: bgFar_530
+  - first:
+      213: -2490660523614023622
+    second: bgFar_531
+  - first:
+      213: 2024655679236372068
+    second: bgFar_532
+  - first:
+      213: -7482807374932275743
+    second: bgFar_533
+  - first:
+      213: 6382110389236063920
+    second: bgFar_534
+  - first:
+      213: -141739563748984387
+    second: bgFar_535
+  - first:
+      213: -583959071830275900
+    second: bgFar_536
+  - first:
+      213: -9158232157024391350
+    second: bgFar_537
+  - first:
+      213: 418013067583828950
+    second: bgFar_538
+  - first:
+      213: -1744019180059601810
+    second: bgFar_539
+  - first:
+      213: 6755325529327673217
+    second: bgFar_540
+  - first:
+      213: 4280878199784112627
+    second: bgFar_541
+  - first:
+      213: -6731213578903628017
+    second: bgFar_542
+  - first:
+      213: 5741194616410104979
+    second: bgFar_543
+  - first:
+      213: 244614625687000870
+    second: bgFar_544
+  - first:
+      213: -6085949614422891061
+    second: bgFar_545
+  - first:
+      213: 3132038977856172072
+    second: bgFar_546
+  - first:
+      213: -460878495027886325
+    second: bgFar_547
+  - first:
+      213: -902321073562368379
+    second: bgFar_548
+  - first:
+      213: -8765766200155358188
+    second: bgFar_549
+  - first:
+      213: 4053135771086625648
+    second: bgFar_550
+  - first:
+      213: -1957069038823901832
+    second: bgFar_551
+  - first:
+      213: 7046257810409440242
+    second: bgFar_552
+  - first:
+      213: -2170867298979798841
+    second: bgFar_553
+  - first:
+      213: 4910262494561993045
+    second: bgFar_554
+  - first:
+      213: -1177017001503444997
+    second: bgFar_555
+  - first:
+      213: -328561718156908275
+    second: bgFar_556
+  - first:
+      213: 6547032042130611364
+    second: bgFar_557
+  - first:
+      213: 2047765506293408776
+    second: bgFar_558
+  - first:
+      213: -5065450243866755239
+    second: bgFar_559
+  - first:
+      213: -5580234197133905526
+    second: bgFar_560
+  - first:
+      213: -9210713562770744980
+    second: bgFar_561
+  - first:
+      213: 1229192612789942733
+    second: bgFar_562
+  - first:
+      213: 8879208343745922877
+    second: bgFar_563
+  - first:
+      213: -1048961113775957639
+    second: bgFar_564
+  - first:
+      213: -5602440112702331944
+    second: bgFar_565
+  - first:
+      213: 2050205511103875098
+    second: bgFar_566
+  - first:
+      213: 5907450769247434366
+    second: bgFar_567
+  - first:
+      213: 6390209561800766689
+    second: bgFar_568
+  - first:
+      213: 1345742963201997325
+    second: bgFar_569
+  - first:
+      213: 528535156390549849
+    second: bgFar_570
+  - first:
+      213: 7337572576926348455
+    second: bgFar_571
+  - first:
+      213: -8840227451881898228
+    second: bgFar_572
+  - first:
+      213: -4388049609900869042
+    second: bgFar_573
+  - first:
+      213: 1501611841938963751
+    second: bgFar_574
+  - first:
+      213: 1764049521981406254
+    second: bgFar_575
+  - first:
+      213: -1410634595701961466
+    second: bgFar_576
+  - first:
+      213: 4472766183778638227
+    second: bgFar_577
+  - first:
+      213: 519819887831041393
+    second: bgFar_578
+  - first:
+      213: -7135948741824535689
+    second: bgFar_579
+  - first:
+      213: 5664731280222708063
+    second: bgFar_580
+  - first:
+      213: -3152478285966376628
+    second: bgFar_581
+  - first:
+      213: -5745298397237081393
+    second: bgFar_582
+  - first:
+      213: -3283915868074818619
+    second: bgFar_583
+  - first:
+      213: -7948988781299752645
+    second: bgFar_584
+  - first:
+      213: 8749509752396029692
+    second: bgFar_585
+  - first:
+      213: -8274604737232970336
+    second: bgFar_586
+  - first:
+      213: -7973813028754199899
+    second: bgFar_587
+  - first:
+      213: -8326972203496549546
+    second: bgFar_588
+  - first:
+      213: -5672440976941548383
+    second: bgFar_589
+  - first:
+      213: 7198972953220191219
+    second: bgFar_590
+  - first:
+      213: 2145545404907250230
+    second: bgFar_591
+  - first:
+      213: -8619503345888825696
+    second: bgFar_592
+  - first:
+      213: -4103950672885492504
+    second: bgFar_593
+  - first:
+      213: -4485327003414584761
+    second: bgFar_594
+  - first:
+      213: 7480878471339733631
+    second: bgFar_595
+  - first:
+      213: 4360912049240908715
+    second: bgFar_596
+  - first:
+      213: -4392563471858071185
+    second: bgFar_597
+  - first:
+      213: 396533109580472940
+    second: bgFar_598
+  - first:
+      213: 4826036742338315773
+    second: bgFar_599
+  - first:
+      213: -4581805157177050518
+    second: bgFar_600
+  - first:
+      213: -8685184762213122704
+    second: bgFar_601
+  - first:
+      213: 3071256072288206554
+    second: bgFar_602
+  - first:
+      213: 1347828734867169597
+    second: bgFar_603
+  - first:
+      213: 773299164412263616
+    second: bgFar_604
+  - first:
+      213: -2683930228814513395
+    second: bgFar_605
+  - first:
+      213: -947990702858513660
+    second: bgFar_606
+  - first:
+      213: 3653713257539152009
+    second: bgFar_607
+  - first:
+      213: 828660558582010029
+    second: bgFar_608
+  - first:
+      213: 3853503595443596627
+    second: bgFar_609
+  - first:
+      213: -3933989631320376320
+    second: bgFar_610
+  - first:
+      213: -9055749108535216518
+    second: bgFar_611
+  - first:
+      213: -5802863519980588726
+    second: bgFar_612
+  - first:
+      213: 1687258815346892880
+    second: bgFar_613
+  - first:
+      213: -4325949442422731983
+    second: bgFar_614
+  - first:
+      213: -1829399136395715030
+    second: bgFar_615
+  - first:
+      213: -5432133006715619803
+    second: bgFar_616
+  - first:
+      213: 7516090724697580729
+    second: bgFar_617
+  - first:
+      213: 7452991366774662929
+    second: bgFar_618
+  - first:
+      213: 8997594302721057
+    second: bgFar_619
+  - first:
+      213: 5070891625624621677
+    second: bgFar_620
+  - first:
+      213: 5743121652373942072
+    second: bgFar_621
+  - first:
+      213: -1555750379944696376
+    second: bgFar_622
+  - first:
+      213: 8044628367605361259
+    second: bgFar_623
+  - first:
+      213: -3104899021359868408
+    second: bgFar_624
+  - first:
+      213: -7685874801087747616
+    second: bgFar_625
+  - first:
+      213: -310492275944031767
+    second: bgFar_626
+  - first:
+      213: -3399296983984598919
+    second: bgFar_627
+  - first:
+      213: -3435376164109862905
+    second: bgFar_628
+  - first:
+      213: 4297018120364047141
+    second: bgFar_629
+  - first:
+      213: -4399913920928457836
+    second: bgFar_630
+  - first:
+      213: -1194378913582975609
+    second: bgFar_631
+  - first:
+      213: -6035934403930505589
+    second: bgFar_632
+  - first:
+      213: -3682514327460803299
+    second: bgFar_633
+  - first:
+      213: -5938367252766860619
+    second: bgFar_634
+  - first:
+      213: -5615253184471116478
+    second: bgFar_635
+  - first:
+      213: -390326373051809447
+    second: bgFar_636
+  - first:
+      213: 6197080520342157821
+    second: bgFar_637
+  - first:
+      213: -1016309192288980664
+    second: bgFar_638
+  - first:
+      213: -1302742114994321450
+    second: bgFar_639
+  - first:
+      213: -5504511623038852261
+    second: bgFar_640
+  - first:
+      213: 4064138471958602102
+    second: bgFar_641
+  - first:
+      213: 8949178402056246995
+    second: bgFar_642
+  - first:
+      213: 6788922239171250812
+    second: bgFar_643
+  - first:
+      213: 3945495223842630458
+    second: bgFar_644
+  - first:
+      213: 2356284116352915155
+    second: bgFar_645
+  - first:
+      213: -2661871160170919403
+    second: bgFar_646
+  - first:
+      213: -6833410517435927954
+    second: bgFar_647
+  - first:
+      213: 3620386543491713608
+    second: bgFar_648
+  - first:
+      213: 6117252448577332642
+    second: bgFar_649
+  - first:
+      213: -3002995272836903533
+    second: bgFar_650
+  - first:
+      213: -4992820900063890002
+    second: bgFar_651
+  - first:
+      213: -7035353895018222978
+    second: bgFar_652
+  - first:
+      213: -7663326700180762739
+    second: bgFar_653
+  - first:
+      213: -6168987729115760142
+    second: bgFar_654
+  - first:
+      213: -7875234227897812243
+    second: bgFar_655
+  - first:
+      213: 26080070799378807
+    second: bgFar_656
+  - first:
+      213: 8610576151469372878
+    second: bgFar_657
+  - first:
+      213: 8400034174732832818
+    second: bgFar_658
+  - first:
+      213: -8151819049427997807
+    second: bgFar_659
+  - first:
+      213: -19363277321112509
+    second: bgFar_660
+  - first:
+      213: -4832885678502649908
+    second: bgFar_661
+  - first:
+      213: 4225992421636033704
+    second: bgFar_662
+  - first:
+      213: 678780315912186729
+    second: bgFar_663
+  - first:
+      213: -6412212011854394777
+    second: bgFar_664
+  - first:
+      213: -8723500269018662761
+    second: bgFar_665
+  - first:
+      213: 7301929661124063598
+    second: bgFar_666
+  - first:
+      213: 330315840638581799
+    second: bgFar_667
+  - first:
+      213: -1319904699829094689
+    second: bgFar_668
+  - first:
+      213: -6657547197091722696
+    second: bgFar_669
+  - first:
+      213: 7050104798490756756
+    second: bgFar_670
+  - first:
+      213: -595850388515906708
+    second: bgFar_671
+  - first:
+      213: 3491081126872004126
+    second: bgFar_672
+  - first:
+      213: 4231832099843707406
+    second: bgFar_673
+  - first:
+      213: -8988472922520133835
+    second: bgFar_674
+  - first:
+      213: 3673260494078048744
+    second: bgFar_675
+  - first:
+      213: 2576076670847622999
+    second: bgFar_676
+  - first:
+      213: -10999020760457363
+    second: bgFar_677
+  - first:
+      213: -6485070593384299474
+    second: bgFar_678
+  - first:
+      213: 1135627311959491989
+    second: bgFar_679
+  - first:
+      213: -6503069811525425414
+    second: bgFar_680
+  - first:
+      213: 4866074272518482621
+    second: bgFar_681
+  - first:
+      213: 8607382764849991831
+    second: bgFar_682
+  - first:
+      213: -1450763861116307755
+    second: bgFar_683
+  - first:
+      213: 4892417104859605037
+    second: bgFar_684
+  - first:
+      213: 7375010451364133117
+    second: bgFar_685
+  - first:
+      213: -7648397398102610390
+    second: bgFar_686
+  - first:
+      213: 6954318645248884812
+    second: bgFar_687
+  - first:
+      213: 5346818254886093614
+    second: bgFar_688
+  - first:
+      213: 7415340263248807942
+    second: bgFar_689
+  - first:
+      213: 2816191300338693411
+    second: bgFar_690
+  - first:
+      213: 9194394998362743668
+    second: bgFar_691
+  - first:
+      213: 7747475471386907579
+    second: bgFar_692
+  - first:
+      213: -4863359416798773696
+    second: bgFar_693
+  - first:
+      213: -4620797976511618338
+    second: bgFar_694
+  - first:
+      213: -7491609422692781276
+    second: bgFar_695
+  - first:
+      213: 7294149850833804496
+    second: bgFar_696
+  - first:
+      213: 2911113759452659586
+    second: bgFar_697
+  - first:
+      213: -6979639659991795624
+    second: bgFar_698
+  - first:
+      213: 3407176095700511152
+    second: bgFar_699
+  - first:
+      213: 1646257429511804424
+    second: bgFar_700
+  - first:
+      213: 3746514854760829469
+    second: bgFar_701
+  - first:
+      213: -4882585378798106069
+    second: bgFar_702
+  - first:
+      213: -789908510254787715
+    second: bgFar_703
+  - first:
+      213: 244532281298463044
+    second: bgFar_704
+  - first:
+      213: -1634818940761017286
+    second: bgFar_705
+  - first:
+      213: -4261990735127917450
+    second: bgFar_706
+  - first:
+      213: 8468168475134185790
+    second: bgFar_707
+  - first:
+      213: -3822856680331363133
+    second: bgFar_708
+  - first:
+      213: 5690621739334940092
+    second: bgFar_709
+  - first:
+      213: 5195977327230144388
+    second: bgFar_710
+  - first:
+      213: -3977149869949865817
+    second: bgFar_711
+  - first:
+      213: -207209429334013016
+    second: bgFar_712
+  - first:
+      213: 6411374268975443711
+    second: bgFar_713
+  - first:
+      213: 351247853084932515
+    second: bgFar_714
+  - first:
+      213: -8470098121748380810
+    second: bgFar_715
+  - first:
+      213: 7947318028433897476
+    second: bgFar_716
+  - first:
+      213: 837154589022935766
+    second: bgFar_717
+  - first:
+      213: 515378016201344919
+    second: bgFar_718
+  - first:
+      213: -145289731324535051
+    second: bgFar_719
+  - first:
+      213: 3215676560070947348
+    second: bgFar_720
+  - first:
+      213: -6842491185695628971
+    second: bgFar_721
+  - first:
+      213: 9209253776138809239
+    second: bgFar_722
+  - first:
+      213: -6150729227898180029
+    second: bgFar_723
+  - first:
+      213: 3032699270367843310
+    second: bgFar_724
+  - first:
+      213: -3644423080533702326
+    second: bgFar_725
+  - first:
+      213: 517683209401013656
+    second: bgFar_726
+  - first:
+      213: -3402267284094749877
+    second: bgFar_727
+  - first:
+      213: -1609098644343386328
+    second: bgFar_728
+  - first:
+      213: -431446404468584334
+    second: bgFar_729
+  - first:
+      213: 6383986513385100795
+    second: bgFar_730
+  - first:
+      213: 7313274995194300752
+    second: bgFar_731
+  - first:
+      213: 1199007181791700848
+    second: bgFar_732
+  - first:
+      213: -8836903436094421456
+    second: bgFar_733
+  - first:
+      213: 981860808750948551
+    second: bgFar_734
+  - first:
+      213: 8501665142568037664
+    second: bgFar_735
+  - first:
+      213: -3821583033835226364
+    second: bgFar_736
+  - first:
+      213: 5082590347797492354
+    second: bgFar_737
+  - first:
+      213: 1705505972109630555
+    second: bgFar_738
+  - first:
+      213: 6021947459331318200
+    second: bgFar_739
+  - first:
+      213: -7842238972503548467
+    second: bgFar_740
+  - first:
+      213: 4381783010712267533
+    second: bgFar_741
+  - first:
+      213: -351725089378608314
+    second: bgFar_742
+  - first:
+      213: -6977162660803381385
+    second: bgFar_743
+  - first:
+      213: -4852115962352070047
+    second: bgFar_744
+  - first:
+      213: 9119520056533380255
+    second: bgFar_745
+  - first:
+      213: -2720706798515166634
+    second: bgFar_746
+  - first:
+      213: -361048607364322131
+    second: bgFar_747
+  - first:
+      213: -4580880482344265904
+    second: bgFar_748
+  - first:
+      213: -1071827176930998328
+    second: bgFar_749
+  - first:
+      213: -4431203023385755037
+    second: bgFar_750
+  - first:
+      213: 6417041941227957678
+    second: bgFar_751
+  - first:
+      213: 448047750920439796
+    second: bgFar_752
+  - first:
+      213: -7419271857992772077
+    second: bgFar_753
+  - first:
+      213: 660508724792342891
+    second: bgFar_754
+  - first:
+      213: 4774065995529264891
+    second: bgFar_755
+  - first:
+      213: 8469254491975321634
+    second: bgFar_756
+  - first:
+      213: 875471274877321620
+    second: bgFar_757
+  - first:
+      213: 7447871585809860841
+    second: bgFar_758
+  - first:
+      213: -6926730493570993325
+    second: bgFar_759
+  - first:
+      213: -4001148070420129543
+    second: bgFar_760
+  - first:
+      213: -4786244836971450944
+    second: bgFar_761
+  - first:
+      213: 8479187439154064218
+    second: bgFar_762
+  - first:
+      213: 6249515640057566205
+    second: bgFar_763
+  - first:
+      213: 2326231976543977426
+    second: bgFar_764
+  - first:
+      213: -5464649614694454546
+    second: bgFar_765
+  - first:
+      213: 5864925968164415927
+    second: bgFar_766
+  - first:
+      213: -4236805994357277097
+    second: bgFar_767
+  - first:
+      213: -1407237445288176297
+    second: bgFar_768
+  - first:
+      213: -5013392946322880421
+    second: bgFar_769
+  - first:
+      213: 5142679713509408129
+    second: bgFar_770
+  - first:
+      213: -1969451780691615407
+    second: bgFar_771
+  - first:
+      213: -6723118709254123182
+    second: bgFar_772
+  - first:
+      213: -210454365847737861
+    second: bgFar_773
+  - first:
+      213: -5881955874771834178
+    second: bgFar_774
+  - first:
+      213: -4906682664028286773
+    second: bgFar_775
+  - first:
+      213: -8402573197674221727
+    second: bgFar_776
+  - first:
+      213: -2694244732742098543
+    second: bgFar_777
+  - first:
+      213: -5531346477990175654
+    second: bgFar_778
+  - first:
+      213: 4702498921441624411
+    second: bgFar_779
+  - first:
+      213: -5494870586204813749
+    second: bgFar_780
+  - first:
+      213: -7612669275331952870
+    second: bgFar_781
+  - first:
+      213: 658415436889999592
+    second: bgFar_782
+  - first:
+      213: 4177507254842193072
+    second: bgFar_783
+  - first:
+      213: -507198105774613924
+    second: bgFar_784
+  - first:
+      213: -9060407776637730536
+    second: bgFar_785
+  - first:
+      213: -3945669341131951143
+    second: bgFar_786
+  - first:
+      213: 5466305705697320376
+    second: bgFar_787
+  - first:
+      213: -1141532407761541712
+    second: bgFar_788
+  - first:
+      213: 1452574832624923656
+    second: bgFar_789
+  - first:
+      213: -8006548440854078619
+    second: bgFar_790
+  - first:
+      213: -5541832302027586395
+    second: bgFar_791
+  - first:
+      213: -4638081690185281125
+    second: bgFar_792
+  - first:
+      213: -1905918224420990858
+    second: bgFar_793
+  - first:
+      213: -7828227828998291643
+    second: bgFar_794
+  - first:
+      213: 6925133593297513193
+    second: bgFar_795
+  - first:
+      213: -8475663714790227273
+    second: bgFar_796
+  - first:
+      213: 8659475874113321878
+    second: bgFar_797
+  - first:
+      213: -508240541114791846
+    second: bgFar_798
+  - first:
+      213: 962274388790236265
+    second: bgFar_799
+  - first:
+      213: -1741923981767782758
+    second: bgFar_800
+  - first:
+      213: 8954445093887000443
+    second: bgFar_801
+  - first:
+      213: -5979665372194248678
+    second: bgFar_802
+  - first:
+      213: 448622529316608010
+    second: bgFar_803
+  - first:
+      213: -5967825511967641511
+    second: bgFar_804
+  - first:
+      213: -6253393215355897314
+    second: bgFar_805
+  - first:
+      213: 7514728676928687758
+    second: bgFar_806
+  - first:
+      213: 1666909141006017312
+    second: bgFar_807
+  - first:
+      213: 1979873582254107099
+    second: bgFar_808
+  - first:
+      213: -5355120561911709577
+    second: bgFar_809
+  - first:
+      213: 1344014622297724377
+    second: bgFar_810
+  - first:
+      213: -3363740618890588829
+    second: bgFar_811
+  - first:
+      213: -2080521305128917142
+    second: bgFar_812
+  - first:
+      213: -852003218462042566
+    second: bgFar_813
+  - first:
+      213: 7215475196471711275
+    second: bgFar_814
+  - first:
+      213: 4688971879827284185
+    second: bgFar_815
+  - first:
+      213: -4523909011378359461
+    second: bgFar_816
+  - first:
+      213: 1268993002728091252
+    second: bgFar_817
+  - first:
+      213: 8173642956123209783
+    second: bgFar_818
+  - first:
+      213: 653984264739753176
+    second: bgFar_819
+  - first:
+      213: -6407595626791870669
+    second: bgFar_820
+  - first:
+      213: 7639305565501986177
+    second: bgFar_821
+  - first:
+      213: 4107317146345096513
+    second: bgFar_822
+  - first:
+      213: -2146392303133630889
+    second: bgFar_823
+  - first:
+      213: -4499593388245745133
+    second: bgFar_824
+  - first:
+      213: -1419691586887785647
+    second: bgFar_825
+  - first:
+      213: 4128688882708408869
+    second: bgFar_826
+  - first:
+      213: 7171708443240218507
+    second: bgFar_827
+  - first:
+      213: 7488183086562985634
+    second: bgFar_828
+  - first:
+      213: 4996971490311117190
+    second: bgFar_829
+  - first:
+      213: -7160412675515354051
+    second: bgFar_830
+  - first:
+      213: 1677131757885581354
+    second: bgFar_831
+  - first:
+      213: 3778429069253507230
+    second: bgFar_832
+  - first:
+      213: 8457250417112516064
+    second: bgFar_833
+  - first:
+      213: 7713327675747292602
+    second: bgFar_834
+  - first:
+      213: 5589228504554507495
+    second: bgFar_835
+  - first:
+      213: -6714600214742373444
+    second: bgFar_836
+  - first:
+      213: 6761308879765577244
+    second: bgFar_837
+  - first:
+      213: -282675879355911548
+    second: bgFar_838
+  - first:
+      213: 73919289997479141
+    second: bgFar_839
+  - first:
+      213: 946465796682406864
+    second: bgFar_840
+  - first:
+      213: -2730137548578683840
+    second: bgFar_841
+  - first:
+      213: 2126426470082301764
+    second: bgFar_842
+  - first:
+      213: 6869802238670321507
+    second: bgFar_843
+  - first:
+      213: 63278235418273821
+    second: bgFar_844
+  - first:
+      213: -166521083035048998
+    second: bgFar_845
+  - first:
+      213: 2513237750561107144
+    second: bgFar_846
+  - first:
+      213: -3846590880384973620
+    second: bgFar_847
+  - first:
+      213: -435875657023351182
+    second: bgFar_848
+  - first:
+      213: -5589787805753249257
+    second: bgFar_849
+  - first:
+      213: -6174154773475481278
+    second: bgFar_850
+  - first:
+      213: -2969084860795282063
+    second: bgFar_851
+  - first:
+      213: 6639058495647049570
+    second: bgFar_852
+  - first:
+      213: -8609612316063314750
+    second: bgFar_853
+  - first:
+      213: 5601066590003113512
+    second: bgFar_854
+  - first:
+      213: -897529697380930194
+    second: bgFar_855
+  - first:
+      213: 400133456790555225
+    second: bgFar_856
+  - first:
+      213: -3531311396465471576
+    second: bgFar_857
+  - first:
+      213: 8283247614884088658
+    second: bgFar_858
+  - first:
+      213: -1560177957998740824
+    second: bgFar_859
+  - first:
+      213: 2895604466452060681
+    second: bgFar_860
+  - first:
+      213: 8461476846991303577
+    second: bgFar_861
+  - first:
+      213: 2613226260308069018
+    second: bgFar_862
+  - first:
+      213: -3854292534748741335
+    second: bgFar_863
+  - first:
+      213: -8037315657577550224
+    second: bgFar_864
+  - first:
+      213: -3558980866203012105
+    second: bgFar_865
+  - first:
+      213: 6244243331136822059
+    second: bgFar_866
+  - first:
+      213: -1736907699572390339
+    second: bgFar_867
+  - first:
+      213: 8575731305720046624
+    second: bgFar_868
+  - first:
+      213: -1929269827402325685
+    second: bgFar_869
+  - first:
+      213: 8359164811423892266
+    second: bgFar_870
+  - first:
+      213: -3049450342291748621
+    second: bgFar_871
+  - first:
+      213: 5610887746991760453
+    second: bgFar_872
+  - first:
+      213: 1458737099112439134
+    second: bgFar_873
+  - first:
+      213: 860727291713637959
+    second: bgFar_874
+  - first:
+      213: -3535277042120950000
+    second: bgFar_875
+  - first:
+      213: 8394944845144044641
+    second: bgFar_876
+  - first:
+      213: 7348167373563240047
+    second: bgFar_877
+  - first:
+      213: -2649471628504978478
+    second: bgFar_878
+  - first:
+      213: -144346908972464783
+    second: bgFar_879
+  - first:
+      213: -2922954328963682252
+    second: bgFar_880
+  - first:
+      213: 9203037899256510080
+    second: bgFar_881
+  - first:
+      213: 9216558159551768568
+    second: bgFar_882
+  - first:
+      213: -749283143576622742
+    second: bgFar_883
+  - first:
+      213: -6372002279390555051
+    second: bgFar_884
+  - first:
+      213: 7496053253313400084
+    second: bgFar_885
+  - first:
+      213: -2249953225398519670
+    second: bgFar_886
+  - first:
+      213: 4349721522026935864
+    second: bgFar_887
+  - first:
+      213: -3910818518030870963
+    second: bgFar_888
+  - first:
+      213: 7175355091528578763
+    second: bgFar_889
+  - first:
+      213: -7999757761837535594
+    second: bgFar_890
+  - first:
+      213: 5285238769214985920
+    second: bgFar_891
+  - first:
+      213: -7609239503718604235
+    second: bgFar_892
+  - first:
+      213: 2276626947347270620
+    second: bgFar_893
+  - first:
+      213: 8127754860976960010
+    second: bgFar_894
+  - first:
+      213: -1017071580726876817
+    second: bgFar_895
+  - first:
+      213: 866017384365601012
+    second: bgFar_896
+  - first:
+      213: -263402684060482046
+    second: bgFar_897
+  - first:
+      213: -1563051555514378005
+    second: bgFar_898
+  - first:
+      213: -5251097236471295500
+    second: bgFar_899
+  - first:
+      213: -1562291019415412800
+    second: bgFar_900
+  - first:
+      213: -5734750475185079801
+    second: bgFar_901
+  - first:
+      213: -4244904606428594761
+    second: bgFar_902
+  - first:
+      213: 6572621408924713044
+    second: bgFar_903
+  - first:
+      213: 984755301278897750
+    second: bgFar_904
+  - first:
+      213: -8675755018663810247
+    second: bgFar_905
+  - first:
+      213: 3895958130287584719
+    second: bgFar_906
+  - first:
+      213: 9016852116181221374
+    second: bgFar_907
+  - first:
+      213: -5441404676130483885
+    second: bgFar_908
+  - first:
+      213: -5012868822176950040
+    second: bgFar_909
+  - first:
+      213: 8927838599812864707
+    second: bgFar_910
+  - first:
+      213: 5658179988118165583
+    second: bgFar_911
+  - first:
+      213: 7045032550320087302
+    second: bgFar_912
+  - first:
+      213: -1733036749619713753
+    second: bgFar_913
+  - first:
+      213: -7070715663075899830
+    second: bgFar_914
+  - first:
+      213: 4539070842620590264
+    second: bgFar_915
+  - first:
+      213: 1761719076358260251
+    second: bgFar_916
+  - first:
+      213: 8318504944119551742
+    second: bgFar_917
+  - first:
+      213: -6376676568608926911
+    second: bgFar_918
+  - first:
+      213: 6261824231093030992
+    second: bgFar_919
+  - first:
+      213: -8269299854065920715
+    second: bgFar_920
+  - first:
+      213: 7840213610777731193
+    second: bgFar_921
+  - first:
+      213: 5078259755588635649
+    second: bgFar_922
+  - first:
+      213: 8745669740503180622
+    second: bgFar_923
+  - first:
+      213: 1653690639016359424
+    second: bgFar_924
+  - first:
+      213: 6539035415346055435
+    second: bgFar_925
+  - first:
+      213: 2446074450341215971
+    second: bgFar_926
+  - first:
+      213: 4874932000291622650
+    second: bgFar_927
+  - first:
+      213: -3322348545297122920
+    second: bgFar_928
+  - first:
+      213: -142839384187027682
+    second: bgFar_929
+  - first:
+      213: 7431318877090095215
+    second: bgFar_930
+  - first:
+      213: 3132469955208248238
+    second: bgFar_931
+  - first:
+      213: -9053681775640889069
+    second: bgFar_932
+  - first:
+      213: -3984410671580340143
+    second: bgFar_933
+  - first:
+      213: -5144381736415887330
+    second: bgFar_934
+  - first:
+      213: 3905920339041693090
+    second: bgFar_935
+  - first:
+      213: -4996824334516512020
+    second: bgFar_936
+  - first:
+      213: -673229805771541361
+    second: bgFar_937
+  - first:
+      213: -6088180804187568822
+    second: bgFar_938
+  - first:
+      213: -6401966604177514870
+    second: bgFar_939
+  - first:
+      213: 8543276827283497830
+    second: bgFar_940
+  - first:
+      213: 420600666852806843
+    second: bgFar_941
+  - first:
+      213: 8261701297868244862
+    second: bgFar_942
+  - first:
+      213: 3531927537321349361
+    second: bgFar_943
+  - first:
+      213: -1791319818171690795
+    second: bgFar_944
+  - first:
+      213: 2270018950522423532
+    second: bgFar_945
+  - first:
+      213: 2589763804039129797
+    second: bgFar_946
+  - first:
+      213: 1010613603213521347
+    second: bgFar_947
+  - first:
+      213: -1560619012583166555
+    second: bgFar_948
+  - first:
+      213: -5903118940879091176
+    second: bgFar_949
+  - first:
+      213: 8216513193819903272
+    second: bgFar_950
+  - first:
+      213: -5241399281523129011
+    second: bgFar_951
+  - first:
+      213: 8907705842599901025
+    second: bgFar_952
+  - first:
+      213: -4425188297152537451
+    second: bgFar_953
+  - first:
+      213: 64780667864797553
+    second: bgFar_954
+  - first:
+      213: -4722608780638917151
+    second: bgFar_955
+  - first:
+      213: 1119279215281003877
+    second: bgFar_956
+  - first:
+      213: 8973866100581723816
+    second: bgFar_957
+  - first:
+      213: 5752315268291659988
+    second: bgFar_958
+  - first:
+      213: -7430992744121005430
+    second: bgFar_959
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bgFar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb087b0e8e1ea0a90800000000000000
+      internalID: -7346811451782758212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097f8d2d2d643a790800000000000000
+      internalID: -7520089081484085360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b45a298d1afffc90800000000000000
+      internalID: -7133708279969327946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e1c330f87e4c640800000000000000
+      internalID: 5099455279510855321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228b628f1b80d1360800000000000000
+      internalID: 7141874144544995362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f7890b46f65f5a0800000000000000
+      internalID: -6488157209907134599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b69f69e2ce3201f0800000000000000
+      internalID: -1080231953754515788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0b8d3479070d6b0800000000000000
+      internalID: -5273591368670203673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8987a6ef8d815e30800000000000000
+      internalID: 4490525952654674318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca892927d3022610800000000000000
+      internalID: 1594841440686017224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8364ebe5f999a1670800000000000000
+      internalID: 8510283355638351416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3b9b4ae3d64cbe0800000000000000
+      internalID: -1457920263542164495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57870a706647c860800000000000000
+      internalID: 7550080680488044380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333ff7cd171901ec0800000000000000
+      internalID: -3598216184052321485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b458844cc66505790800000000000000
+      internalID: -7543434350696037045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffdd959adc6952c0800000000000000
+      internalID: -4442399871355461636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491a3f48e55161380800000000000000
+      internalID: -9000983309551689324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccbc0978151505e0800000000000000
+      internalID: -1944124469286224697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302b1f6dfeccaef50800000000000000
+      internalID: 6911561908628861443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b734be21ce129930800000000000000
+      internalID: 4148412021822732213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e744e7d350aff320800000000000000
+      internalID: 2593968192353486820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363a8e061f29eb500800000000000000
+      internalID: 413929781175296867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9dc8187ba2e0d60800000000000000
+      internalID: 7858265367448967673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b12b4ae79318a30800000000000000
+      internalID: 4215713942287293336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1d6d8c27a630e10800000000000000
+      internalID: 2162689287296307711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e89319e5a85bfbb0800000000000000
+      internalID: -4901226299859429144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7130a003c04c29ed0800000000000000
+      internalID: -2408647294065179881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_27
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9d7b37a35d4e0b0800000000000000
+      internalID: -5700196781317957189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578ed7e8c30e82cd0800000000000000
+      internalID: -2582567835603703691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735f14b363cbaec70800000000000000
+      internalID: 9001213746361791799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_30
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f59c7166e15ec10800000000000000
+      internalID: 2082103826563293013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_31
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a48437dc06add50800000000000000
+      internalID: 6762824225968900666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3700c656686748b70800000000000000
+      internalID: 8900369083190214771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_33
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c519a64e7d308050800000000000000
+      internalID: 5800703932613858754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_34
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bc2d808b992d550800000000000000
+      internalID: 6184174254034176926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37df9dcc6f6390b0800000000000000
+      internalID: -5723108188360812739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bda12b447be56c90800000000000000
+      internalID: -7177071546435785292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_37
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6e1d1f767a3e680800000000000000
+      internalID: -8726947588033354049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_38
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244f59d2667f95180800000000000000
+      internalID: -9125991151666072510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_39
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c93b95658fc35040800000000000000
+      internalID: 4635276613336644032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4da83cd69de1cb0800000000000000
+      internalID: -4891233079822461774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6972ad591a41b6eb0800000000000000
+      internalID: -4725660699758811242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10484e658d861f00800000000000000
+      internalID: 1087211964276949019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d91a7af3318e500800000000000000
+      internalID: 425611328902765904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ad1e64cbec433d0800000000000000
+      internalID: -3227727724879422928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4927c31699bc7ff50800000000000000
+      internalID: 6915219612472472212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cffc1fb130f6230800000000000000
+      internalID: 3634126842867219607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_47
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109c8bf946d76dcc0800000000000000
+      internalID: -3686621373826283263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1456fb4ead962b9f0800000000000000
+      internalID: -454184223549463231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bc0112d20d0cbb0800000000000000
+      internalID: -4917701900841727164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fd3de1affaf6490800000000000000
+      internalID: -7750782944887447786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_51
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf10fde758397d630800000000000000
+      internalID: 3951789399609377275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe8975000f51d900800000000000000
+      internalID: 707451070170369788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_53
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cb1cf05a7ba6d50800000000000000
+      internalID: 6731394512620469318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_54
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cecb428a99cfaa0800000000000000
+      internalID: -6125852445680800638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_55
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ffc5a1a34c83ec0800000000000000
+      internalID: -3586901349371150580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc06164307647da0800000000000000
+      internalID: -5948015944091169594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_57
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c510ee948b90e72d0800000000000000
+      internalID: -3279172791560175268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_58
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c227f51d603d3f20800000000000000
+      internalID: 3403930138440049346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_59
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950397c8ed21e3410800000000000000
+      internalID: 1458624076363411545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725cb2411ac845af0800000000000000
+      internalID: -408547042727836377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f70e38ad757f5b0800000000000000
+      internalID: -5334698637570048188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4ebd40c8a3e9e50800000000000000
+      internalID: 6817951258936861864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ad8d1712c982b60800000000000000
+      internalID: 7721593228584606287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42548ce9d9b4d3610800000000000000
+      internalID: 1602520182759638308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f271158c8825a850800000000000000
+      internalID: 6387556230487962356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc84271b408c8f60800000000000000
+      internalID: 8037940494948666590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_67
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ccfc39d6cd019e0800000000000000
+      internalID: -1652578700055557029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c520b6a42183a330800000000000000
+      internalID: 3720959711553529285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab095275627268b0800000000000000
+      internalID: -5160436442977465438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fbb2828b9febd50800000000000000
+      internalID: 6755111060445577084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6395998630241d920800000000000000
+      internalID: 3013262208094787894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414bad5a474f50b50800000000000000
+      internalID: 6558917214170952724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_73
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d227fe5854252270800000000000000
+      internalID: 8225020256431055573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_74
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1b0b7105a421c10800000000000000
+      internalID: 2022760890498068920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_75
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09bfd7a0f1a659a0800000000000000
+      internalID: -6244625778321934066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_76
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca57645b64e2dc30800000000000000
+      internalID: 4382816537013607106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_77
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60d9944b28699f10800000000000000
+      internalID: 2276965621656309866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_78
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8971344618efe10800000000000000
+      internalID: 2233364732844677360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_79
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855992ead6455bf60800000000000000
+      internalID: 8049432739044758872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbea05a8f115ff410800000000000000
+      internalID: 1513017195726155453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2c67c608e1aaab0800000000000000
+      internalID: -4996147299689774337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54aa229b2cdfc43a0800000000000000
+      internalID: -6679685134525748667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c39a34b0ee2b230800000000000000
+      internalID: 3653243979898109086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7615020b0fbd000800000000000000
+      internalID: 61907659146749928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58131fb8f10b7b50800000000000000
+      internalID: 6591864647456069727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93b37fec9ff184d0800000000000000
+      internalID: -3133942816175836262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_87
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5950164190f43c0800000000000000
+      internalID: -4373266730021710365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee2d68cb7149db00800000000000000
+      internalID: 853785604262801126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c2f52106b5107e0800000000000000
+      internalID: -1801057907788272549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_90
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8774919962d1c10800000000000000
+      internalID: 2025817846382557432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_91
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895051ae6cd8285a0800000000000000
+      internalID: -6520493425008769640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a921b52444b066e80800000000000000
+      internalID: -8185842884900351334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_93
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e6303da8c7362d0800000000000000
+      internalID: -3286646367362781688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_94
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9578ed1f59e8300800000000000000
+      internalID: 256307094859766207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_95
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3864a1644f65460800000000000000
+      internalID: 7230234833715626957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_96
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910fe4b2d07dd3620800000000000000
+      internalID: 2755594998581751833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_97
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f299cc3301a29320800000000000000
+      internalID: 2563288173204050677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_98
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a578e18ba8dbde0800000000000000
+      internalID: -1315742992731514217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_99
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bacffc12cb9588a0800000000000000
+      internalID: -6303460845422654796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a823fd46ea559f70800000000000000
+      internalID: 9193354159543494821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_101
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5fcf9bdab4ba1f0800000000000000
+      internalID: -1032648480029608534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_102
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fd42eff78ad7170800000000000000
+      internalID: 8177877766052831065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_103
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb306b62e20e6e90800000000000000
+      internalID: -7030678796791432260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_104
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0713c9717c1a89ca0800000000000000
+      internalID: -6009875826259250832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_105
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034aa3877062179d0800000000000000
+      internalID: -2778397681587149776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_106
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d6693a817bcf990800000000000000
+      internalID: -7350799175323849380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_107
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401349385e8a02a90800000000000000
+      internalID: -7340681688905404156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_108
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e84305a5eb7f2f0800000000000000
+      internalID: -939072702181503336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_109
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd676ad161c2de30800000000000000
+      internalID: 4526893201480969692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_110
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a63bd6386342130800000000000000
+      internalID: 3541015145129142922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_111
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6915a1660e8c7c0800000000000000
+      internalID: -4050741135686920540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_112
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e42d110d65a61170800000000000000
+      internalID: 8148882463362196708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_113
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1041089baee913370800000000000000
+      internalID: 8300590319192249345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_114
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095bc991a62ec1df0800000000000000
+      internalID: -208042537441774192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_115
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff66db87b9d6c6da0800000000000000
+      internalID: -5950260493150230785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0769de89fe11a1ec0800000000000000
+      internalID: -3595541631741356432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_117
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad908b82bf87e6da0800000000000000
+      internalID: -5949685037594572326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_118
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f3871f017622b00800000000000000
+      internalID: 802317006093696836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_119
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363289716926b8a50800000000000000
+      internalID: 6524416881956758371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c55323df27cd9220800000000000000
+      internalID: 2494368776852821444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_121
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc0886ac1fe4fb80800000000000000
+      internalID: -8361795701788111679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_122
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195b742ee35e64ad0800000000000000
+      internalID: -2718233266824432239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_123
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2280a1770f408680800000000000000
+      internalID: -8754910782218534355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_124
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f0cf273a12de400800000000000000
+      internalID: 354976931524644721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_125
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b18aaab6f41a0740800000000000000
+      internalID: 5118926976386236850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_126
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b39b56762ccb6cc0800000000000000
+      internalID: -3716652601897675849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_127
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8433a7ccf6ad190800000000000000
+      internalID: -7936908469272885063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_128
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa70f24950426a080800000000000000
+      internalID: -9176607584341260374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_129
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2881c6902b771d0800000000000000
+      internalID: -3353015644016049435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_130
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663a625e85db29940800000000000000
+      internalID: 5301507900867781478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_131
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204fb91e119c1f7c0800000000000000
+      internalID: -4039226312137903102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_132
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28465880c93a68770800000000000000
+      internalID: 8612751227945837698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_133
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68469b60b1edc4bf0800000000000000
+      internalID: -338651664301333370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_134
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3307c6c39408830800000000000000
+      internalID: 4071334587009086379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_135
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e52824d8543dd100800000000000000
+      internalID: 134321120012150243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_136
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1458bba524e10c640800000000000000
+      internalID: 5098108048522315073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_137
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704d664ca511dc420800000000000000
+      internalID: 2651794837130892295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_138
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef40017a48095370800000000000000
+      internalID: 8311683703105408998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_139
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259556d673aaffa20800000000000000
+      internalID: 3098382223689472338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016ae1d236d67e040800000000000000
+      internalID: 4676827010773722640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_141
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b24982e5d6cf3220800000000000000
+      internalID: 2467909742753301174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_142
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01686bb09a5577180800000000000000
+      internalID: -9117724736053934576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_143
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5f2fb184beac900800000000000000
+      internalID: 705634986575984050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_144
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f094f038a9e29f60800000000000000
+      internalID: 8039745193394868467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_145
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68328fcb6e4bf0340800000000000000
+      internalID: 4832279828297687942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_146
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47ecceea40f70220800000000000000
+      internalID: 2452192726751176523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_147
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4553e2811ae63950800000000000000
+      internalID: 6428582879049241935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d29bbf9447051010800000000000000
+      internalID: 1158840470436811476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_149
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072ebaee4d5dc0500800000000000000
+      internalID: 363900780424192624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_150
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cec2ff7030a17820800000000000000
+      internalID: 2914286564050915016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_151
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9502cccfbb77bbd80800000000000000
+      internalID: -8233855844432994215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_152
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dace089287e6881d0800000000000000
+      internalID: -3348304860578517843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_153
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bd8f2856a42f5a0800000000000000
+      internalID: -6489042313237963937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_154
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62679de6084d40800800000000000000
+      internalID: 577820300290913830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_155
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41a90c014f975750800000000000000
+      internalID: 6293674105997205835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_156
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1c2481ec7a35610800000000000000
+      internalID: 1608813995513528784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_157
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228cf00c8454f32a0800000000000000
+      internalID: -6755604737270233054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_158
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d90d288d18b10d0800000000000000
+      internalID: -3451021922541724272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_159
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c521ff18dbb4b990800000000000000
+      internalID: -7371060153175431739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80aec80d8d71601f0800000000000000
+      internalID: -1079148840729384440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_161
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1403dc555c4fd0360800000000000000
+      internalID: 7137630112837349441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_162
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acdcf923192cede0800000000000000
+      internalID: -1302621029931361118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_163
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e79e35cb9108c8f0800000000000000
+      internalID: -520163988420519965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_164
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f99b93db880aacd0800000000000000
+      internalID: -2546213242680927755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_165
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ccc62b176627ae0800000000000000
+      internalID: -1553066282978587638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_166
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fe725420d241830800000000000000
+      internalID: 4040904253431607163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_167
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4755e91d5a88eda40800000000000000
+      internalID: 5394899649404228980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_168
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68c6995d18024410800000000000000
+      internalID: 1459738151371589738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_169
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3291be698e7283140800000000000000
+      internalID: 4699550091078998307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_170
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fec49dd7e6f0fbe0800000000000000
+      internalID: -1445384004670533904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_171
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3814b5fe3753480800000000000000
+      internalID: -8920096015072001084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_172
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415b9c4e0c6549b30800000000000000
+      internalID: 4293151731263059220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_173
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f647b3bd6e4aa50800000000000000
+      internalID: 6531599188863774572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_174
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e69a9ca1bb9dafb0800000000000000
+      internalID: -4634877254087043353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_175
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0ac090d9fa69b50800000000000000
+      internalID: 6599655392954589405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_176
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7def2f7772d793840800000000000000
+      internalID: 5204328452872928983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_177
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9520acd930a178c0800000000000000
+      internalID: -4003242423380597350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_178
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd3ebb59c2e62b60800000000000000
+      internalID: 7721107965628792308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_179
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2172adfa8f7d93b60800000000000000
+      internalID: 7726444098832967442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe1154d1c53d2790800000000000000
+      internalID: -7553321893423407365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_181
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222fe001db953ed40800000000000000
+      internalID: 5612428229186875938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_182
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8eca1360fe879c20800000000000000
+      internalID: 3213194022258134667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_183
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d281dd6095542dec0800000000000000
+      internalID: -3543693708117600211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_184
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc81ae3cbac315600800000000000000
+      internalID: 455211745765103820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_185
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35840597f4a6be960800000000000000
+      internalID: 7632310883079702611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_186
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4643304aebf459790800000000000000
+      internalID: -7524019922238491548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_187
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77166ce2158523780800000000000000
+      internalID: -8704798024053399177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_188
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd472de0829357f0800000000000000
+      internalID: -624994840842121800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_189
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8de82f8b276d360800000000000000
+      internalID: 7194063593439942822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_190
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e6b9177320a7320800000000000000
+      internalID: 2556358175638646337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_191
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043137e45c1cdc0a0800000000000000
+      internalID: -6859613604246514880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_192
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3111b099015ef640800000000000000
+      internalID: 5115615328263541053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_193
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8543b0387a53940800000000000000
+      internalID: 5275306719804938477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_194
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd7182938ab8cf60800000000000000
+      internalID: 8054893007813574099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_195
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324e7fc7f29cd1100800000000000000
+      internalID: 80441574159803427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_196
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbb2bd09b54a60d0800000000000000
+      internalID: -3428851505188127800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_197
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f639e9942d05db00800000000000000
+      internalID: 852602155308758772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_198
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d218d62e7567d2b70800000000000000
+      internalID: 8875880560450175277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_199
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4b09bcfdf8177b0800000000000000
+      internalID: -5228239501044697933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbb582948d51fff0800000000000000
+      internalID: -4119300675355727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_201
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06e5a35a9fe6a190800000000000000
+      internalID: -7951404645968648689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_202
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f215aaf102a0338e0800000000000000
+      internalID: -1715015900011540177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_203
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43d8a599aa024660800000000000000
+      internalID: 7368463663808172877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_204
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879e48051bab09d50800000000000000
+      internalID: 6742093912896498040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_205
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563ad66a238d6d2b0800000000000000
+      internalID: -5560018977890131099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_206
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560ffb054401b9290800000000000000
+      internalID: -7882688837183344539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_207
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721ff03b2ea54d430800000000000000
+      internalID: 3806767514748186919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_208
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c40a449eccbf4d60800000000000000
+      internalID: 7876721868731450563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_209
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa372c28092e8e10800000000000000
+      internalID: 2201742382907996918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_210
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2f493ab23e4c190800000000000000
+      internalID: -7942974066207165706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_211
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fd6abd2aa019640800000000000000
+      internalID: 5084857148864126824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_212
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404151c177d0c8760800000000000000
+      internalID: 7461353487869481988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_213
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef326c4875c09a80800000000000000
+      internalID: -8462046579360907287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_214
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24410aabed26360f0800000000000000
+      internalID: -1124946773159177150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_215
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde3d63df84d85f60800000000000000
+      internalID: 8023396450353102559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_216
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4204f9237778c1cb0800000000000000
+      internalID: -4891886149211045852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_217
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a35132c06843d30800000000000000
+      internalID: 4410297321788881524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_218
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a64ae5532d14ed70800000000000000
+      internalID: 9071407587033499296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_219
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b88b4fb61f319aa0800000000000000
+      internalID: -6156069848707528522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b027d130fb2248f0800000000000000
+      internalID: -557835093212192585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_221
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e0651e45fb315c0800000000000000
+      internalID: -4245839652401574384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_222
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3c5ea897ab82830800000000000000
+      internalID: 4046689296376513443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_223
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214933c704eab2090800000000000000
+      internalID: -8058155516264475630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_224
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70b14b5ab0a71c30800000000000000
+      internalID: 4330106288995414138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_225
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b9837ce6604ed80800000000000000
+      internalID: -8222439946813138082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_226
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3465571622bcddf70800000000000000
+      internalID: 9213743761194309187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_227
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafeda921517594b0800000000000000
+      internalID: -5434312781947080788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_228
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900fc7623602b3490800000000000000
+      internalID: -7765577522250715127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_229
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc8f965b10a19d30800000000000000
+      internalID: 4436503147214507263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_230
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f983a1980ddfd900800000000000000
+      internalID: 711530295020718585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_231
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b70c78bc1f07fbd0800000000000000
+      internalID: -2596590044127164495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_232
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8051a405ab931f90800000000000000
+      internalID: -6984067464071917426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_233
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62246bb2cf481a00800000000000000
+      internalID: 727419037606486634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_234
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bd1ead8310f2be0800000000000000
+      internalID: -1499978807189054582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_235
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e871e300f596a60800000000000000
+      internalID: 7667764295221349921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_236
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e98e35312d90910800000000000000
+      internalID: 1804204106192559638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_237
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1d85fc0d1e43030800000000000000
+      internalID: 3473649499557646764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_238
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4c8bab198ca6890800000000000000
+      internalID: -7463932904184691489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgFar_239
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058f4500c1f259940800000000000000
+      internalID: 5302195933609785424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Threat
+  - PlayerFeet
+  - First_Checkpoint
+  - Collectable
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Platform
+  - CamLimits
+  - Cam
+  - Legboy
+  - Basic Decoration
+  - Back Wallrun
+  - Collectable
+  - CameraZone
+  - LegboyThreat
+  - Threat
+  - EnemyWeakPoint
+  - LegboyFeet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4014397131
+    locked: 0
+  - name: Back Decoration
+    uniqueID: 3466476215
+    locked: 0
+  - name: Platform Back Decoration
+    uniqueID: 2984429537
+    locked: 0
+  - name: Platform
+    uniqueID: 3579812997
+    locked: 0
+  - name: Platform Front Decoration
+    uniqueID: 4105898569
+    locked: 0
+  - name: Front Decoration
+    uniqueID: 3354578057
+    locked: 0
+  - name: Player
+    uniqueID: 3858160087
+    locked: 0
+  - name: Crystal
+    uniqueID: 389651189
+    locked: 0
