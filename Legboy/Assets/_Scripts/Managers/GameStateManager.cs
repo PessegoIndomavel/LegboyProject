@@ -21,8 +21,6 @@ public class GameStateManager : MonoBehaviour
     private Tween transTween;
     private float prevTimeScale = 1f;
 
-    private bool canPause = true;
-
     private void Awake()
     {
         #region Singleton
@@ -72,7 +70,7 @@ public class GameStateManager : MonoBehaviour
 
     public void PauseWithScreen()
     {
-        if (!canPause) return;
+        if (!CanPause) return;
         Pause();
         pauseScreen.SetActive(true);
     }
@@ -134,6 +132,8 @@ public class GameStateManager : MonoBehaviour
     {
         return currentGameState == GameState.Paused;
     }
+
+    public bool CanPause { get; set; } = true;
 }
 
 public enum GameState {

@@ -105,6 +105,8 @@ public class PlayerMovement : MonoBehaviour
     
     #endregion
 
+    public Action onChangeDirection;
+
     private void Awake()
    {
        coll = GetComponent<Collision>();
@@ -226,12 +228,12 @@ public class PlayerMovement : MonoBehaviour
         {
             side = 1;
             anim.Flip(side);
-            TabletOrb.instance.FlipOrbFollowPos(-side);
+            TabletFollowPoint.instance.FlipPos(-side);
         } else if (movInput.x < 0 && side == 1 && Time.timeScale != 0f)
         {
             side = -1;
             anim.Flip(side);
-            TabletOrb.instance.FlipOrbFollowPos(-side);
+            TabletFollowPoint.instance.FlipPos(-side);
         }
         anim.SetMovementVars(movInput.x, movInput.y, rb.velocity.x, rb.velocity.y);
     }
@@ -301,7 +303,7 @@ public class PlayerMovement : MonoBehaviour
             }
             lastWallrunSide = 0;
             anim.Flip(-1);
-            TabletOrb.instance.FlipOrbFollowPos(1);
+            TabletFollowPoint.instance.FlipPos(1);
         }
         else if (coll.onRightWall)
         {
@@ -312,7 +314,7 @@ public class PlayerMovement : MonoBehaviour
             }
             lastWallrunSide = 1;
             anim.Flip(1);
-            TabletOrb.instance.FlipOrbFollowPos(-1);
+            TabletFollowPoint.instance.FlipPos(-1);
         }
         
         lastBackWall = null;

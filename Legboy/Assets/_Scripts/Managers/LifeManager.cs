@@ -29,12 +29,6 @@ public class LifeManager : MonoBehaviour
     public void SetPlayer()
     {
         if (!ScenesManager.instance.isLevel) return;
-        StartCoroutine(SetPlayerWhenPossible());
-    }
-
-    IEnumerator SetPlayerWhenPossible()
-    {
-        while (!LevelManager.instance) yield return null;
         playerTransform = LevelManager.instance.player.transform;
         playerMov = playerTransform.GetComponent<PlayerMovement>();
         playerAnim = playerTransform.GetComponent<PlayerAnimation>();
@@ -42,6 +36,7 @@ public class LifeManager : MonoBehaviour
 
     public void Die()
     {
+        GameStateManager.instance.CanPause = false;
         deathCounter++;
         playerMov.StopAllDistanceParticles();
         playerMov.dyingParticles.Play();
@@ -56,7 +51,7 @@ public class LifeManager : MonoBehaviour
     //private float tempVCamBlendTime;
     public void ReturnToCheckpoint()
     {
-        playerTransform.position = CheckpointManager.instance.CurrentCheckpoint.transform.position + new Vector3(0f, -0.23f, 0f);
+        playerTransform.position = CheckpointManager.instance.CurrentCheckpoint.transform.position + new Vector3(0f, -0.225f, 0f);
         playerTransform.GetComponent<Animator>().Play("idleLegboy");
         playerTransform.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         playerAnim.Flip(playerMov.side);
@@ -90,7 +85,7 @@ public class LifeManager : MonoBehaviour
           vCamBrain.m_IgnoreTimeScale = false;
           vCamBrain.m_DefaultBlend.m_Time = tempVCamBlendTime;  
         }*/
-
+        GameStateManager.instance.CanPause = true;
         GameStateManager.instance.EnablePauseControls();
     }
 
