@@ -12,28 +12,12 @@
   <component name="ChangeListManager">
     <list default="true" id="45942391-441a-4443-8cb6-b3de1e1a6461" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/_Story/Tablets/tabletsData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/_Story/Tablets/tabletsData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Animations/Items/Tablet/Tablet.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Animations/Items/Tablet/Tablet.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Temporary/contornoQuadradoPH.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Temporary/contornoQuadradoPH.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/UI/botao grande 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/UI/botao grande 1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/UI/botao grande 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/UI/botao grande 2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/BloomTilesetMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/Materials/BloomTilesetMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Tablet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Items/Tablet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Other/Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Other/Button.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Items/Tablet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Items/Tablet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameStateManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameStateManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/TabletMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/TabletMenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Other/Levitation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Other/Levitation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Other/TabletOrb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Other/TabletFollowPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Other/TabletOrb.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Other/TabletFollowPoint.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +28,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Editor/GenerateVerticalIsleMapEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Other/CameraZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Managers/GameStateManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Managers/LevelStatsManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -74,8 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Other/Patrol.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LevelStatsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/Vector3Extension.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Items/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Items/Diamond.cs" />
@@ -125,6 +108,8 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/TabletFollowPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/Levitation.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Items/Tablet.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Editor/GenerateVerticalIsleMapEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/GenerateVerticalIsleMap.cs" />
       </list>
     </option>
   </component>
@@ -301,6 +286,8 @@
       <workItem from="1630696863529" duration="2480000" />
       <workItem from="1631048831784" duration="729000" />
       <workItem from="1631203234990" duration="10803000" />
+      <workItem from="1631297168338" duration="7989000" />
+      <workItem from="1631305303086" duration="4839000" />
     </task>
     <servers />
   </component>
