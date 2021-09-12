@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TilemapSwayMat
+  m_Shader: {fileID: -6465566751694194690, guid: ffbaf961c916ec2448e9b6d913b42418, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_58fce25fc54e4ab5afe4b3152389072f:
+        m_Texture: {fileID: 2800000, guid: eb20661b844259c428b6dd37945616d1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_9a7ae9283c0349c587a1690a598347c2:
+        m_Texture: {fileID: 2800000, guid: 845364c925cdb7d4f94bf8835a196949, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_227f49f323584c3dbb5e29d868abbf41: 1
+    - Vector1_3ecd0b363f9a4575805f2e3a2ace9fe6: 1
+    - Vector1_5a46b5119be547079a0adae276a7742d: 1
+    - Vector1_d7ec6d4295e943b793009674d0b51210: 3
+    - Vector1_d8310b12affe471d90340fbc11dcde99: 1
+    - _EnableExternalAlpha: 0
+    - _SwaySpeed: 4.24
+    m_Colors:
+    - Color_300e1034771946f7a6bbb78f6c8dcc97: {r: 1, g: 1, b: 1, a: 1}
+    - Color_6d91e8fdbb11402ebe31577897b3f7d5: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_026a2d1fba4148e2b15f746b251fd691: {r: 0.7, g: 1, b: 0, a: 0}
+    - Vector2_cd66b5bd187a46ac8eed6661241d26f2: {r: 1, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
