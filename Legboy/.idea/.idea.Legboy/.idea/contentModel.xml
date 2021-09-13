@@ -275,6 +275,11 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.Player.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="_Art" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="NewUnlitShader.shader" t="Include" />
+          </e>
+        </e>
         <e p="_FMOD" t="Include">
           <e p="Legboy" t="Include">
             <e p="Metadata" t="Include">
