@@ -34,7 +34,7 @@ public class ScenesManager : MonoBehaviour
         onLoadScene += DiamondsManager.instance.ResetDiamonds;
         onLoadScene += LifeManager.instance.ResetDeathCounter;
         onLoadScene += TextBoxManager.instance.ForceHideTextBox;
-        onLoadScene += TabletMenuManager.instance.SetCanOpenTabletMenu;
+        onLoadScene += TabletMenuManager.instance.SetCanOpenTabletMenuOnStart;
         onLoadScene += TabletMenuManager.instance.ResetTablets;
         onLoadScene += MusicManager.instance.PlayMusic;
         onLoadScene += MusicManager.instance.StopMusic;

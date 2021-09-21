@@ -68,9 +68,11 @@ public class LevelStatsManager : MonoBehaviour
 
     public string getFormatedAccumulatedTime()
     {
-        float hours = (accumulatedTime / 3600);
-        float minutes = ((accumulatedTime / 60) % 60);
-        float seconds = (accumulatedTime % 60);
+        float hours = Mathf.Floor(accumulatedTime / 3600f);
+        accumulatedTime %= 3600f;
+        float minutes = Mathf.Floor(accumulatedTime / 60f);
+        accumulatedTime %= 60f;
+        float seconds = Mathf.Floor(accumulatedTime);
         return $"{hours:00}:{minutes:00}:{seconds:00}";
     }
 }

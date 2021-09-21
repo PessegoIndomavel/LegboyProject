@@ -44,6 +44,7 @@ public class LifeManager : MonoBehaviour
         playerTransform.GetComponent<Animator>().SetTrigger("died");
         playerMov.DisableControls();
         GameStateManager.instance.DisablePauseControls();
+        TabletMenuManager.instance.CanOpenTabletMenu = false;
         ScreenTransitionManager.instance.StartTransition(ReturnToCheckpoint, Respawn);
         GameStateManager.instance.PauseTime();
     }
@@ -87,6 +88,7 @@ public class LifeManager : MonoBehaviour
         }*/
         GameStateManager.instance.CanPause = true;
         GameStateManager.instance.EnablePauseControls();
+        TabletMenuManager.instance.CanOpenTabletMenu = true;
     }
 
     public void ResetDeathCounter()

@@ -201,7 +201,7 @@ public class TabletMenuManager : MonoBehaviour
     }
     
     //called when loading a scene
-    public void SetCanOpenTabletMenu()
+    public void SetCanOpenTabletMenuOnStart()
     {
         CloseTabletMenu();
         canOpenTabletMenu = ScenesManager.instance.isLevel;
@@ -221,4 +221,6 @@ public class TabletMenuManager : MonoBehaviour
     }
 
     public bool IsOpen => isOpen;
+
+    public bool CanOpenTabletMenu { get => canOpenTabletMenu; set => canOpenTabletMenu = value; }
 }

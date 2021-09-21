@@ -277,7 +277,7 @@
       <e p="Assets" t="Include">
         <e p="_Art" t="Include">
           <e p="Shaders" t="Include">
-            <e p="NewUnlitShader.shader" t="Include" />
+            <e p="TilemapWithMask.shader" t="Include" />
           </e>
         </e>
         <e p="_FMOD" t="Include">
@@ -563,6 +563,7 @@
             <e p="BackWall.cs" t="Include" />
             <e p="CameraZone.cs" t="Include" />
             <e p="Checkpoint.cs" t="Include" />
+            <e p="Follow.cs" t="Include" />
             <e p="GameOverTrigger.cs" t="Include" />
             <e p="Level.cs" t="Include" />
             <e p="Levitation.cs" t="Include" />

@@ -15,16 +15,21 @@ public class PlayerSounds : MonoBehaviour
     FMOD.Studio.EventInstance _stepsInstance;
     FMOD.Studio.EventInstance _wallrunStepsInstance;
 
+    [SerializeField] private float stepsInterval = 0.1f;
     private PlayerMovement mov;
     private bool wallrunning = false;
+    private bool wallrunStarted = false;
     private float wallrunPitch = 0f;
+    private Coroutine stepsLoopCoroutine;
 
     private void Start()
     {
         mov = GetComponent<PlayerMovement>();
         
-        _stepsInstance = RuntimeManager.CreateInstance(stepsEventPath);
-        _wallrunStepsInstance = RuntimeManager.CreateInstance(wallrunStepsEventPath);
+        if(stepsEventPath != null)
+            _stepsInstance = RuntimeManager.CreateInstance(stepsEventPath);
+        if(wallrunStepsEventPath != null)
+            _wallrunStepsInstance = RuntimeManager.CreateInstance(wallrunStepsEventPath);
     }
 
     private void Update()
@@ -32,7 +37,13 @@ public class PlayerSounds : MonoBehaviour
         if (wallrunning && (!mov.normalWallrun && !mov.backWallrun))
         {
             ResetWallrunStepSound();
+            //stepsLoopCoroutine = StartCoroutine(nameof(StepsSoundLoop));
             wallrunning = false;
+            wallrunStarted = false;
+        } else if (wallrunning && !wallrunStarted)
+        {
+            stepsLoopCoroutine = StartCoroutine(nameof(StepsSoundLoop));
+            wallrunStarted = true;
         }
         else wallrunning = (mov.normalWallrun || mov.backWallrun);
     }
@@ -46,14 +57,31 @@ public class PlayerSounds : MonoBehaviour
     //called via animation event
     public void WallrunStepSound()
     {
-        _wallrunStepsInstance = RuntimeManager.CreateInstance(wallrunStepsEventPath);
-        _wallrunStepsInstance.setParameterByName("wallrun certo", wallrunPitch);
-        _wallrunStepsInstance.start();
-        wallrunPitch = (wallrunPitch + 1) % 5;
+        /*_wallrunStepsInstance = RuntimeManager.CreateInstance(wallrunStepsEventPath);
+        _wallrunStepsInstance.setPitch((wallrunPitch*0.1f)+1f);
+        //_wallrunStepsInstance.setParameterByName("wallrun certo", wallrunPitch);
+        _wallrunStepsInstance.start();*/
+        
+        /*wallrunPitch++;*/
     }
 
     private void ResetWallrunStepSound()
     {
+        if(stepsLoopCoroutine != null) StopCoroutine(stepsLoopCoroutine);
         wallrunPitch = 0f;
+    }
+
+    IEnumerator StepsSoundLoop()
+    {
+        while (wallrunning)
+        {
+            print(wallrunPitch);
+            _wallrunStepsInstance = RuntimeManager.CreateInstance(wallrunStepsEventPath);
+            _wallrunStepsInstance.setPitch((wallrunPitch*0.1f)+1f);
+            _wallrunStepsInstance.start();
+        
+            wallrunPitch++;
+            yield return new WaitForSeconds(stepsInterval);
+        }
     }
 }
