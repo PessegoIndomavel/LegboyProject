@@ -75,7 +75,6 @@ public class PlayerSounds : MonoBehaviour
     {
         while (wallrunning)
         {
-            print(wallrunPitch);
             _wallrunStepsInstance = RuntimeManager.CreateInstance(wallrunStepsEventPath);
             _wallrunStepsInstance.setPitch((wallrunPitch*0.1f)+1f);
             _wallrunStepsInstance.start();
