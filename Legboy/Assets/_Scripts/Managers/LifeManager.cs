@@ -41,7 +41,7 @@ public class LifeManager : MonoBehaviour
         playerMov.StopAllDistanceParticles();
         playerMov.dyingParticles.Play();
         dead = true;
-        playerTransform.GetComponent<Animator>().SetTrigger("died");
+        playerTransform.GetComponentInChildren<Animator>().SetTrigger("died");
         playerMov.DisableControls();
         GameStateManager.instance.DisablePauseControls();
         TabletMenuManager.instance.CanOpenTabletMenu = false;
@@ -53,7 +53,7 @@ public class LifeManager : MonoBehaviour
     public void ReturnToCheckpoint()
     {
         playerTransform.position = CheckpointManager.instance.CurrentCheckpoint.transform.position + new Vector3(0f, -0.225f, 0f);
-        playerTransform.GetComponent<Animator>().Play("idleLegboy");
+        playerTransform.GetComponentInChildren<Animator>().Play("idleLegboy");
         playerTransform.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         playerAnim.Flip(playerMov.side);
         LevelManager.instance.RespawnCollectedAndDefeated();

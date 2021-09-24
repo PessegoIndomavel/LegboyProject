@@ -90,9 +90,9 @@ public class PlayerMovement : MonoBehaviour
     private bool triedBWRjump;
     private Vector2 lastFrameVel;
     private Vector2 movInput;  
-    private float currentSpeed;
+    [HideInInspector]public float currentSpeed;
     private bool groundTouch;
-    private bool afterBackWallrun;
+    //private bool afterBackWallrun;
     private float initialGravityScale;
     //public float FWRXPos = 0.277f;
 
@@ -118,7 +118,7 @@ public class PlayerMovement : MonoBehaviour
    {
        coll = GetComponent<Collision>();
        rb = GetComponent<Rigidbody2D>();
-       anim = GetComponent<PlayerAnimation>();
+       anim = GetComponentInChildren<PlayerAnimation>();
        jump = GetComponent<PlayerJump>();
        myColl = GetComponent<Collider2D>();
        
@@ -395,7 +395,7 @@ public class PlayerMovement : MonoBehaviour
         normalWallrun = false;
         backWallrun = false;
         wallrunParticles.Stop();
-        if (lastWallrunSide == 2) afterBackWallrun = true;
+        // (lastWallrunSide == 2) afterBackWallrun = true;
         StopCoroutine(wallrunCoroutine);
         //backWallrunDir = Vector2.up;
     }
@@ -447,10 +447,11 @@ public class PlayerMovement : MonoBehaviour
     {
         side = anim.sr.flipX ? -1 : 1;
 
+        canBWRJump = false;
         canJump = true;
         lastBackWall = null;
         lastWallrunSide = -1;
-        afterBackWallrun = false;
+        //afterBackWallrun = false;
         StopCoroutine(ForceAfterJump(Vector2.one, 0f));
         if(falling) landingParticles.Play();
     }
@@ -461,9 +462,7 @@ public class PlayerMovement : MonoBehaviour
         StartCoroutine(DisableMovement(.2f));
         Vector2 jumpDir = Vector2.zero;
         float angle, multiplier, forceDuration;
-        
-        print("aahh" + canBWRJump);
-        
+
         if (!canBWRJump)
         {
             if ((side == 1 && coll.onRightWall) || side == -1 && !coll.onRightWall)

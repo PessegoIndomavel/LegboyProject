@@ -277,6 +277,7 @@
       <e p="Assets" t="Include">
         <e p="_Art" t="Include">
           <e p="Shaders" t="Include">
+            <e p="SmearShader.shader" t="Include" />
             <e p="TilemapWithMask.shader" t="Include" />
           </e>
         </e>

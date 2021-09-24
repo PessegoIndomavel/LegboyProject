@@ -11,14 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45942391-441a-4443-8cb6-b3de1e1a6461" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Enemies/Test Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Enemies/Test Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/BloomTilesetMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/Materials/BloomTilesetMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/SpikeShineParticleMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/Materials/SpikeShineParticleMat.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerSounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerSounds.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Other/UiScrollToSelection.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/ClipperLib.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/Clipper.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/ClipperOffset.cs" />
@@ -80,7 +84,6 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/CountChildren.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/TextBoxManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/MainMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/MusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Story/Tablets/tablets_data.txt" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/TabletInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" />
@@ -91,7 +94,6 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/AttractionToPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/SquishDetection.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/Collision.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/PauseMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Enemies/EnemyLife.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/ScenesManager.cs" />
@@ -109,9 +111,12 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/Follow.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LevelStatsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/TabletMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerSounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Art/Shaders/SmearShader.shader" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/MusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" />
       </list>
     </option>
   </component>
@@ -293,6 +298,10 @@
       <workItem from="1631563471239" duration="1451000" />
       <workItem from="1632248456398" duration="5632000" />
       <workItem from="1632333944239" duration="8274000" />
+      <workItem from="1632360224485" duration="6175000" />
+      <workItem from="1632410121160" duration="3112000" />
+      <workItem from="1632445110271" duration="3985000" />
+      <workItem from="1632521425155" duration="2027000" />
     </task>
     <servers />
   </component>

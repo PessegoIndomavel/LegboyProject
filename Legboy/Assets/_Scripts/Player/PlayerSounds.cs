@@ -24,7 +24,7 @@ public class PlayerSounds : MonoBehaviour
 
     private void Start()
     {
-        mov = GetComponent<PlayerMovement>();
+        mov = GetComponentInParent<PlayerMovement>();
         
         if(stepsEventPath != null)
             _stepsInstance = RuntimeManager.CreateInstance(stepsEventPath);
