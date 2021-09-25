@@ -58,29 +58,8 @@ public class PlayerAnimation : MonoBehaviour
         anim.SetBool(BackWallrun, move.backWallrun);
         anim.SetBool(Dead, LifeManager.instance.isDead);
         
-        StartCoroutine(CalculateVelAcc());
-        VerticalSquish();
+        VelocitySquish();
         
-    }
-
-    private void FixedUpdate()
-    {
-        velocity = (myTransform.position.AsVector2() - lastPos) / Time.fixedDeltaTime;
-        acceleration = (velocity - lastVelocity) / Time.fixedDeltaTime;
-        /*if ((acceleration.x > 0f && acceleration < 0.2f) || (acceleration < 0f && acceleration > -0.2f))
-            acceleration = 0f;#1#*/
-        /*print(acceleration);*/
-        lastPos = myTransform.position.AsVector2();
-        lastVelocity = velocity;
-    }
-
-    IEnumerator CalculateVelAcc()
-    {
-        yield return new WaitForSeconds(0.1f);
-        velocity = (myTransform.position.AsVector2() - lastPos) / 0.1f;
-        acceleration = (velocity - lastVelocity) / 0.1f;
-        lastPos = myTransform.position.AsVector2();
-        lastVelocity = velocity;
     }
 
     public void SetMovementVars(float x,float y, float xVel, float yVel)
@@ -101,18 +80,14 @@ public class PlayerAnimation : MonoBehaviour
         sr.flipX = (side != 1);
     }
 
-    private void VerticalSquish()
+    private void VelocitySquish()
     {
-        //velocity squish
+        //scale
         var scale = new Vector2(1f - Mathf.Abs(rb.velocity.y * xVelScaleMult) + Mathf.Abs(rb.velocity.x * xVelScaleMult),
             Mathf.Abs(rb.velocity.y * yVelScaleMultiplier) + 1f - Mathf.Abs(rb.velocity.x * yVelScaleMultiplier));
-        /*Vector2 scale = new Vector2(0f,0f);
-        //acceleration squish
-        scale += new Vector2(Mathf.Clamp( 1f + Mathf.Abs(acceleration.x * xAccScaleMult) - Mathf.Abs(acceleration.y * yAccScaleMult), 0f, maxScale),
-            Mathf.Clamp(1f + Mathf.Abs(acceleration.y * yVelScaleMultiplier) - Mathf.Abs(acceleration.x * xAccScaleMult), 0f, maxScale));*/
         
+        //position offsets
         var yPos = (scale.y - 1) / 2f;
-
         float xPos;
         if (move.currentSpeed > 0f) xPos = -(scale.x - 1) / 2f;
         else xPos = (scale.x - 1) / 2f;
