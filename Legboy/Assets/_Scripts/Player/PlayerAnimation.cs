@@ -6,22 +6,20 @@ using DG.Tweening;
 
 public class PlayerAnimation : MonoBehaviour
 {
-    /*public float maxScale = 1.5f;*/
     public float xVelScaleMult = 0.1f;
     public float yVelScaleMultiplier = 0.3f;
-    /*public float xAccScaleMult = 0.0015f;
-    public float yAccScaleMult = 0.0015f;*/
-    
-    private Animator anim;
-    private PlayerMovement move;
-    private Collision coll;
+    [SerializeField]
+    private GameObject sweatGO;
     [HideInInspector]
     public SpriteRenderer sr;
 
+    private SpriteRenderer sweatSr;
+    private Animator anim;
+    private Animator sweatAnim;
+    private PlayerMovement move;
+    private Collision coll;
     private Rigidbody2D rb;
     private Transform myTransform;
-
-    private Vector2 acceleration, velocity, lastVelocity = Vector2.zero, lastPos = Vector2.zero;
 
     private static readonly int ONGround = Animator.StringToHash("onGround");
     private static readonly int ONWall = Animator.StringToHash("onWall");
@@ -43,8 +41,9 @@ public class PlayerAnimation : MonoBehaviour
         move = GetComponentInParent<PlayerMovement>();
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponentInParent<Rigidbody2D>();
+        sweatAnim = sweatGO.GetComponent<Animator>();
+        sweatSr = sweatGO.GetComponent<SpriteRenderer>();
         myTransform = transform;
-        lastPos = myTransform.position.AsVector2();
     }
 
     void Update()
@@ -59,7 +58,6 @@ public class PlayerAnimation : MonoBehaviour
         anim.SetBool(Dead, LifeManager.instance.isDead);
         
         VelocitySquish();
-        
     }
 
     public void SetMovementVars(float x,float y, float xVel, float yVel)
@@ -77,7 +75,7 @@ public class PlayerAnimation : MonoBehaviour
 
     public void Flip(int side)
     {
-        sr.flipX = (side != 1);
+        sweatSr.flipX = sr.flipX = (side != 1);
     }
 
     private void VelocitySquish()
@@ -95,4 +93,11 @@ public class PlayerAnimation : MonoBehaviour
         myTransform.localScale = scale;
         myTransform.localPosition = new Vector2(xPos, yPos);
     }
+
+    public void Sweat(bool value)
+    {
+        sweatAnim.gameObject.SetActive(value);
+        if(value) sweatAnim.Play("sweatAnim");
+    }
+    
 }

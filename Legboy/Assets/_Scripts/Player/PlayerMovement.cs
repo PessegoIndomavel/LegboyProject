@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     public float airAcceleration = 10f;
     public float jumpForce = 50f;
     public float jumpCoyoteTime = 0.08f;
+    public float jumpBufferTime = 0.1f;
     public float enemyHeadJumpForce = 30f;
     [Tooltip("Max velocity to be considered stopped.")]
     public float stoppedThreshold = 0.05f;
@@ -34,12 +35,18 @@ public class PlayerMovement : MonoBehaviour
     
     [Header("Wall Jump")]
     public float afterWJGravity = 0.1f;
-    
+
+    [Header("Frontal Wall Run")] 
+    [Range(0, 1)]
+    [Tooltip("Legboy starts sweating after wallrunTime*percToSweat seconds when frontal wall running.")]
+    public float percToSweat = 0.5f;
+           
     [Header("Frontal Wall Jump")]
     public float fWallJumpMultiplier = 1f;
     public float fWallJumpForceDuration = 0.5f;
     [Range(0, 90)]
     public float fWallJumpAngle = 45f;
+
     
     [Header("Back Wall Run")]
     public float bwrJumpCoyoteTime = 0.08f;
@@ -62,16 +69,21 @@ public class PlayerMovement : MonoBehaviour
     public float wallRunTime = 2f;
     [Tooltip("Max amount of time in seconds between the player pressing the wallrun command and the wallrun being possible to perform.")]
     public float wallRunBufferTime = 0.3f;
+    
+    [Header("References")]
+    public ParticleSystem landingParticles;
+    public ParticleSystem wallrunParticles;
+    public ParticleSystem jumpingParticles;
+    public ParticleSystem dyingParticles;
+    
     [HideInInspector]
     public float wallJumpLerp = 10;
-
-
     [HideInInspector] 
-    public bool walking = false;
+    public bool walking;
     [HideInInspector]
     public bool canMove = true;
     [HideInInspector]
-    public bool jumpHold = false;
+    public bool jumpHold;
     [HideInInspector]
     public bool wallGrab;
     [HideInInspector]
@@ -84,34 +96,25 @@ public class PlayerMovement : MonoBehaviour
     public int side = 1;
     [HideInInspector] 
     public bool falling;
+    [HideInInspector]
+    public float currentSpeed;
 
+    private bool jumped;
     private bool canJump;
     private bool canBWRJump;
+    private bool triedToJump;
     private bool triedBWRjump;
-    private Vector2 lastFrameVel;
-    private Vector2 movInput;  
-    [HideInInspector]public float currentSpeed;
+    private bool triedToWallrun;
     private bool groundTouch;
-    //private bool afterBackWallrun;
     private float initialGravityScale;
-    //public float FWRXPos = 0.277f;
-
-    [Header("References")]
-    public ParticleSystem landingParticles;
-    public ParticleSystem wallrunParticles;
-    public ParticleSystem jumpingParticles;
-    public ParticleSystem dyingParticles;
-
-    #region WallrunVariables
-    
     private int lastWallrunSide = -1; //-1 == null; 0 == left; 1 == right; 2 == back
-    private bool triedToWallrun = false;
     private Vector2 backWallrunDir = Vector2.up;
+    private Vector2 movInput;
     private IEnumerator wallrunCoroutine;
+    private Coroutine sweatCoroutine;
+    private Coroutine wallrunBufferCoroutine, bwrBufferCoroutine, jumpBufferCoroutine;
     private Transform lastBackWall;
     
-    #endregion
-
     public Action onChangeDirection;
 
     private void Awake()
@@ -124,7 +127,6 @@ public class PlayerMovement : MonoBehaviour
        
        wallrunCoroutine = WallrunTimer();
        initialGravityScale = rb.gravityScale;
-       lastFrameVel = Vector2.zero;
    }
 
    private void Start()
@@ -197,19 +199,17 @@ public class PlayerMovement : MonoBehaviour
             else if (backWallrun) BackWallrun();
         }
 
+        //back wall run jump
         if (triedBWRjump && canBWRJump)
         {
-            if (backWallrunDir != Vector2.up)
+            if (backWallrunDir != Vector2.up) //horizontal back wall run
             {
-                /*if ((movInput.y > 0f || Math.Abs(movInput.x - backWallrunDir.x) < 0.01f))
-                {*/
-                    WallJump();
-                    triedBWRjump = false;
-                //}
+                WallJump();
+                triedBWRjump = false;
             }
             else
             {
-                if (triedBWRjump && movInput.x != 0f)
+                if (triedBWRjump && movInput.x != 0f) //vertical back wall run
                 {
                     WallJump();
                     triedBWRjump = false;
@@ -217,14 +217,12 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        /*if (afterBackWallrun)
+        //jump
+        if (triedToJump && canJump && !jumped)
         {
-            if (!coll.onBackWall)
-            {
-                lastWallrunSide = -1;
-                afterBackWallrun = false;
-            }
-        }*/
+            Jump(Vector2.up, false);
+            triedToJump = false;
+        }
 
         if (coll.onGround && !groundTouch)
         {
@@ -251,7 +249,6 @@ public class PlayerMovement : MonoBehaviour
             if (canJump) StartCoroutine(JumpCoyoteTime(jumpCoyoteTime));
         }
 
-        lastFrameVel = rb.velocity;
         anim.SetMovementVars(movInput.x, movInput.y, rb.velocity.x, rb.velocity.y);
         
         if (normalWallrun || backWallrun) return;
@@ -291,14 +288,14 @@ public class PlayerMovement : MonoBehaviour
              CancelWallrun();
              rb.velocity = Vector2.zero;
          }
-         else if (backWallrunDir != Vector2.up)
+         /*else if (backWallrunDir != Vector2.up)
          {
              //if (((movInput.x + backWallrunDir.x) == 0) || coll.onGround || coll.onWall) CancelWallrun();
              /*else if (triedBWRjump && (movInput.y > 0f || Math.Abs(movInput.x - backWallrunDir.x) < 0.01f))
              {
                  WallJump();
                  triedBWRjump = false;
-             }*/
+             }#1#
          }
          else
          {
@@ -307,8 +304,8 @@ public class PlayerMovement : MonoBehaviour
              {
                  WallJump();
                  triedBWRjump = false;
-             }*/
-         }
+             }#1#
+         }*/
 
          if (!backWallrun) return;
          if(backWallrunDir == Vector2.up) rb.velocity = new Vector2(0f, wallRunSpeed);
@@ -357,9 +354,8 @@ public class PlayerMovement : MonoBehaviour
         
         anim.SetTrigger("StartNormalWallrun");
 
-        //wallrunParticles.transform.localPosition = new Vector3(0.277f*side, wallrunParticles.transform.localPosition.y);
-        wallrunParticles.Play();
         StartWallrunTimer();
+        sweatCoroutine = StartCoroutine(SweatTimer(percToSweat));
         StopCoroutine(ForceAfterJump(Vector2.one, 0f));
     }
 
@@ -403,6 +399,7 @@ public class PlayerMovement : MonoBehaviour
         normalWallrun = false;
         backWallrun = false;
         wallrunParticles.Stop();
+        StopSweat();
         // (lastWallrunSide == 2) afterBackWallrun = true;
         StopCoroutine(wallrunCoroutine);
         //backWallrunDir = Vector2.up;
@@ -413,6 +410,18 @@ public class PlayerMovement : MonoBehaviour
         StopCoroutine(wallrunCoroutine);
         wallrunCoroutine = WallrunTimer();
         StartCoroutine(wallrunCoroutine);
+    }
+
+    IEnumerator SweatTimer(float timePercentage)
+    {
+        yield return new WaitForSeconds(wallRunTime*timePercentage);
+        anim.Sweat(true);
+    }
+
+    private void StopSweat()
+    {
+        StopCoroutine(sweatCoroutine);
+        anim.Sweat(false);
     }
 
     IEnumerator WallrunTimer()
@@ -509,13 +518,8 @@ public class PlayerMovement : MonoBehaviour
             canBWRJump = false;
         }
 
-        Vector2 jumpForce;
-        /*if (jumpDir.x != 0f)//horizontal wall jump*/
-            jumpForce = new Vector2(Mathf.Cos(Mathf.Deg2Rad * angle) * jumpDir.x, Mathf.Sin(Mathf.Deg2Rad * angle)) * multiplier;
-        /*else jumpForce = jumpDir * multiplier; //vertical wall jump*/
-        
-        print(jumpForce);
-        
+        var jumpForce = new Vector2(Mathf.Cos(Mathf.Deg2Rad * angle) * jumpDir.x, Mathf.Sin(Mathf.Deg2Rad * angle)) * multiplier;
+
         CancelWallrun();
         rb.velocity = Vector2.zero;  
         
@@ -534,6 +538,7 @@ public class PlayerMovement : MonoBehaviour
         currentSpeed = rb.velocity.x;
         rb.velocity += dir * jumpForce;
         anim.SetTrigger("Jump");
+        StartCoroutine(Jumped());
     }
 
     public void EnemyHeadJump()
@@ -612,7 +617,21 @@ public class PlayerMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(cTime);
         if(!backWallrun) canBWRJump = false;
-        
+    }
+
+    //jump buffer
+    private IEnumerator TriedToJump()
+    {
+        triedToJump = true;
+        yield return new WaitForSeconds(jumpBufferTime);
+        triedToJump = false;
+    }
+
+    private IEnumerator Jumped()
+    {
+        jumped = true;
+        yield return new WaitForSeconds(0.1f);
+        jumped = false;
     }
 
     #region InputHandlers
@@ -630,8 +649,8 @@ public class PlayerMovement : MonoBehaviour
             CancelWallrun();
             return;
         }
-        StopCoroutine(TriedToWallrun());
-        StartCoroutine(TriedToWallrun());
+        if(wallrunBufferCoroutine != null) StopCoroutine(wallrunBufferCoroutine);
+        wallrunBufferCoroutine = StartCoroutine(TriedToWallrun());
     }
     
     void JumpHandler(InputAction.CallbackContext callbackContext)
@@ -642,9 +661,13 @@ public class PlayerMovement : MonoBehaviour
         if(coll.onWall && !coll.onGround) WallJump();
         else if (canBWRJump)
         {
-            StopCoroutine(TriedToBWRJump());
-            StartCoroutine(TriedToBWRJump());
-        } else if(canJump) Jump(Vector2.up, false);
+            if(bwrBufferCoroutine != null) StopCoroutine(bwrBufferCoroutine);
+            bwrBufferCoroutine = StartCoroutine(TriedToBWRJump());
+        } else 
+        {
+            if(jumpBufferCoroutine != null) StopCoroutine(jumpBufferCoroutine);
+            jumpBufferCoroutine = StartCoroutine(TriedToJump());
+        }
     }
 
     void JumpButtonUp(InputAction.CallbackContext callbackContext)

@@ -12,18 +12,18 @@
   <component name="ChangeListManager">
     <list default="true" id="45942391-441a-4443-8cb6-b3de1e1a6461" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Fase 02.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Fase 02.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/wallrunLegboy.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/wallrunLegboy.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/corrida recolor lado(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/corrida recolor lado(1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Important/Legboy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Important/Legboy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/MainMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/MainMenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/ScenesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/ScenesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Other/TabletFollowPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Other/TabletFollowPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,6 @@
         <option value="$PROJECT_DIR$/Assets/Resources/_Story/Tablets/tabletsData.txt" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/GameStateManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/TabletOrb.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Other/TabletFollowPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/Levitation.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Items/Tablet.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Editor/GenerateVerticalIsleMapEditor.cs" />
@@ -113,10 +112,11 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Art/Shaders/SmearShader.shader" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/MusicManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/MainMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/ScenesManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Other/TabletFollowPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" />
       </list>
     </option>
   </component>
@@ -304,6 +304,7 @@
       <workItem from="1632521425155" duration="2027000" />
       <workItem from="1632599072624" duration="4643000" />
       <workItem from="1632767478662" duration="780000" />
+      <workItem from="1632769831638" duration="6039000" />
     </task>
     <servers />
   </component>
