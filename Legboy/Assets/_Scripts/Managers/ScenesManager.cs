@@ -7,8 +7,9 @@ using UnityEngine.SceneManagement;
 public class ScenesManager : MonoBehaviour
 {
     public static ScenesManager instance;
-    public bool isLevel;
+    [HideInInspector] public bool isLevel;
     private string currentSecondaryScene;
+    public string testLevelScene;
 
     public Action onLoadScene;
 

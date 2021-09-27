@@ -12,10 +12,18 @@
   <component name="ChangeListManager">
     <list default="true" id="45942391-441a-4443-8cb6-b3de1e1a6461" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Fase 02.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Fase 02.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/MainMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/MainMenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/ScenesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/ScenesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +83,6 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/PlaySound.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/CountChildren.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/TextBoxManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/MainMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Story/Tablets/tablets_data.txt" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/TabletInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" />
@@ -88,7 +95,6 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/Collision.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/PauseMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Enemies/EnemyLife.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/ScenesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/CheckpointManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/_Story/Tablets/tabletsData.txt" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/GameStateManager.cs" />
@@ -109,6 +115,8 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/MusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/MainMenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/ScenesManager.cs" />
       </list>
     </option>
   </component>
@@ -295,6 +303,7 @@
       <workItem from="1632445110271" duration="3985000" />
       <workItem from="1632521425155" duration="2027000" />
       <workItem from="1632599072624" duration="4643000" />
+      <workItem from="1632767478662" duration="780000" />
     </task>
     <servers />
   </component>

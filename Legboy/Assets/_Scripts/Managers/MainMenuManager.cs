@@ -44,7 +44,7 @@ public class MainMenuManager : MonoBehaviour
     public void StartPlaytestLevel()
     {
         if (!canPressButton) return;
-        ScenesManager.instance.ChangeSecondaryScene("00 - Tutorial Level", true);
+        ScenesManager.instance.ChangeSecondaryScene(ScenesManager.instance.testLevelScene, true);
     }
 
     public void ToggleTextBoxes()
