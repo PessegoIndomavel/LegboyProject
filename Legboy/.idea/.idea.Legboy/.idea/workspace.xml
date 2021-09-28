@@ -12,16 +12,11 @@
   <component name="ChangeListManager">
     <list default="true" id="45942391-441a-4443-8cb6-b3de1e1a6461" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/wallrunLegboy.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/wallrunLegboy.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/corrida recolor lado(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/corrida recolor lado(1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/Legboy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/Legboy.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Important/Legboy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Important/Legboy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Other/TabletFollowPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Other/TabletFollowPoint.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
     </list>
@@ -305,6 +300,7 @@
       <workItem from="1632599072624" duration="4643000" />
       <workItem from="1632767478662" duration="780000" />
       <workItem from="1632769831638" duration="6039000" />
+      <workItem from="1632842410926" duration="4448000" />
     </task>
     <servers />
   </component>

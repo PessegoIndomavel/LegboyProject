@@ -19935,12 +19935,12 @@ MonoBehaviour:
   stoppedThreshold: 0.05
   jumpParticlesTime: 0.05
   afterWJGravity: 0.1
-  percToSweat: 0.5
+  percentToSweat: 0.5
   fWallJumpMultiplier: 1.15
   fWallJumpForceDuration: 0.15
   fWallJumpAngle: 45
   bwrJumpCoyoteTime: 0.1
-  bwrEndPauseTime: 2
+  bwrEndPauseTime: 0.8
   horBWallJumpMultiplier: 1.15
   horBWallJumpForceDuration: 0.25
   horBWallJumpAngle: 45
@@ -19962,6 +19962,7 @@ MonoBehaviour:
   wallJumped: 0
   normalWallrun: 0
   backWallrun: 0
+  bwrEndPause: 0
   side: 1
   falling: 0
   currentSpeed: 0

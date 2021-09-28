@@ -33,6 +33,7 @@ public class PlayerAnimation : MonoBehaviour
     private static readonly int Walking = Animator.StringToHash("walking");
     private static readonly int Dead = Animator.StringToHash("dead");
     private static readonly int HorizontalVelocity = Animator.StringToHash("HorizontalVelocity");
+    private static readonly int BwrEndPause = Animator.StringToHash("bwrEndPause");
 
     void Start()
     {
@@ -55,6 +56,7 @@ public class PlayerAnimation : MonoBehaviour
         anim.SetBool(NormalWallrun, move.normalWallrun);
         anim.SetBool(CanMove, move.canMove);
         anim.SetBool(BackWallrun, move.backWallrun);
+        anim.SetBool(BwrEndPause, move.bwrEndPause);
         anim.SetBool(Dead, LifeManager.instance.isDead);
         
         VelocitySquish();
