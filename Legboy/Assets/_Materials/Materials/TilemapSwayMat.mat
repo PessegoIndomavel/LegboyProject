@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_489f493cb78f48bb80a1eb00f96b7cd3:
+        m_Texture: {fileID: 2800000, guid: 8a678db103c17794d9c5017f8ca15762, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_58fce25fc54e4ab5afe4b3152389072f:
         m_Texture: {fileID: 2800000, guid: eb20661b844259c428b6dd37945616d1, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -43,6 +47,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2DLOD_5486d5d7727545ca9fc6a29a104306fb_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -61,6 +69,7 @@ Material:
     - Vector1_5a46b5119be547079a0adae276a7742d: 1.53
     - Vector1_d7ec6d4295e943b793009674d0b51210: 3
     - Vector1_d8310b12affe471d90340fbc11dcde99: 1.23
+    - Vector1_ee65ada5cc6d4035ae38281bd91bbf54: 523
     - _EnableExternalAlpha: 0
     - _SwaySpeed: 5
     m_Colors:
@@ -68,6 +77,8 @@ Material:
     - Color_6d91e8fdbb11402ebe31577897b3f7d5: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_026a2d1fba4148e2b15f746b251fd691: {r: 0.7, g: 1, b: 0, a: 0}
     - Vector2_cd66b5bd187a46ac8eed6661241d26f2: {r: 1, g: 0, b: 0, a: 0}
+    - Vector2_e783c6e4a5b04f8f9ffc5e8786ef1438: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_f60c270042e64e958b6648d5b6261ac1: {r: 0.3726, g: 0.67, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}

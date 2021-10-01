@@ -11,14 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45942391-441a-4443-8cb6-b3de1e1a6461" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/Legboy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/Legboy.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Important/Legboy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Important/Legboy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,8 +109,8 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/MainMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/ScenesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/TabletFollowPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" />
       </list>
     </option>
   </component>
@@ -301,6 +300,7 @@
       <workItem from="1632767478662" duration="780000" />
       <workItem from="1632769831638" duration="6039000" />
       <workItem from="1632842410926" duration="4448000" />
+      <workItem from="1632956421286" duration="652000" />
     </task>
     <servers />
   </component>

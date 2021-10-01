@@ -47,7 +47,7 @@ public class PlayerAnimation : MonoBehaviour
         myTransform = transform;
     }
 
-    void Update()
+    private void Update()
     {
         anim.SetBool(Walking, move.walking);
         anim.SetBool(ONGround, coll.onGround);
@@ -59,7 +59,7 @@ public class PlayerAnimation : MonoBehaviour
         anim.SetBool(BwrEndPause, move.bwrEndPause);
         anim.SetBool(Dead, LifeManager.instance.isDead);
         
-        VelocitySquish();
+        if(!move.normalWallrun) VelocitySquish();
     }
 
     public void SetMovementVars(float x,float y, float xVel, float yVel)

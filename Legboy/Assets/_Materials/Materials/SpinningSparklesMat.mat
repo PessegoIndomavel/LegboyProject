@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SpinningSparklesMat
-  m_Shader: {fileID: -6465566751694194690, guid: 61bccdc7d46d877448bceb31da337b34, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 1c5ccf760c7a92d49b7e8b0057ab6f7a, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Tex:
+        m_Texture: {fileID: 2800000, guid: 8a678db103c17794d9c5017f8ca15762, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_58f77f34a5d74335982aea178831ad1d:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -64,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 8c80a0825be899546a1035654e6b29f1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -108,6 +112,7 @@ Material:
     - Vector1_567eea5c8d944b22ad24ac2b6325461c: 2
     - Vector1_9b4218c44b65410c8b34c2baf70a1f23: 7
     - Vector1_a5ce7cd1931541ebb355091a1313a76e: -0.82
+    - Vector1_edf1755f947d4106ad614644f0bbf711: 523
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -137,7 +142,9 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Vector2_03a6539715144b79b9c711f6b799ddf0: {r: -0.4, g: 0.3, b: 0, a: 0}
+    - Vector2_2190746b7f6a44b98a91c5543bcb6715: {r: 0.37283, g: 0.66925, b: 0, a: 0}
     - Vector2_316a9269227d4962aaf6ea8ea6fbf6c8: {r: 2, g: 2, b: 0, a: 0}
+    - Vector2_565c21c92c844aaea7db0297158a4160: {r: 1, g: 1, b: 0, a: 0}
     - Vector3_b29dd54837c54477ac8c467d174d09aa: {r: 1, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
