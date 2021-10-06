@@ -174,6 +174,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1036429376381506526, guid: c8259b564be1e484bbc87ebd599f0503, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036429376381506526, guid: c8259b564be1e484bbc87ebd599f0503, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036429376385396151, guid: c8259b564be1e484bbc87ebd599f0503, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072051133136949805, guid: c8259b564be1e484bbc87ebd599f0503, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8890982768719313251, guid: c8259b564be1e484bbc87ebd599f0503, type: 3}
       propertyPath: m_Name
       value: Level Kit

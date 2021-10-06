@@ -19940,7 +19940,7 @@ MonoBehaviour:
   fWallJumpForceDuration: 0.15
   fWallJumpAngle: 45
   bwrJumpCoyoteTime: 0.1
-  bwrEndPauseTime: 0.8
+  bwrEndPauseTime: 0.3
   horBWallJumpMultiplier: 1.15
   horBWallJumpForceDuration: 0.25
   horBWallJumpAngle: 45
