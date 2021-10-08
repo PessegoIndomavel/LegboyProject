@@ -7,8 +7,8 @@ using UnityEngine;
 public class CameraZone : MonoBehaviour
 {
     public float transitionSpeed  = 1;
-    [SerializeField] 
-    private CinemachineVirtualCamera vCam;
+    //[SerializeField] 
+    public CinemachineVirtualCamera vCam;
 
     public CinemachineBrain mainCam;
 
@@ -49,6 +49,8 @@ public class CameraZone : MonoBehaviour
         mainCam.m_DefaultBlend.m_Time = transitionSpeed;
         vCam.enabled = false;
         if (CameraZonesManager.instance.curCamZone == this) CameraZonesManager.instance.curCamZone = null;
+        
+        CameraZonesManager.instance.CameraChanged();
     }
     
     public void DisableCam(float blendTime)
@@ -57,5 +59,7 @@ public class CameraZone : MonoBehaviour
         mainCam.m_DefaultBlend.m_Time = blendTime;
         vCam.enabled = false;
         if (CameraZonesManager.instance.curCamZone == this) CameraZonesManager.instance.curCamZone = null;
+        
+        CameraZonesManager.instance.CameraChanged();
     }
 }

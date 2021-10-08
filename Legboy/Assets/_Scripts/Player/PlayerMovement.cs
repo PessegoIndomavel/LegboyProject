@@ -1,10 +1,7 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-//using DG.Tweening;
-using UnityEngine.PlayerLoop;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
@@ -16,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
         private Rigidbody2D rb;
         private PlayerAnimation anim;
         private PlayerJump jump;
+        private PlayerSounds sound;
         private Collider2D myColl;
        
         
@@ -32,6 +30,10 @@ public class PlayerMovement : MonoBehaviour
     [Tooltip("Max velocity to be considered stopped.")]
     public float stoppedThreshold = 0.05f;
     public float jumpParticlesTime = 0.05f;
+    public float fallTimeToBigFall = 2f;
+    public float bigFallScreenShakeAmplitude = 0.5f;
+    public float bigFallScreenShakeFrequency = 0.1f;
+    public float bigFallScreenShakeDuration = 0.2f;
     
     [Header("Wall Jump")]
     public float afterWJGravity = 0.1f;
@@ -109,6 +111,7 @@ public class PlayerMovement : MonoBehaviour
     private bool triedToWallrun;
     private bool groundTouch;
     private float initialGravityScale;
+    private float fallingTime = 0f;
     private int lastWallrunSide = -1; //-1 == null; 0 == left; 1 == right; 2 == back
     private Vector2 backWallrunDir = Vector2.up;
     private Vector2 movInput;
@@ -125,6 +128,7 @@ public class PlayerMovement : MonoBehaviour
        coll = GetComponent<Collision>();
        rb = GetComponent<Rigidbody2D>();
        anim = GetComponentInChildren<PlayerAnimation>();
+       sound = GetComponentInChildren<PlayerSounds>();
        jump = GetComponent<PlayerJump>();
        myColl = GetComponent<Collider2D>();
        
@@ -236,8 +240,6 @@ public class PlayerMovement : MonoBehaviour
         if (coll.onGround && !groundTouch)
         {
             GroundTouch();
-            groundTouch = true;
-            falling = false;
         }
 
         if(!coll.onGround && groundTouch)
@@ -258,10 +260,17 @@ public class PlayerMovement : MonoBehaviour
             if (canJump) StartCoroutine(JumpCoyoteTime(jumpCoyoteTime));
         }
 
+        if (falling) Fall();
+
         anim.SetMovementVars(movInput.x, movInput.y, rb.velocity.x, rb.velocity.y);
         
         if (normalWallrun || backWallrun || bwrEndPause) return;
         SetLookDirection(rb.velocity.x);
+    }
+
+    private void Fall()
+    {
+        fallingTime += Time.deltaTime;
     }
 
     private void SetLookDirection(float xDir)
@@ -491,7 +500,20 @@ public class PlayerMovement : MonoBehaviour
         lastWallrunSide = -1;
         //afterBackWallrun = false;
         StopCoroutine(ForceAfterJump(Vector2.one, 0f));
-        if(falling) landingParticles.Play();
+        if (falling)
+        {
+            landingParticles.Play();
+            
+            if (fallingTime >= fallTimeToBigFall)
+            {
+                sound.FallSound(true);
+                ScreenShake.instance.ShakeScreen(bigFallScreenShakeDuration, bigFallScreenShakeAmplitude, bigFallScreenShakeFrequency);
+            } else sound.FallSound(false);
+            
+            fallingTime = 0f;
+        }
+        groundTouch = true;
+        falling = false;
     }
 
     private void WallJump()
@@ -556,6 +578,7 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(rb.velocity.x, 0);
         currentSpeed = rb.velocity.x;
         rb.velocity += dir * jumpForce;
+        sound.JumpSound();
         anim.SetTrigger("Jump");
         StartCoroutine(Jumped());
     }
@@ -600,6 +623,18 @@ public class PlayerMovement : MonoBehaviour
 
         rb.velocity = !wallJumped ? new Vector2(currentSpeed, rb.velocity.y) :
             Vector2.Lerp(rb.velocity, (new Vector2(currentSpeed, rb.velocity.y)), wallJumpLerp * Time.deltaTime); 
+    }
+
+    //called by LifeManager singleton
+    public void OnDie()
+    {
+        triedToJump = false;
+        triedToWallrun = false;
+        triedBWRjump = false;
+        
+        StopAllDistanceParticles();
+        dyingParticles.Play();
+        DisableControls();
     }
 
     private IEnumerator DisableMovement(float time)

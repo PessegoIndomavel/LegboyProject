@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{678579c7-e843-4767-8e2d-0bf18e70c0e0}">
+		<property name="name">
+			<value>queda</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2f58d339-866e-47c6-a658-dd81825e6dbb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{4b57817e-d6b0-4f57-84c5-953a4127c54d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{4b57817e-d6b0-4f57-84c5-953a4127c54d}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

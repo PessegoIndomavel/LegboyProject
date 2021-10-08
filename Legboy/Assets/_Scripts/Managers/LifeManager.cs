@@ -38,11 +38,9 @@ public class LifeManager : MonoBehaviour
     {
         GameStateManager.instance.CanPause = false;
         deathCounter++;
-        playerMov.StopAllDistanceParticles();
-        playerMov.dyingParticles.Play();
+        playerMov.OnDie();
         dead = true;
         playerTransform.GetComponentInChildren<Animator>().SetTrigger("died");
-        playerMov.DisableControls();
         GameStateManager.instance.DisablePauseControls();
         TabletMenuManager.instance.CanOpenTabletMenu = false;
         ScreenTransitionManager.instance.StartTransition(ReturnToCheckpoint, Respawn);
@@ -52,11 +50,11 @@ public class LifeManager : MonoBehaviour
     //private float tempVCamBlendTime;
     public void ReturnToCheckpoint()
     {
+        LevelManager.instance.RespawnCollectedAndDefeated();
         playerTransform.position = CheckpointManager.instance.CurrentCheckpoint.transform.position + new Vector3(0f, -0.225f, 0f);
         playerTransform.GetComponentInChildren<Animator>().Play("idleLegboy");
         playerTransform.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         playerAnim.Flip(playerMov.side);
-        LevelManager.instance.RespawnCollectedAndDefeated();
         CameraZonesManager.instance.OnPlayerRespawn();
         //StartCoroutine(ReturnToCPCoroutine());
     }

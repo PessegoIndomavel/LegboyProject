@@ -11,9 +11,15 @@ public class PlayerSounds : MonoBehaviour
     public string stepsEventPath;
     [FMODUnity.EventRef]
     public string wallrunStepsEventPath;
-    
-    FMOD.Studio.EventInstance _stepsInstance;
-    FMOD.Studio.EventInstance _wallrunStepsInstance;
+    [FMODUnity.EventRef]
+    public string jumpEventPath;
+    [FMODUnity.EventRef]
+    public string fallEventPath;
+
+    private FMOD.Studio.EventInstance _stepsInstance;
+    private FMOD.Studio.EventInstance _wallrunStepsInstance;
+    private FMOD.Studio.EventInstance _jumpInstance;
+    private FMOD.Studio.EventInstance _fallInstance;
 
     [SerializeField] private float stepsInterval = 0.1f;
     private PlayerMovement mov;
@@ -30,6 +36,10 @@ public class PlayerSounds : MonoBehaviour
             _stepsInstance = RuntimeManager.CreateInstance(stepsEventPath);
         if(wallrunStepsEventPath != null)
             _wallrunStepsInstance = RuntimeManager.CreateInstance(wallrunStepsEventPath);
+        if (wallrunStepsEventPath != null)
+            _jumpInstance = RuntimeManager.CreateInstance(jumpEventPath);
+        if (fallEventPath != null)
+            _fallInstance = RuntimeManager.CreateInstance(fallEventPath);
     }
 
     private void Update()
@@ -37,7 +47,6 @@ public class PlayerSounds : MonoBehaviour
         if (wallrunning && (!mov.normalWallrun && !mov.backWallrun))
         {
             ResetWallrunStepSound();
-            //stepsLoopCoroutine = StartCoroutine(nameof(StepsSoundLoop));
             wallrunning = false;
             wallrunStarted = false;
         } else if (wallrunning && !wallrunStarted)
@@ -46,6 +55,17 @@ public class PlayerSounds : MonoBehaviour
             wallrunStarted = true;
         }
         else wallrunning = (mov.normalWallrun || mov.backWallrun);
+    }
+
+    public void FallSound(bool bigFall)
+    {
+        _fallInstance.setParameterByName("queda", bigFall ? 0f : 1f);
+        _fallInstance.start();
+    }
+
+    public void JumpSound()
+    {
+        _jumpInstance.start();
     }
 
     //called via animation event

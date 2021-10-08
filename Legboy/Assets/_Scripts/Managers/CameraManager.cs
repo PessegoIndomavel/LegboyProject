@@ -36,6 +36,6 @@ public class CameraManager : MonoBehaviour
 
     private void ReturnCamToPlayerOnly()
     {
-        CameraManager.instance.camTargetGroup.m_Targets[1].target = null;
+        instance.camTargetGroup.m_Targets[1].target = null;
     }
 }

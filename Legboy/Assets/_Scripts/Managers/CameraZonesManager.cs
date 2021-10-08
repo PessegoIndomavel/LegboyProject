@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
@@ -5,9 +6,15 @@ using UnityEngine;
 
 public class CameraZonesManager : MonoBehaviour
 {
+    [HideInInspector]
     public CameraZone curCamZone;
+    [HideInInspector]
     public CameraZone lastCheckpointCamZone;
+    [HideInInspector]
+    public CinemachineVirtualCamera defaultVcam;
     
+    public Action onCameraChange;
+
     public static CameraZonesManager instance;
     private void Awake()
     {
@@ -17,6 +24,11 @@ public class CameraZonesManager : MonoBehaviour
         else if (instance != this)
             Destroy(this);
         #endregion
+    }
+
+    private void Start()
+    {
+        ScenesManager.instance.onLoadScene += FindDefaultVCam;
     }
 
     public void OnPlayerRespawn()
@@ -32,5 +44,15 @@ public class CameraZonesManager : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(1f);
         Camera.main.GetComponent<CinemachineBrain>().m_IgnoreTimeScale = false;
+    }
+
+    public void CameraChanged()
+    {
+        onCameraChange();
+    }
+
+    private void FindDefaultVCam()
+    {
+        if(ScenesManager.instance.isLevel) defaultVcam = GameObject.Find("Main CM vcam").GetComponent<CinemachineVirtualCamera>();
     }
 }

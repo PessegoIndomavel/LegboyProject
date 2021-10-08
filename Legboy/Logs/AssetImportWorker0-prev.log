@@ -1,0 +1,1163 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1237; Version 2009; 64bit' Language: 'pt' Physical Memory: 8135 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/hugos/OneDrive/Documentos/GitHub/LegboyProject/Legboy
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60968
+Successfully changed project path to: C:/Users/hugos/OneDrive/Documentos/GitHub/LegboyProject/Legboy
+C:/Users/hugos/OneDrive/Documentos/GitHub/LegboyProject/Legboy
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 130.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hugos/OneDrive/Documentos/GitHub/LegboyProject/Legboy/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 480 Graphics (ID=0x67df)
+    Vendor:   
+    VRAM:     4075 MB
+    Driver:   27.20.22025.1006
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002464 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 106.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006730 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 115.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.5 MB.
+System memory in use after: 92.7 MB.
+
+Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 3509.
+Total: 3.202500 ms (FindLiveObjects: 0.492700 ms CreateObjectMapping: 0.253100 ms MarkObjects: 2.407800 ms  DeleteObjects: 0.047600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/_FMOD/legboy-OLDD
+  artifactKey: Guid(67fef55fc103d9d4b8fa94ecbc5aa867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FMOD/legboy-OLDD using Guid(67fef55fc103d9d4b8fa94ecbc5aa867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9619f2f1a0391f3b15f8493fca91bfcc') in 0.010279 seconds
+  Import took 0.022338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.162845 seconds.
+  path: Assets/_FMOD/legboy-OLD
+  artifactKey: Guid(8cd701004aca3834d86a6c974090d109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FMOD/legboy-OLD using Guid(8cd701004aca3834d86a6c974090d109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b37eb14aa9673f707f48041def9226') in 0.008502 seconds
+  Import took 0.014850 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.710 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3511.
+Total: 4.109400 ms (FindLiveObjects: 0.541900 ms CreateObjectMapping: 0.247100 ms MarkObjects: 3.279200 ms  DeleteObjects: 0.039200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3513.
+Total: 2.826700 ms (FindLiveObjects: 0.437500 ms CreateObjectMapping: 0.303400 ms MarkObjects: 2.050000 ms  DeleteObjects: 0.034500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007488 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.220 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3515.
+Total: 2.776900 ms (FindLiveObjects: 0.313300 ms CreateObjectMapping: 0.165600 ms MarkObjects: 2.261800 ms  DeleteObjects: 0.034500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014170 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3517.
+Total: 2.793800 ms (FindLiveObjects: 0.414800 ms CreateObjectMapping: 0.243800 ms MarkObjects: 2.100300 ms  DeleteObjects: 0.033600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006949 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.310 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3519.
+Total: 4.326500 ms (FindLiveObjects: 0.572500 ms CreateObjectMapping: 0.335100 ms MarkObjects: 3.372700 ms  DeleteObjects: 0.043800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008813 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.259 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3521.
+Total: 2.691200 ms (FindLiveObjects: 0.386400 ms CreateObjectMapping: 0.172700 ms MarkObjects: 2.094800 ms  DeleteObjects: 0.035500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007482 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.504 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3523.
+Total: 2.647800 ms (FindLiveObjects: 0.309600 ms CreateObjectMapping: 0.166800 ms MarkObjects: 2.135600 ms  DeleteObjects: 0.034600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006667 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.153 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3525.
+Total: 3.309700 ms (FindLiveObjects: 0.472700 ms CreateObjectMapping: 0.191300 ms MarkObjects: 2.596200 ms  DeleteObjects: 0.047500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3527.
+Total: 6.689800 ms (FindLiveObjects: 0.371300 ms CreateObjectMapping: 0.485400 ms MarkObjects: 5.793200 ms  DeleteObjects: 0.038400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009537 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.881 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3529.
+Total: 4.915300 ms (FindLiveObjects: 0.627800 ms CreateObjectMapping: 0.649600 ms MarkObjects: 3.592200 ms  DeleteObjects: 0.044000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009317 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.794 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3531.
+Total: 2.797700 ms (FindLiveObjects: 0.330800 ms CreateObjectMapping: 0.165700 ms MarkObjects: 2.256700 ms  DeleteObjects: 0.042800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007372 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.138 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3533.
+Total: 2.839600 ms (FindLiveObjects: 0.387600 ms CreateObjectMapping: 0.179300 ms MarkObjects: 2.235100 ms  DeleteObjects: 0.035800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008524 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.110 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3535.
+Total: 2.668300 ms (FindLiveObjects: 0.306800 ms CreateObjectMapping: 0.159000 ms MarkObjects: 2.165100 ms  DeleteObjects: 0.035900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011369 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.161 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3537.
+Total: 2.580400 ms (FindLiveObjects: 0.369200 ms CreateObjectMapping: 0.206200 ms MarkObjects: 1.970000 ms  DeleteObjects: 0.033800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016908 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.622 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3539.
+Total: 6.448200 ms (FindLiveObjects: 0.531600 ms CreateObjectMapping: 0.272600 ms MarkObjects: 5.593300 ms  DeleteObjects: 0.049000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1998.087738 seconds.
+  path: Assets/_Other/atlas.spriteatlas
+  artifactKey: Guid(d79e9391147385742b38b2e74d14130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Other/atlas.spriteatlas using Guid(d79e9391147385742b38b2e74d14130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_0. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_1. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_2. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_3. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_4. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_5. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_6. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_7. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_8. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_9. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_10. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_11. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_12. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_13. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_14. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_15. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_16. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_17. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_18. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_19. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_20. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_21. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_22. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_23. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_24. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_25. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_26. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_27. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_28. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_29. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_30. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_31. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_32. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_33. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_34. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_35. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_36. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_37. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_38. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_39. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_40. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_41. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_42. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_43. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_44. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_45. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_46. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_47. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_48. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_49. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_50. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_51. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_52. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_53. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_54. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_55. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_56. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_57. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_58. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_59. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_60. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_61. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_62. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_63. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_64. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_65. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_66. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_67. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_68. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_69. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_70. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_71. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_72. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_73. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_74. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_75. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_76. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_77. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_78. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_79. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_80. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_81. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_82. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_83. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_84. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_85. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_86. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_87. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_88. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_89. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_90. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_91. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_92. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_93. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_94. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_95. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_96. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_97. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_98. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_99. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_100. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_101. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_102. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_103. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_104. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_105. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_106. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_107. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_108. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_109. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_110. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_111. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_112. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_113. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_114. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_115. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_116. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_117. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_118. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_119. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_120. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_121. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_122. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_123. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_124. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_125. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_126. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_127. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_128. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_129. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_130. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_131. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_132. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_133. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_134. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_135. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_136. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_137. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_138. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_139. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_140. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_141. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_142. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_143. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_144. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_145. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_146. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_147. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_148. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_149. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_150. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_151. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_152. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_153. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_154. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_155. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_156. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_157. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_158. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_159. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_160. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_161. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_162. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_163. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_164. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_165. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_166. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_167. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_168. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_169. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_170. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_171. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_172. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_173. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_174. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_175. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_176. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_177. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_178. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_179. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_180. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_181. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_182. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_183. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_184. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_185. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_186. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_187. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_188. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_189. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_190. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_191. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_192. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_193. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_194. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_195. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_196. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_197. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_198. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_199. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_200. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_201. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_202. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_203. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_204. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_205. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_206. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_207. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_208. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_209. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_210. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_211. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_212. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_213. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_214. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_215. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_216. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_217. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_218. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_219. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_220. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_221. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_222. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_223. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_224. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_225. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_226. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_227. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_228. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_229. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_230. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_231. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_232. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_233. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_234. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_235. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_236. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_237. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_238. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_239. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_240. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_241. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_242. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_243. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_244. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_245. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_246. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_247. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_248. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_249. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_250. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_251. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_0. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_1. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_2. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_3. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_4. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_5. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_6. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_7. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_8. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_9. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_10. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_11. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_12. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_13. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_14. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_15. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_16. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_17. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_18. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_19. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_20. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_21. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_22. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_23. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_24. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_25. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_26. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_27. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_28. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_29. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_30. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_31. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_32. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_33. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_34. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_35. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_36. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_37. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_38. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_39. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_40. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_41. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_42. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_43. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_44. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_45. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_46. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_47. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_48. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_49. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_50. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_51. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_52. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_53. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_54. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_55. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_56. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_57. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_58. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_59. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_60. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_61. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_62. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_63. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_64. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_65. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_66. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_67. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_68. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_69. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_70. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_71. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_72. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_73. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_74. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_75. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_76. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_77. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_78. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_79. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_80. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_81. Please repack all your sprite atlases.
+
+Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_82. Please repack all your sprite atlases.
+
+ -> (artifact id: 'd47a654994f0c1f5ff37989476207765') in 0.106551 seconds
+  Import took 0.118626 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

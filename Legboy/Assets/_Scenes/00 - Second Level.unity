@@ -190,6 +190,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8725783948523934302, guid: c8259b564be1e484bbc87ebd599f0503, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.10999918
+      objectReference: {fileID: 0}
+    - target: {fileID: 8725783948523934302, guid: c8259b564be1e484bbc87ebd599f0503, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.199996
+      objectReference: {fileID: 0}
     - target: {fileID: 8890982768719313251, guid: c8259b564be1e484bbc87ebd599f0503, type: 3}
       propertyPath: m_Name
       value: Level Kit
