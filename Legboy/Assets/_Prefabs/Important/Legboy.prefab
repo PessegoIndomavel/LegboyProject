@@ -19929,7 +19929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 16
-  acceleration: 15
+  acceleration: 11
   airAcceleration: 20
   jumpForce: 28
   jumpCoyoteTime: 0.08
@@ -19937,7 +19937,7 @@ MonoBehaviour:
   enemyHeadJumpForce: 40
   stoppedThreshold: 0.05
   jumpParticlesTime: 0.05
-  fallTimeToBigFall: 1
+  fallTimeToBigFall: 0.6
   bigFallScreenShakeAmplitude: 2
   bigFallScreenShakeFrequency: 0.2
   bigFallScreenShakeDuration: 0.2

@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/_Scenes/Playtest_End.unity
     guid: 1f5fd8eba6d6f4743aaf57b0e57a1339
   - enabled: 1
-    path: Assets/_Scenes/00 - Tutorial Level.unity
+    path: Assets/_Scenes/01 - Tutorial Level.unity
     guid: e2b4dc3e46f82a14686f63b6dea91ba1
   - enabled: 1
-    path: Assets/_Scenes/00 - Second Level.unity
+    path: Assets/_Scenes/02 - Second Level.unity
     guid: 105dffe4238f10c4f8f6596e60cb8054
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: fcce9c06ce37fd6439f55b06e28d09b7, type: 2}

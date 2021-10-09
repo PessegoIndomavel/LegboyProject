@@ -20,6 +20,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 750
   Exists: 1
+--- !u!114 &-8257271149273091157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/wallrun/wallrun certo
+  m_EditorClassIdentifier: 
+  Name: wallrun certo
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-8171469186808036648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,6 +80,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-7822723351498778625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/jump
+  m_EditorClassIdentifier: 
+  Path: event:/jump
+  guid: b1070031e2ae6d4d83336d4e8458f104
+  Banks:
+  - {fileID: 6146494887521824859}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 132
 --- !u!114 &-7512710812439654275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,10 +316,30 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -8048477749787172789}
+  - {fileID: 1693791583304751789}
   MinDistance: 0
   MaxDistance: 0
   Length: 50
+--- !u!114 &-3800076272967894506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/fall/queda
+  m_EditorClassIdentifier: 
+  Name: queda
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-3429748573679124242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -340,6 +403,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 180
+--- !u!114 &-2391364086147466427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/musica
+  m_EditorClassIdentifier: 
+  Path: event:/musica
+  guid: 987f4421d41ff14cbb76319b4b5035c9
+  Banks:
+  - {fileID: 6146494887521824859}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 258586
 --- !u!114 &-2220333271643013727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -467,10 +553,10 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -656504121421779754}
   - {fileID: -4735622111303750613}
-  - {fileID: 5161500033528786202}
-  - {fileID: -7361594950580651722}
   - {fileID: -3988492689471841270}
-  - {fileID: -1232846647156425127}
+  - {fileID: 6420885400868564231}
+  - {fileID: -7822723351498778625}
+  - {fileID: 5818864254574081837}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6146494887521824859}
@@ -479,6 +565,26 @@ MonoBehaviour:
   stringsBankWriteTime: 637686773440000000
   cacheVersion: 5
 --- !u!114 &352916170973816986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/wallrun/wallrun certo
+  m_EditorClassIdentifier: 
+  Name: wallrun certo
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &1693791583304751789
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -701,6 +807,30 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &5818864254574081837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/fall
+  m_EditorClassIdentifier: 
+  Path: event:/fall
+  guid: c5fd1a242c2a5d4cb267a1f52a71aa8f
+  Banks:
+  - {fileID: 6146494887521824859}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -3800076272967894506}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 580
 --- !u!114 &6008863884301387737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -742,3 +872,26 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &6420885400868564231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music
+  m_EditorClassIdentifier: 
+  Path: event:/music
+  guid: 987f4421d41ff14cbb76319b4b5035c9
+  Banks:
+  - {fileID: 6146494887521824859}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 258586

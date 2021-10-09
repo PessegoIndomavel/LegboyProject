@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1237; Version 2009; 64bit' Language: 'pt' Physical Memory: 8135 MB
+OS: 'Windows 10 Home Single Language; OS build 19042.1237; Version 2009; 64bit' Language: 'pt' Physical Memory: 16220 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,50 +11,53 @@ C:\Program Files\Unity\Hub\Editor\2020.2.3f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/hugos/OneDrive/Documentos/GitHub/LegboyProject/Legboy
+C:/Users/xdddr/Documents/GitHub/LegboyProject/Legboy
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50512
-Successfully changed project path to: C:/Users/hugos/OneDrive/Documentos/GitHub/LegboyProject/Legboy
-C:/Users/hugos/OneDrive/Documentos/GitHub/LegboyProject/Legboy
+61290
+Successfully changed project path to: C:/Users/xdddr/Documents/GitHub/LegboyProject/Legboy
+C:/Users/xdddr/Documents/GitHub/LegboyProject/Legboy
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 193.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 99.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/hugos/OneDrive/Documentos/GitHub/LegboyProject/Legboy/Assets
+[Subsystems] Discovering subsystems at path C:/Users/xdddr/Documents/GitHub/LegboyProject/Legboy/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon (TM) RX 480 Graphics (ID=0x67df)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
     Vendor:   
-    VRAM:     4075 MB
-    Driver:   27.20.22025.1006
+    VRAM:     5980 MB
+    Driver:   27.21.14.6242
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002245 seconds.
+Registered in 0.001859 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 110.16 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.308 seconds
+- Completed reload, in  1.634 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.355761 seconds.
+Registered in 0.004147 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 111.72 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 81.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -62,119 +65,84 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.480 seconds
+- Completed reload, in  0.977 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.5 MB.
-System memory in use after: 92.8 MB.
+System memory in use before: 76.5 MB.
+System memory in use after: 76.7 MB.
 
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 3509.
-Total: 2.627400 ms (FindLiveObjects: 0.404800 ms CreateObjectMapping: 0.180500 ms MarkObjects: 1.996900 ms  DeleteObjects: 0.043600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/_Scripts/Managers/CameraManager.cs
-  artifactKey: Guid(80a0e8db089448e43be8613fbbc01a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Managers/CameraManager.cs using Guid(80a0e8db089448e43be8613fbbc01a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6279a0e90a6b0519035e00d6fe00319') in 0.056454 seconds
-  Import took 0.068014 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.053325 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.359 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.0 MB.
-System memory in use after: 91.3 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3511.
-Total: 2.986100 ms (FindLiveObjects: 0.325100 ms CreateObjectMapping: 0.189100 ms MarkObjects: 2.436400 ms  DeleteObjects: 0.034100 ms)
+Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 3489.
+Total: 2.193600 ms (FindLiveObjects: 0.363200 ms CreateObjectMapping: 0.203400 ms MarkObjects: 1.597100 ms  DeleteObjects: 0.029100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 201.438382 seconds.
-  path: Assets/_Scripts/Other/ScreenShake.cs
-  artifactKey: Guid(33e30fcdb96cfeb479a09d0e58fba3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Other/ScreenShake.cs using Guid(33e30fcdb96cfeb479a09d0e58fba3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8231804e32f90a9efc4fb80053fe629') in 0.021476 seconds
-  Import took 0.032130 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.038735 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 7.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  4.040 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.1 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3514.
-Total: 2.920800 ms (FindLiveObjects: 0.413500 ms CreateObjectMapping: 0.200200 ms MarkObjects: 2.272000 ms  DeleteObjects: 0.033300 ms)
+  path: Assets/Template Stuff/Scenes
+  artifactKey: Guid(660543e1684730141bf652cda2219115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Template Stuff/Scenes using Guid(660543e1684730141bf652cda2219115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e0a936686dcefc48f97946b71eea3a') in 0.005873 seconds
+  Import took 0.010480 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 603.820459 seconds.
-  path: Assets/_Scripts/Other/ScreenShake.cs
-  artifactKey: Guid(33e30fcdb96cfeb479a09d0e58fba3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Other/ScreenShake.cs using Guid(33e30fcdb96cfeb479a09d0e58fba3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24648912905c53ee436e1312528c04d5') in 0.008429 seconds
-  Import took 0.019105 seconds .
+  Time since last request: 959.549498 seconds.
+  path: Assets/_Scenes/00 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/00 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0633c4bca2e767197878fc377eacacdd') in 0.013795 seconds
+  Import took 0.020145 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.021854 seconds.
-  path: Assets/_Scripts/Other/ScreenShake.cs
-  artifactKey: Guid(33e30fcdb96cfeb479a09d0e58fba3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Other/ScreenShake.cs using Guid(33e30fcdb96cfeb479a09d0e58fba3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24648912905c53ee436e1312528c04d5') in 0.004109 seconds
-  Import took 0.012171 seconds .
+  Time since last request: 382.405204 seconds.
+  path: Assets/_Scenes/00 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/00 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61df67bd308f8ff10351aeac4730bfe9') in 0.003023 seconds
+  Import took 0.009017 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 548.374712 seconds.
-  path: Assets/_Scripts/Other/ScreenShake.cs
-  artifactKey: Guid(33e30fcdb96cfeb479a09d0e58fba3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Other/ScreenShake.cs using Guid(33e30fcdb96cfeb479a09d0e58fba3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2301e754a12a0af0b13d0ea23298477') in 0.043387 seconds
-  Import took 0.069052 seconds .
+  Time since last request: 32.446842 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909bbdfb21415993ea0a4636b09bb6c0') in 0.006232 seconds
+  Import took 0.012194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.875514 seconds.
+  path: Assets/_Scenes/01 - Tutorial Level.unity
+  artifactKey: Guid(e2b4dc3e46f82a14686f63b6dea91ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/01 - Tutorial Level.unity using Guid(e2b4dc3e46f82a14686f63b6dea91ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5295b363dc5ae52b7f2f9e506e1acfef') in 0.005749 seconds
+  Import took 0.010630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.667622 seconds.
+  path: Assets/_Scenes/Overlay.unity
+  artifactKey: Guid(1f7c4350d853b1848b6669a0985740a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Overlay.unity using Guid(1f7c4350d853b1848b6669a0985740a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0429bbe00c5343f7001da7c9a8087ce') in 0.005599 seconds
+  Import took 0.010187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.851950 seconds.
+  path: Assets/_Scenes/Overlay.unity
+  artifactKey: Guid(1f7c4350d853b1848b6669a0985740a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Overlay.unity using Guid(1f7c4350d853b1848b6669a0985740a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1061e4450d3ac4f1590ff3e6b8e7b7f') in 0.003102 seconds
+  Import took 0.008628 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.045357 seconds.
+Registered in 0.003881 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -182,25 +150,66 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.155 seconds
+- Completed reload, in  0.801 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.1 MB.
-System memory in use after: 91.4 MB.
+Unloading 1161 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.1 MB.
+System memory in use after: 98.4 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3516.
-Total: 2.626400 ms (FindLiveObjects: 0.355500 ms CreateObjectMapping: 0.186500 ms MarkObjects: 2.046700 ms  DeleteObjects: 0.036500 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3491.
+Total: 2.011800 ms (FindLiveObjects: 0.252600 ms CreateObjectMapping: 0.104800 ms MarkObjects: 1.631600 ms  DeleteObjects: 0.022100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.798803 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3debd0a5a50b82a2cd369028e982246') in 0.014315 seconds
+  Import took 0.018695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.535034 seconds.
+  path: Assets/_Prefabs/Important
+  artifactKey: Guid(4396abd8c0130f748a2d21eddc105b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Important using Guid(4396abd8c0130f748a2d21eddc105b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c02a1ebc4d21be07b69e9ab5bedb3f') in 0.006032 seconds
+  Import took 0.010198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.676110 seconds.
+  path: Assets/_Prefabs/Important/Legboy.prefab
+  artifactKey: Guid(c2ba3f8c068727243ae9f4a3670d2a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Important/Legboy.prefab using Guid(c2ba3f8c068727243ae9f4a3670d2a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252db12f7e146e9584b9e3367c8162d5') in 0.173386 seconds
+  Import took 0.178346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.585381 seconds.
+  path: Assets/_Scenes/01 - Tutorial Level.unity
+  artifactKey: Guid(e2b4dc3e46f82a14686f63b6dea91ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/01 - Tutorial Level.unity using Guid(e2b4dc3e46f82a14686f63b6dea91ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b85c3bd69c746e9a4c0bf1052d7d43') in 0.002907 seconds
+  Import took 0.007209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.016699 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e13df9872ea2b08959f9911f882ef1b') in 0.005699 seconds
+  Import took 0.011031 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006672 seconds.
+Registered in 0.004011 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -208,25 +217,34 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.128 seconds
+- Completed reload, in  0.858 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.2 MB.
-System memory in use after: 91.4 MB.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.2 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3518.
-Total: 2.683400 ms (FindLiveObjects: 0.328800 ms CreateObjectMapping: 0.172600 ms MarkObjects: 2.146900 ms  DeleteObjects: 0.033800 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3538.
+Total: 2.057000 ms (FindLiveObjects: 0.252900 ms CreateObjectMapping: 0.108800 ms MarkObjects: 1.669800 ms  DeleteObjects: 0.024800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.805481 seconds.
+  path: Assets/_Scenes/Overlay.unity
+  artifactKey: Guid(1f7c4350d853b1848b6669a0985740a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Overlay.unity using Guid(1f7c4350d853b1848b6669a0985740a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27583a5f6873e4a8557e95c4c98f9a42') in 0.015659 seconds
+  Import took 0.021156 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006495 seconds.
+Registered in 0.004060 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -234,25 +252,26 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.345 seconds
+- Completed reload, in  0.804 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.2 MB.
-System memory in use after: 91.4 MB.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 103.1 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3520.
-Total: 3.704900 ms (FindLiveObjects: 0.389300 ms CreateObjectMapping: 0.210400 ms MarkObjects: 3.065700 ms  DeleteObjects: 0.037400 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3540.
+Total: 2.627900 ms (FindLiveObjects: 0.455800 ms CreateObjectMapping: 0.270800 ms MarkObjects: 1.871000 ms  DeleteObjects: 0.029400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006415 seconds.
+Registered in 0.004197 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -260,25 +279,34 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.135 seconds
+- Completed reload, in  0.802 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.2 MB.
-System memory in use after: 91.4 MB.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.3 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3522.
-Total: 3.775800 ms (FindLiveObjects: 0.392700 ms CreateObjectMapping: 0.216300 ms MarkObjects: 3.123300 ms  DeleteObjects: 0.041600 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3542.
+Total: 2.241600 ms (FindLiveObjects: 0.353300 ms CreateObjectMapping: 0.133200 ms MarkObjects: 1.729600 ms  DeleteObjects: 0.023400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.733792 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d68a9b769611c4c586bdcbb28c5ab9') in 0.009066 seconds
+  Import took 0.013407 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007947 seconds.
+Registered in 0.003924 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -286,25 +314,34 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.607 seconds
+- Completed reload, in  0.825 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.2 MB.
-System memory in use after: 91.4 MB.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.3 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3524.
-Total: 4.475900 ms (FindLiveObjects: 1.692100 ms CreateObjectMapping: 0.290200 ms MarkObjects: 2.447600 ms  DeleteObjects: 0.044200 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3544.
+Total: 2.031600 ms (FindLiveObjects: 0.259900 ms CreateObjectMapping: 0.102100 ms MarkObjects: 1.646500 ms  DeleteObjects: 0.022300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.919673 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d24c38997ae54a0cee2487e50f7d91') in 0.013919 seconds
+  Import took 0.018489 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006726 seconds.
+Registered in 0.004286 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -312,25 +349,26 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.170 seconds
+- Completed reload, in  0.778 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.2 MB.
-System memory in use after: 91.5 MB.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 103.3 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3526.
-Total: 3.072900 ms (FindLiveObjects: 0.356200 ms CreateObjectMapping: 0.175600 ms MarkObjects: 2.497300 ms  DeleteObjects: 0.042000 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3546.
+Total: 2.151800 ms (FindLiveObjects: 0.306100 ms CreateObjectMapping: 0.119000 ms MarkObjects: 1.703000 ms  DeleteObjects: 0.021600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006245 seconds.
+Registered in 0.004551 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -338,25 +376,26 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.162 seconds
+- Completed reload, in  0.804 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.2 MB.
-System memory in use after: 91.5 MB.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 103.3 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3528.
-Total: 2.611500 ms (FindLiveObjects: 0.320300 ms CreateObjectMapping: 0.174600 ms MarkObjects: 2.082700 ms  DeleteObjects: 0.032200 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3548.
+Total: 2.324900 ms (FindLiveObjects: 0.337500 ms CreateObjectMapping: 0.125700 ms MarkObjects: 1.810400 ms  DeleteObjects: 0.050400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007587 seconds.
+Registered in 0.004501 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -364,25 +403,26 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.459 seconds
+- Completed reload, in  0.793 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.2 MB.
-System memory in use after: 91.5 MB.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 103.3 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3530.
-Total: 2.893600 ms (FindLiveObjects: 0.310600 ms CreateObjectMapping: 0.201600 ms MarkObjects: 2.344300 ms  DeleteObjects: 0.035900 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3550.
+Total: 2.293500 ms (FindLiveObjects: 0.267700 ms CreateObjectMapping: 0.105700 ms MarkObjects: 1.896500 ms  DeleteObjects: 0.022500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006434 seconds.
+Registered in 0.004172 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -390,25 +430,58 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.119 seconds
+- Completed reload, in  0.787 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.2 MB.
-System memory in use after: 91.5 MB.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 103.3 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3532.
-Total: 2.610300 ms (FindLiveObjects: 0.358000 ms CreateObjectMapping: 0.164200 ms MarkObjects: 2.049600 ms  DeleteObjects: 0.036500 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3552.
+Total: 2.309500 ms (FindLiveObjects: 0.431400 ms CreateObjectMapping: 0.165300 ms MarkObjects: 1.690300 ms  DeleteObjects: 0.020100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 373.095422 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4254a71c551532c83ee750ceec42597') in 0.012963 seconds
+  Import took 0.018136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014986 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4254a71c551532c83ee750ceec42597') in 0.002873 seconds
+  Import took 0.007382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.239916 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505c7bcf9965db0db7ebe4d65d91a881') in 0.002495 seconds
+  Import took 0.007003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009454 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505c7bcf9965db0db7ebe4d65d91a881') in 0.002903 seconds
+  Import took 0.007554 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006186 seconds.
+Registered in 0.004310 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -416,25 +489,26 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.121 seconds
+- Completed reload, in  0.785 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.2 MB.
-System memory in use after: 91.5 MB.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.2 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3534.
-Total: 2.700200 ms (FindLiveObjects: 0.358100 ms CreateObjectMapping: 0.156600 ms MarkObjects: 2.149200 ms  DeleteObjects: 0.034400 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3554.
+Total: 2.689200 ms (FindLiveObjects: 0.403500 ms CreateObjectMapping: 0.169100 ms MarkObjects: 2.087300 ms  DeleteObjects: 0.028200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006291 seconds.
+Registered in 0.003911 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -442,25 +516,34 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.124 seconds
+- Completed reload, in  0.816 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.2 MB.
-System memory in use after: 91.5 MB.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 103.3 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3536.
-Total: 2.514300 ms (FindLiveObjects: 0.302900 ms CreateObjectMapping: 0.158900 ms MarkObjects: 2.017900 ms  DeleteObjects: 0.033500 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3556.
+Total: 2.349100 ms (FindLiveObjects: 0.365600 ms CreateObjectMapping: 0.191300 ms MarkObjects: 1.716800 ms  DeleteObjects: 0.074700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.417924 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e2ee59007ae30bc77a85d24d8ef9ed') in 0.009294 seconds
+  Import took 0.013939 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006412 seconds.
+Registered in 0.004137 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -468,25 +551,26 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.220 seconds
+- Completed reload, in  0.780 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.2 MB.
-System memory in use after: 91.5 MB.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.3 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3538.
-Total: 2.859200 ms (FindLiveObjects: 0.393000 ms CreateObjectMapping: 0.185000 ms MarkObjects: 2.245300 ms  DeleteObjects: 0.034400 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3558.
+Total: 2.252600 ms (FindLiveObjects: 0.350600 ms CreateObjectMapping: 0.101800 ms MarkObjects: 1.744900 ms  DeleteObjects: 0.054700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006344 seconds.
+Registered in 0.004074 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -494,25 +578,26 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.115 seconds
+- Completed reload, in  0.785 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.2 MB.
-System memory in use after: 91.5 MB.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.3 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3540.
-Total: 2.670000 ms (FindLiveObjects: 0.321400 ms CreateObjectMapping: 0.163100 ms MarkObjects: 2.150400 ms  DeleteObjects: 0.033900 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3560.
+Total: 3.115700 ms (FindLiveObjects: 0.304600 ms CreateObjectMapping: 0.143100 ms MarkObjects: 2.636400 ms  DeleteObjects: 0.030200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.027101 seconds.
+Registered in 0.003999 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -520,1634 +605,538 @@ RoslynAnalysisRunner has terminated.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.279 seconds
+- Completed reload, in  0.823 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.5 MB.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 103.4 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3542.
-Total: 2.670300 ms (FindLiveObjects: 0.364100 ms CreateObjectMapping: 0.175000 ms MarkObjects: 2.097600 ms  DeleteObjects: 0.032200 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3562.
+Total: 1.978600 ms (FindLiveObjects: 0.235900 ms CreateObjectMapping: 0.107200 ms MarkObjects: 1.612300 ms  DeleteObjects: 0.022500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006187 seconds.
+Registered in 0.004049 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.791 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3564.
+Total: 3.069500 ms (FindLiveObjects: 0.371200 ms CreateObjectMapping: 0.218300 ms MarkObjects: 2.442600 ms  DeleteObjects: 0.036400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 522.253714 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f495962edc8588e208f9e86ff1b0467') in 0.010589 seconds
+  Import took 0.015093 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003908 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.4 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3566.
+Total: 2.020600 ms (FindLiveObjects: 0.300600 ms CreateObjectMapping: 0.104900 ms MarkObjects: 1.593000 ms  DeleteObjects: 0.020700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.287022 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ad1d8048e02fd6f207c69235ba9875') in 0.012188 seconds
+  Import took 0.016754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001045 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ad1d8048e02fd6f207c69235ba9875') in 0.002127 seconds
+  Import took 0.006279 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004008 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.812 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.4 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3568.
+Total: 2.447300 ms (FindLiveObjects: 0.413400 ms CreateObjectMapping: 0.144100 ms MarkObjects: 1.865400 ms  DeleteObjects: 0.021700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.446079 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5fa4ff83a4e80c110ab1655b9ca255') in 0.012860 seconds
+  Import took 0.018460 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.4 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3570.
+Total: 2.230300 ms (FindLiveObjects: 0.274700 ms CreateObjectMapping: 0.102100 ms MarkObjects: 1.832500 ms  DeleteObjects: 0.020200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.672769 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc2bd65839f622d02d1af37e323a0b3') in 0.013092 seconds
+  Import took 0.018074 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003854 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.4 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3572.
+Total: 2.103100 ms (FindLiveObjects: 0.294800 ms CreateObjectMapping: 0.119500 ms MarkObjects: 1.665800 ms  DeleteObjects: 0.020900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.962150 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4402f9babee04a918a8266ef26b89d09') in 0.013463 seconds
+  Import took 0.018287 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004143 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.821 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3574.
+Total: 2.102900 ms (FindLiveObjects: 0.371100 ms CreateObjectMapping: 0.106600 ms MarkObjects: 1.603100 ms  DeleteObjects: 0.021200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 232.020240 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69031a6412d02aea69d03f4145f9edd') in 0.013841 seconds
+  Import took 0.019457 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003895 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.824 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3576.
+Total: 2.064200 ms (FindLiveObjects: 0.307500 ms CreateObjectMapping: 0.106200 ms MarkObjects: 1.628900 ms  DeleteObjects: 0.021000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.560461 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833968e72e956c6e0223e94d6419b590') in 0.012241 seconds
+  Import took 0.017532 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004078 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 103.4 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3578.
+Total: 2.446200 ms (FindLiveObjects: 0.411100 ms CreateObjectMapping: 0.144700 ms MarkObjects: 1.865600 ms  DeleteObjects: 0.023900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004022 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.841 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3580.
+Total: 2.421800 ms (FindLiveObjects: 0.248600 ms CreateObjectMapping: 0.114800 ms MarkObjects: 2.031800 ms  DeleteObjects: 0.026000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.042477 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47cb809da31d8856a3831d454a843aa') in 0.009503 seconds
+  Import took 0.014008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002552 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47cb809da31d8856a3831d454a843aa') in 0.003120 seconds
+  Import took 0.007897 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.4 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3582.
+Total: 3.084800 ms (FindLiveObjects: 0.349500 ms CreateObjectMapping: 0.195600 ms MarkObjects: 2.507700 ms  DeleteObjects: 0.031000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004102 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3584.
+Total: 2.209800 ms (FindLiveObjects: 0.273100 ms CreateObjectMapping: 0.110500 ms MarkObjects: 1.801600 ms  DeleteObjects: 0.023800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.235965 seconds.
+  path: Assets/_Prefabs/Items
+  artifactKey: Guid(6068ca31c5fb43e438354586ecd8887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Items using Guid(6068ca31c5fb43e438354586ecd8887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a796f3fc61b41748dd9c2c5bcce79f0') in 0.008385 seconds
+  Import took 0.013304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.103635 seconds.
+  path: Assets/_Prefabs/Scriptable_Objects
+  artifactKey: Guid(b8421819c05b59847b560210426b3779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Scriptable_Objects using Guid(b8421819c05b59847b560210426b3779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c87c68aefefdfb50e06484534cb10da') in 0.006584 seconds
+  Import took 0.010667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.685591 seconds.
+  path: Assets/_Prefabs/Scriptable_Objects/Levels
+  artifactKey: Guid(7debf18a03186b346905ff40ca2eb4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Scriptable_Objects/Levels using Guid(7debf18a03186b346905ff40ca2eb4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39eea6d8c118c5516d1fcde93183dcd6') in 0.006084 seconds
+  Import took 0.010227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.996956 seconds.
+  path: Assets/_Prefabs/Scriptable_Objects/Levels/World_0
+  artifactKey: Guid(a0de42ea12dda504f83c793bdc9e179d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Scriptable_Objects/Levels/World_0 using Guid(a0de42ea12dda504f83c793bdc9e179d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cb1a21399df7d31665d340e71c0457') in 0.006118 seconds
+  Import took 0.010415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.717408 seconds.
+  path: Assets/_Prefabs/Other
+  artifactKey: Guid(df3a368c262722b46bb262e5243e3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Other using Guid(df3a368c262722b46bb262e5243e3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453bce28fb77576a74e65ab66f513c33') in 0.005628 seconds
+  Import took 0.010550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.157109 seconds.
+  path: Assets/_Prefabs/Important/Level Kit.prefab
+  artifactKey: Guid(c8259b564be1e484bbc87ebd599f0503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Important/Level Kit.prefab using Guid(c8259b564be1e484bbc87ebd599f0503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac4bc89fc64047c06fd0edb22fe655b') in 0.175076 seconds
+  Import took 0.180842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.739436 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b4dde7a353bfa2027ef55cf6b4a59d') in 0.002950 seconds
+  Import took 0.007697 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004376 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.7 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3623.
+Total: 2.079000 ms (FindLiveObjects: 0.259900 ms CreateObjectMapping: 0.106100 ms MarkObjects: 1.688100 ms  DeleteObjects: 0.024200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004064 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.7 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3625.
+Total: 2.248500 ms (FindLiveObjects: 0.301500 ms CreateObjectMapping: 0.122400 ms MarkObjects: 1.801600 ms  DeleteObjects: 0.022200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004256 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.143 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.5 MB.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.7 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3544.
-Total: 5.311300 ms (FindLiveObjects: 0.512800 ms CreateObjectMapping: 0.279700 ms MarkObjects: 4.479800 ms  DeleteObjects: 0.037200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006320 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.176 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.5 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3546.
-Total: 3.009300 ms (FindLiveObjects: 0.380300 ms CreateObjectMapping: 0.195900 ms MarkObjects: 2.387500 ms  DeleteObjects: 0.043700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010209 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.870 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.5 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3548.
-Total: 4.086100 ms (FindLiveObjects: 0.483500 ms CreateObjectMapping: 0.360700 ms MarkObjects: 3.191100 ms  DeleteObjects: 0.048900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006536 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.170 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.5 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3550.
-Total: 2.641700 ms (FindLiveObjects: 0.380700 ms CreateObjectMapping: 0.170800 ms MarkObjects: 2.054900 ms  DeleteObjects: 0.033900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019392 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  3.022 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 8.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.5 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3552.
-Total: 10.783700 ms (FindLiveObjects: 1.548900 ms CreateObjectMapping: 0.807800 ms MarkObjects: 8.381200 ms  DeleteObjects: 0.042600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.046758 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  2.105 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 3.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.6 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3554.
-Total: 4.413500 ms (FindLiveObjects: 0.394800 ms CreateObjectMapping: 0.187100 ms MarkObjects: 3.787400 ms  DeleteObjects: 0.041600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006847 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.158 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.6 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3556.
-Total: 2.568100 ms (FindLiveObjects: 0.317700 ms CreateObjectMapping: 0.162700 ms MarkObjects: 2.048500 ms  DeleteObjects: 0.037600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006590 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.207 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.6 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3558.
-Total: 2.601100 ms (FindLiveObjects: 0.359400 ms CreateObjectMapping: 0.168500 ms MarkObjects: 2.038000 ms  DeleteObjects: 0.034000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015064 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.738 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.6 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3560.
-Total: 3.957600 ms (FindLiveObjects: 0.481300 ms CreateObjectMapping: 0.230900 ms MarkObjects: 3.196000 ms  DeleteObjects: 0.048100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007155 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.144 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.6 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3562.
-Total: 2.568600 ms (FindLiveObjects: 0.325100 ms CreateObjectMapping: 0.159200 ms MarkObjects: 2.047900 ms  DeleteObjects: 0.035000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009864 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.200 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.6 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3564.
-Total: 3.242700 ms (FindLiveObjects: 0.346100 ms CreateObjectMapping: 0.218600 ms MarkObjects: 2.640700 ms  DeleteObjects: 0.035700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006526 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.153 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.6 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3566.
-Total: 2.908700 ms (FindLiveObjects: 0.455400 ms CreateObjectMapping: 0.236700 ms MarkObjects: 2.180600 ms  DeleteObjects: 0.034000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009004 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 5.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.247 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.6 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3568.
-Total: 2.582700 ms (FindLiveObjects: 0.361400 ms CreateObjectMapping: 0.176700 ms MarkObjects: 2.011200 ms  DeleteObjects: 0.031800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006989 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.083 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.6 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3570.
-Total: 2.666000 ms (FindLiveObjects: 0.387100 ms CreateObjectMapping: 0.170100 ms MarkObjects: 2.072900 ms  DeleteObjects: 0.034500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009139 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.246 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.6 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3572.
-Total: 3.306000 ms (FindLiveObjects: 0.498200 ms CreateObjectMapping: 0.269900 ms MarkObjects: 2.489200 ms  DeleteObjects: 0.046400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006941 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.185 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.6 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3574.
-Total: 2.853600 ms (FindLiveObjects: 0.321300 ms CreateObjectMapping: 0.160300 ms MarkObjects: 2.335000 ms  DeleteObjects: 0.035200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014646 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.405 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.6 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3576.
-Total: 2.590600 ms (FindLiveObjects: 0.358800 ms CreateObjectMapping: 0.168900 ms MarkObjects: 2.026900 ms  DeleteObjects: 0.035000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006152 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.162 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.6 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3578.
-Total: 2.894500 ms (FindLiveObjects: 0.323900 ms CreateObjectMapping: 0.166600 ms MarkObjects: 2.361700 ms  DeleteObjects: 0.040400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006722 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.236 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.6 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3580.
-Total: 2.828600 ms (FindLiveObjects: 0.485000 ms CreateObjectMapping: 0.213300 ms MarkObjects: 2.094300 ms  DeleteObjects: 0.034600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014144 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.143 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.7 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3582.
-Total: 2.899300 ms (FindLiveObjects: 0.363000 ms CreateObjectMapping: 0.184700 ms MarkObjects: 2.307100 ms  DeleteObjects: 0.043100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006725 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.121 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.7 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3584.
-Total: 2.749400 ms (FindLiveObjects: 0.376000 ms CreateObjectMapping: 0.209000 ms MarkObjects: 2.124800 ms  DeleteObjects: 0.038100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010675 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.285 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.7 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3586.
-Total: 3.013700 ms (FindLiveObjects: 0.441200 ms CreateObjectMapping: 0.177600 ms MarkObjects: 2.357400 ms  DeleteObjects: 0.036000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006344 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.112 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.7 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3588.
-Total: 2.501300 ms (FindLiveObjects: 0.314300 ms CreateObjectMapping: 0.150700 ms MarkObjects: 2.001900 ms  DeleteObjects: 0.033400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008033 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.101 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.7 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3590.
-Total: 2.684900 ms (FindLiveObjects: 0.356000 ms CreateObjectMapping: 0.172300 ms MarkObjects: 2.120000 ms  DeleteObjects: 0.035100 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3627.
+Total: 2.938700 ms (FindLiveObjects: 0.435900 ms CreateObjectMapping: 0.124000 ms MarkObjects: 2.352500 ms  DeleteObjects: 0.025600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3645.008824 seconds.
-  path: Assets/_Prefabs/Other/Camera Zone.prefab
-  artifactKey: Guid(7c1648e96b4aa5e439925879bbb6764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Prefabs/Other/Camera Zone.prefab using Guid(7c1648e96b4aa5e439925879bbb6764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea4ca0dc6d7fadf402e3db44d452799') in 0.076004 seconds
-  Import took 0.086216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/_Tilemap/Pallettes/CaveTileset_2 1.asset
-  artifactKey: Guid(28b771d4d8073094fb7058481ecfb15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Tilemap/Pallettes/CaveTileset_2 1.asset using Guid(28b771d4d8073094fb7058481ecfb15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64fe87b8d8d042441653a35a1f218cca') in 0.121973 seconds
-  Import took 0.129666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Tileset/CaveTileset_2.asset
-  artifactKey: Guid(7a759d458108e834cb839b6a3b700b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Tileset/CaveTileset_2.asset using Guid(7a759d458108e834cb839b6a3b700b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c05093e38d2fd7bca21df709c99fe5') in 0.015425 seconds
-  Import took 0.023297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/_Tilemap/Pallettes/CaveTileset_0 1.asset
-  artifactKey: Guid(53a372c06e0c33f459611ce8a5ceb29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Tilemap/Pallettes/CaveTileset_0 1.asset using Guid(53a372c06e0c33f459611ce8a5ceb29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf55e0febbe1afebac51cd9f565371e') in 0.018214 seconds
-  Import took 0.026282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/_Tilemap/Pallettes/CaveTileset_1 1.asset
-  artifactKey: Guid(ad021337b0faf6e4cb5a86393d699d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Tilemap/Pallettes/CaveTileset_1 1.asset using Guid(ad021337b0faf6e4cb5a86393d699d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3aee6e575c18ba0d842937c866f21a8') in 0.016363 seconds
-  Import took 0.024989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/_Tilemap/Pallettes/CaveTileset_1.asset
-  artifactKey: Guid(e1042095515a65340967a7c3587c5f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Tilemap/Pallettes/CaveTileset_1.asset using Guid(e1042095515a65340967a7c3587c5f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be8ff806c891463eadbd8ad4828664a') in 0.023410 seconds
-  Import took 0.032536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/_Tilemap/Pallettes/CaveTileset_0.asset
-  artifactKey: Guid(89070d9e2111bfc45b8c8045ab0bc489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Tilemap/Pallettes/CaveTileset_0.asset using Guid(89070d9e2111bfc45b8c8045ab0bc489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe43cc4953582a0608e9c75de9d8f2c') in 0.016206 seconds
-  Import took 0.023285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/_Tilemap/Pallettes/CaveTileset_2.asset
-  artifactKey: Guid(be32635345b07804fae45dda10430719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Tilemap/Pallettes/CaveTileset_2.asset using Guid(be32635345b07804fae45dda10430719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8abe0329ec4c7551e209eb021a34419') in 0.010272 seconds
-  Import took 0.017272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Tileset Decoration/CaveTileset_2.asset
-  artifactKey: Guid(a21cbf1f09fcb87429fcb80be0a5d420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Tileset Decoration/CaveTileset_2.asset using Guid(a21cbf1f09fcb87429fcb80be0a5d420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a1b76b7dbf2e251d646e31a440887f') in 0.010527 seconds
-  Import took 0.017858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Tileset Decoration/CaveTileset_3.asset
-  artifactKey: Guid(eee43ebdbe2fe1940a99aaf4325a9436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Tileset Decoration/CaveTileset_3.asset using Guid(eee43ebdbe2fe1940a99aaf4325a9436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef585c74f0caa5f37ae24610a89ba239') in 0.016510 seconds
-  Import took 0.023868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Tileset/CaveTileset_1.asset
-  artifactKey: Guid(c6525c1be793a6540bc37cfd33f2d1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Tileset/CaveTileset_1.asset using Guid(c6525c1be793a6540bc37cfd33f2d1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7615d47a2f78c25b9936e98fccd3dfb') in 0.010111 seconds
-  Import took 0.018560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Tileset/CaveTileset_0.asset
-  artifactKey: Guid(296638b03f7df5748a57fc50cd782228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Tileset/CaveTileset_0.asset using Guid(296638b03f7df5748a57fc50cd782228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ed988770c18175d55e338192bf4783') in 0.007981 seconds
-  Import took 0.015573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Tileset Decoration/CaveTileset_1.asset
-  artifactKey: Guid(737eef41e4d251046ba3d833ea0ea44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Tileset Decoration/CaveTileset_1.asset using Guid(737eef41e4d251046ba3d833ea0ea44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c31fb6b3937b310941d66c99f6682f') in 0.011241 seconds
-  Import took 0.018438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Tileset Decoration/CaveTileset_0.asset
-  artifactKey: Guid(a0a3e091469646c45877b405dd342548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Tileset Decoration/CaveTileset_0.asset using Guid(a0a3e091469646c45877b405dd342548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b62b14457f42623d0639028a6eaf2b3') in 0.010232 seconds
-  Import took 0.016912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.732092 seconds.
-  path: Assets/_Other/atlas.spriteatlas
-  artifactKey: Guid(d79e9391147385742b38b2e74d14130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Other/atlas.spriteatlas using Guid(d79e9391147385742b38b2e74d14130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_0. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_5. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_6. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_7. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_8. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_9. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_10. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_11. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_12. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_13. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_14. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_15. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_16. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_17. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_18. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_19. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_20. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_21. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_22. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_23. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_24. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_25. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_26. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_27. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_28. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_29. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_30. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_31. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_32. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_33. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_34. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_35. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_36. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_37. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_38. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_39. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_40. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_41. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_42. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_43. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_44. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_45. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_46. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_47. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_48. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_49. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_50. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_51. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_52. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_53. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_54. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_55. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_56. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_57. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_58. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_59. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_60. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_61. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_62. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_63. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_64. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_65. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_66. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_67. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_68. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_69. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_70. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_71. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_72. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_73. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_74. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_75. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_76. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_77. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_78. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_79. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_80. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_81. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_82. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_83. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_84. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_85. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_86. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_87. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_88. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_89. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_90. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_91. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_92. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_93. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_94. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_95. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_96. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_97. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_98. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_99. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_100. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_101. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_102. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_103. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_104. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_105. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_106. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_107. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_108. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_109. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_110. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_111. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_112. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_113. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_114. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_115. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_116. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_117. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_118. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_119. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_120. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_121. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_122. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_123. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_124. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_125. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_126. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_127. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_128. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_129. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_130. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_131. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_132. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_133. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_134. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_135. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_136. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_137. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_138. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_139. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_140. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_141. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_142. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_143. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_144. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_145. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_146. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_147. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_148. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_149. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_150. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_151. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_152. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_153. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_154. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_155. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_156. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_157. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_158. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_159. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_160. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_161. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_162. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_163. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_164. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_165. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_166. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_167. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_168. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_169. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_170. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_171. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_172. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_173. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_174. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_175. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_176. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_177. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_178. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_179. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_180. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_181. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_182. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_183. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_184. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_185. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_186. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_187. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_188. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_189. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_190. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_191. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_192. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_193. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_194. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_195. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_196. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_197. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_198. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_199. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_200. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_201. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_202. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_203. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_204. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_205. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_206. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_207. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_208. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_209. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_210. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_211. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_212. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_213. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_214. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_215. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_216. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_217. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_218. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_219. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_220. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_221. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_222. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_223. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_224. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_225. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_226. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_227. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_228. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_229. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_230. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_231. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_232. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_233. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_234. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_235. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_236. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_237. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_238. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_239. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_240. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_241. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_242. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_243. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_244. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_245. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_246. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_247. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_248. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_249. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_250. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite Fixed Decoration Tileset_251. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_0. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_5. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_6. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_7. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_8. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_9. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_10. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_11. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_12. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_13. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_14. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_15. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_16. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_17. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_18. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_19. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_20. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_21. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_22. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_23. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_24. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_25. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_26. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_27. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_28. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_29. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_30. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_31. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_32. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_33. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_34. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_35. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_36. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_37. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_38. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_39. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_40. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_41. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_42. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_43. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_44. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_45. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_46. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_47. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_48. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_49. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_50. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_51. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_52. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_53. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_54. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_55. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_56. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_57. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_58. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_59. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_60. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_61. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_62. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_63. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_64. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_65. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_66. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_67. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_68. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_69. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_70. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_71. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_72. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_73. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_74. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_75. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_76. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_77. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_78. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_79. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_80. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_81. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite FCaves-Ground_82. Please repack all your sprite atlases.
-
- -> (artifact id: '3e7ce5279c332e283dca590c0c1032d7') in 0.071706 seconds
-  Import took 0.087115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.910767 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Edited/Fixed Decoration Tileset.png
-  artifactKey: Guid(c91944f6dbc8d954a8e7d18f8319734a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Edited/Fixed Decoration Tileset.png using Guid(c91944f6dbc8d954a8e7d18f8319734a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27310875176e822a981133e9cb1c6aff') in 0.429701 seconds
-  Import took 0.438561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.220924 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Edited/Fixed Decoration Tileset.png
-  artifactKey: Guid(c91944f6dbc8d954a8e7d18f8319734a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Edited/Fixed Decoration Tileset.png using Guid(c91944f6dbc8d954a8e7d18f8319734a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504383ffbe361ec4f7a6e034afb6d56a') in 0.360437 seconds
-  Import took 0.369015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.614285 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Edited/FCaves-Ground.png
-  artifactKey: Guid(11a1d8a5b50c47449ad344f225ae6346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Edited/FCaves-Ground.png using Guid(11a1d8a5b50c47449ad344f225ae6346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c114938393037525d0e511d72360048') in 0.129903 seconds
-  Import took 0.138246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.479641 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Edited/FCaves-Ground.png
-  artifactKey: Guid(11a1d8a5b50c47449ad344f225ae6346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Edited/FCaves-Ground.png using Guid(11a1d8a5b50c47449ad344f225ae6346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f6bedd239967cd5f74b5c84400090a') in 0.117502 seconds
-  Import took 0.124788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.822585 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Edited/FCaves-Ground.png
-  artifactKey: Guid(11a1d8a5b50c47449ad344f225ae6346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Edited/FCaves-Ground.png using Guid(11a1d8a5b50c47449ad344f225ae6346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2d57d3f803ebaf66275358483dbbb8') in 0.127340 seconds
-  Import took 0.135134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.271273 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/CrystalEnemy
-  artifactKey: Guid(0edf9c7dca2bb4b46ae02ad0d23bb3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/CrystalEnemy using Guid(0edf9c7dca2bb4b46ae02ad0d23bb3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8a7dca59c08d58f1970edc2ed3405e') in 0.007667 seconds
-  Import took 0.016871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.629654 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/CrystalEnemy/gifs
-  artifactKey: Guid(4169fc22275306942b6387ecff0ca5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/CrystalEnemy/gifs using Guid(4169fc22275306942b6387ecff0ca5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a146bbec34bc51447740085105b91c77') in 0.009976 seconds
-  Import took 0.019196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.490955 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Tileset/CaveTileset.png
-  artifactKey: Guid(837940bdbc093d141967d13440ae1af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Tileset/CaveTileset.png using Guid(837940bdbc093d141967d13440ae1af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09589569fff6f6bef616cc1dde3ea60') in 0.111917 seconds
-  Import took 0.120436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 67.399706 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Edited/Atlas.spriteatlas
-  artifactKey: Guid(c630ff9c76075b7438f8322956b0d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Edited/Atlas.spriteatlas using Guid(c630ff9c76075b7438f8322956b0d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce15d295baf1a7348cf43e68e16f8b33') in 0.010119 seconds
-  Import took 0.017542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003231 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Edited/Atlas.spriteatlas
-  artifactKey: Guid(c630ff9c76075b7438f8322956b0d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Edited/Atlas.spriteatlas using Guid(c630ff9c76075b7438f8322956b0d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce15d295baf1a7348cf43e68e16f8b33') in 0.005916 seconds
-  Import took 0.011581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.315072 seconds.
-  path: Assets/_Tilemap/Pallettes/bgFar_0.asset
-  artifactKey: Guid(d8edfd2065cb0394c88f874c94ba6fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Tilemap/Pallettes/bgFar_0.asset using Guid(d8edfd2065cb0394c88f874c94ba6fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a7e5a42bbb9d330d35e6b25987903f') in 0.016771 seconds
-  Import took 0.024828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/_Tilemap/Pallettes/bgFar_1 1.asset
-  artifactKey: Guid(24e3e8e737ee05b449d625d24fa672c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Tilemap/Pallettes/bgFar_1 1.asset using Guid(24e3e8e737ee05b449d625d24fa672c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ebbb415460c5d8e6abc039630cc788') in 0.018050 seconds
-  Import took 0.025632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/_Tilemap/Pallettes/bgFar_1.asset
-  artifactKey: Guid(b36aff0bf4472374fbf3410af22f629b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Tilemap/Pallettes/bgFar_1.asset using Guid(b36aff0bf4472374fbf3410af22f629b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f95801957ea528aac64b8afe4b708f') in 0.014987 seconds
-  Import took 0.022207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/_Tilemap/Pallettes/bgFar_0.asset
-  artifactKey: Guid(d8edfd2065cb0394c88f874c94ba6fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Tilemap/Pallettes/bgFar_0.asset using Guid(d8edfd2065cb0394c88f874c94ba6fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a7e5a42bbb9d330d35e6b25987903f') in 0.011638 seconds
-  Import took 0.017142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/_Tilemap/Pallettes/bgFar_0 1.asset
-  artifactKey: Guid(a4e3ad89fb9c3594c85da385548b0f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Tilemap/Pallettes/bgFar_0 1.asset using Guid(a4e3ad89fb9c3594c85da385548b0f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320ff020f66a374c2fd98188a8d358e9') in 0.018722 seconds
-  Import took 0.026003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.327114 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Edited/Atlas.spriteatlas
-  artifactKey: Guid(c630ff9c76075b7438f8322956b0d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Edited/Atlas.spriteatlas using Guid(c630ff9c76075b7438f8322956b0d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa15cf308924bff5095694975fab721') in 0.022814 seconds
-  Import took 0.032970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022034 seconds.
-  path: Assets/_Art/Fantasy Caves Pack/Edited/Atlas.spriteatlas
-  artifactKey: Guid(c630ff9c76075b7438f8322956b0d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Art/Fantasy Caves Pack/Edited/Atlas.spriteatlas using Guid(c630ff9c76075b7438f8322956b0d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa15cf308924bff5095694975fab721') in 0.019255 seconds
-  Import took 0.025657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.616569 seconds.
-  path: Assets/_Other/atlas.spriteatlas
-  artifactKey: Guid(d79e9391147385742b38b2e74d14130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Other/atlas.spriteatlas using Guid(d79e9391147385742b38b2e74d14130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6de4ce3b9bdebe655df9784745a2a8') in 0.021655 seconds
-  Import took 0.029820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.041835 seconds.
-  path: Assets/_Other/atlas.spriteatlas
-  artifactKey: Guid(d79e9391147385742b38b2e74d14130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Other/atlas.spriteatlas using Guid(d79e9391147385742b38b2e74d14130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6de4ce3b9bdebe655df9784745a2a8') in 0.024248 seconds
-  Import took 0.031234 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006227 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.121 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.1 MB.
-System memory in use after: 97.3 MB.
-
-Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 3605.
-Total: 2.565900 ms (FindLiveObjects: 0.321000 ms CreateObjectMapping: 0.157500 ms MarkObjects: 2.051500 ms  DeleteObjects: 0.034600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006225 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.0 MB.
-System memory in use after: 97.3 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3607.
-Total: 2.616600 ms (FindLiveObjects: 0.321600 ms CreateObjectMapping: 0.225700 ms MarkObjects: 2.031400 ms  DeleteObjects: 0.036700 ms)
+  Time since last request: 623.517128 seconds.
+  path: Assets/_Scenes/02 - Second Level.unity
+  artifactKey: Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/02 - Second Level.unity using Guid(105dffe4238f10c4f8f6596e60cb8054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a460ff70ab08d4dee399ad953e07b1') in 0.016894 seconds
+  Import took 0.021581 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

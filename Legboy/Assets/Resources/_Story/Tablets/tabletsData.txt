@@ -1,7 +1,7 @@
 [InicioTexto] [1] TABLET 01
 Nós superestimamos a vida na Terra.
 
-Por muito tempo, pensamos: nada pode realmente destruir a natureza. A humanidade pode destruir a si mesma, seu ecossistema, sua própria capacidade de sobrevivência. Mas a natureza sempre continuará. Mesmo que a humanidade se autodestrua por completo, a natureza sempre dará um jeito de seguir em frente.
+Por muito tempo, pensamos: nada pode realmente destruir a natureza. A humanidade pode destruir a si mesma, seu ecossistema, sua própria capacidade de sobrevivência. Mas a natureza sempre continuará. Mesmo que a espécie humana seja destruída por completo, a natureza sempre dará um jeito de seguir em frente.
 
 Estávamos errados.
 [FimTexto]
