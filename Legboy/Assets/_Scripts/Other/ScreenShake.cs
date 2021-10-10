@@ -34,6 +34,12 @@ public class ScreenShake : MonoBehaviour
             CameraZonesManager.instance.defaultVcam.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>() :
             CameraZonesManager.instance.curCamZone.vCam.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
 
+        if (cmPerlin == null)
+        {
+            print("CinemachineBasicMultiChannelPerlin not found!");
+            return;
+        }
+
         this.duration = duration;
         this.amplitude = amplitude;
         this.frequency = frequency;
@@ -60,6 +66,12 @@ public class ScreenShake : MonoBehaviour
         cmPerlin = !CameraZonesManager.instance.curCamZone ? 
             CameraZonesManager.instance.defaultVcam.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>() :
             CameraZonesManager.instance.curCamZone.vCam.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+        
+        if (cmPerlin == null)
+        {
+            print("CinemachineBasicMultiChannelPerlin not found!");
+            return;
+        }
         
         cmPerlin.m_AmplitudeGain = 0f;
         cmPerlin.m_FrequencyGain = 0f;
