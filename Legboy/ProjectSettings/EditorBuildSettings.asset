@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/02 - Second Level.unity
     guid: 105dffe4238f10c4f8f6596e60cb8054
+  - enabled: 1
+    path: Assets/_Scenes/00 - Old/00 - Tutorial Level (backup).unity
+    guid: d8115c3eef7a04a4cbc5364b41ce0e73
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: fcce9c06ce37fd6439f55b06e28d09b7, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 014754227872f26418630f05cc7d7091, type: 2}

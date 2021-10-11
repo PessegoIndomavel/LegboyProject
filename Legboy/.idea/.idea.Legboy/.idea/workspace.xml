@@ -11,12 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45942391-441a-4443-8cb6-b3de1e1a6461" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/02 - Second Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/02 - Second Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Old/00 - Tutorial Level (backup).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/00 - Old/00 - Tutorial Level (backup).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Other/ScreenShake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Other/ScreenShake.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,10 +109,10 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerSounds.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/CameraManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Other/CameraZone.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/CameraZonesManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Other/CameraZone.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/ScreenShake.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" />
       </list>
     </option>
   </component>
@@ -308,6 +310,8 @@
       <workItem from="1633550718923" duration="2152000" />
       <workItem from="1633659234887" duration="8042000" />
       <workItem from="1633833110348" duration="252000" />
+      <workItem from="1633890262281" duration="3021000" />
+      <workItem from="1633979175311" duration="1861000" />
     </task>
     <servers />
   </component>

@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
     
     [Header("Back Wall Run")]
     public float bwrJumpCoyoteTime = 0.08f;
-    public float bwrEndPauseTime = 2f;
+    //public float bwrEndPauseTime = 2f;
     
     [Header("Horizontal Back Wall Jump")]
     public float horBWallJumpMultiplier = 1f;
@@ -209,7 +209,7 @@ public class PlayerMovement : MonoBehaviour
         //back wall run jump
         if (triedBWRjump && canBWRJump)
         {
-            if(bwrEndPause) CancelBWREndPause();
+            //if(bwrEndPause) CancelBWREndPause();
             if (backWallrunDir != Vector2.up) //horizontal back wall run
             {
                 WallJump();
@@ -225,10 +225,10 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (bwrEndPause)
+        /*if (bwrEndPause)
         {
             BWREndPause();
-        }
+        }*/
 
         //jump
         if (triedToJump && canJump && !jumped)
@@ -256,7 +256,16 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            falling = rb.velocity.y <= 0f;
+            if (!falling && rb.velocity.y < 0f)
+            {
+                falling = true;
+            }
+            else if (falling && (rb.velocity.y >= 0.1f || backWallrun) )
+            {
+                fallingTime = 0f;
+                falling = false;
+            }
+            //falling = rb.velocity.y < 0f;
             if (canJump) StartCoroutine(JumpCoyoteTime(jumpCoyoteTime));
         }
 
@@ -304,7 +313,7 @@ public class PlayerMovement : MonoBehaviour
          if (!coll.onBackWall)
          {
              lastWallrunSide = -1;
-             StartCoroutine(BWRJumpCoyoteTime(bwrJumpCoyoteTime));
+             //StartCoroutine(BWRJumpCoyoteTime(bwrJumpCoyoteTime));
              CancelWallrun();
          }
          else if (coll.onCeiling)
@@ -401,6 +410,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void CancelWallrun()
     {
+        if(backWallrun) StartCoroutine(BWRJumpCoyoteTime(bwrJumpCoyoteTime));
         rb.gravityScale = initialGravityScale;
         normalWallrun = false;
         backWallrun = false;
@@ -409,19 +419,19 @@ public class PlayerMovement : MonoBehaviour
         StopCoroutine(wallrunCoroutine);
     }
 
-    private IEnumerator BWREndPauseTimer()
+    /*private IEnumerator BWREndPauseTimer()
     {
         bwrEndPause = true;
         rb.gravityScale = 0f;
         
         yield return new WaitForSeconds(bwrEndPauseTime);
 
-        /*if (!bwrEndPause) yield break;*/
+        /*if (!bwrEndPause) yield break;#1#
         CancelBWREndPause();
         StartCoroutine(BWRJumpCoyoteTime(bwrJumpCoyoteTime));
     }
     
-    private void BWREndPause()
+    /*private void BWREndPause()
     {
         rb.velocity = Vector2.zero;
     }
@@ -431,7 +441,7 @@ public class PlayerMovement : MonoBehaviour
         if(bwrEndPauseCoroutine != null) StopCoroutine(bwrEndPauseCoroutine);
         rb.gravityScale = initialGravityScale;
         bwrEndPause = false;
-    }
+    }*/
 
     private void StartWallrunTimer()
     {
@@ -455,22 +465,23 @@ public class PlayerMovement : MonoBehaviour
     private IEnumerator WallrunTimer()
     {
         yield return new WaitForSeconds(wallRunTime);
-        if (backWallrun)
+        CancelWallrun();
+        /*if (backWallrun)
         {
             CancelWallrun();
-            if(!bwrEndPause) bwrEndPauseCoroutine = StartCoroutine(BWREndPauseTimer());
+            //if(!bwrEndPause) bwrEndPauseCoroutine = StartCoroutine(BWREndPauseTimer());
         }
         else
-            CancelWallrun();
+            CancelWallrun();*/
     }
 
-    IEnumerator BWREndPause(float bwrEndPauseTime)
+    /*IEnumerator BWREndPause(float bwrEndPauseTime)
     {
         rb.velocity = Vector2.zero;
         backWallrun = false;
         yield return new WaitForSeconds(bwrEndPauseTime);
         CancelWallrun();
-    }
+    }*/
     
     //input buffer
     IEnumerator TriedToWallrun()
