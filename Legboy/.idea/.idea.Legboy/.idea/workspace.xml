@@ -11,14 +11,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45942391-441a-4443-8cb6-b3de1e1a6461" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Old/00 - Tutorial Level (backup).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/00 - Old/00 - Tutorial Level (backup).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/Legboy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/Legboy.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Important/Legboy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Important/Legboy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Other/ScreenShake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Other/ScreenShake.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/TabletMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/TabletMenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/TextBoxManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/TextBoxManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Other/MovingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Other/MovingPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/Collision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerCollision.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/Collision.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerCollision.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerSounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerSounds.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +49,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Other/MovingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Other/ParallaxLayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Editor/GenerateColAreasEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Player/PlayerWallRun.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Other/Follow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Other/Level.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Other/PlaySound.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,6 +59,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Other/ScreenShake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Managers/DiamondsManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Player/PlayerSounds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Player/PlayerBrain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Other/TextBoxZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0049532E-C432-485C-A342-60937DA7A054/9c/24595b4f/Resources.cs" root0="SKIP_HIGHLIGHTING" />
@@ -62,9 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/ClipperOffset.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/ClipperTriangulation.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Editor/GenerateColAreasEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/ClipperLib/ClipperOffset.cs" />
         <option value="$PROJECT_DIR$/Assets/ClipperLib/ClipperTriangulation.cs" />
         <option value="$PROJECT_DIR$/Assets/ClipperLib/Clipper.cs" />
@@ -74,10 +83,8 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/DiamondsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/PlaySound.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/CountChildren.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/TextBoxManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Story/Tablets/tablets_data.txt" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/TabletInfo.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/ScreenTransitionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LevitationManager.cs" />
@@ -98,20 +105,25 @@
         <option value="$PROJECT_DIR$/Assets/_Art/Shaders/TilemapWithMask.shader" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/Follow.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LevelStatsManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/TabletMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Art/Shaders/SmearShader.shader" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/MusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/MainMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/ScenesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/TabletFollowPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/GenerateVerticalIsleMap.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerSounds.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/CameraManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/CameraZonesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/CameraZone.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/ScreenShake.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerCollision.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/TabletMenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerSounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/TextBoxManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerWallRun.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerBrain.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" />
       </list>
     </option>
@@ -312,6 +324,10 @@
       <workItem from="1633833110348" duration="252000" />
       <workItem from="1633890262281" duration="3021000" />
       <workItem from="1633979175311" duration="1861000" />
+      <workItem from="1633991041354" duration="596000" />
+      <workItem from="1634153223062" duration="593000" />
+      <workItem from="1634160189983" duration="2235000" />
+      <workItem from="1634237608373" duration="7791000" />
     </task>
     <servers />
   </component>

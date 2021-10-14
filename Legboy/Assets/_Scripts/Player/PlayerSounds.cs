@@ -23,6 +23,7 @@ public class PlayerSounds : MonoBehaviour
 
     [SerializeField] private float stepsInterval = 0.1f;
     private PlayerMovement mov;
+    private PlayerWallRun wr;
     private bool wallrunning = false;
     private bool wallrunStarted = false;
     private float wallrunPitch = 0f;
@@ -31,6 +32,7 @@ public class PlayerSounds : MonoBehaviour
     private void Start()
     {
         mov = GetComponentInParent<PlayerMovement>();
+        wr = GetComponentInParent<PlayerWallRun>();
         
         if(stepsEventPath != null)
             _stepsInstance = RuntimeManager.CreateInstance(stepsEventPath);
@@ -44,7 +46,7 @@ public class PlayerSounds : MonoBehaviour
 
     private void Update()
     {
-        if (wallrunning && (!mov.normalWallrun && !mov.backWallrun))
+        if (wallrunning && (!wr.normalWallrun && !wr.backWallrun))
         {
             ResetWallrunStepSound();
             wallrunning = false;
@@ -54,7 +56,7 @@ public class PlayerSounds : MonoBehaviour
             stepsLoopCoroutine = StartCoroutine(nameof(StepsSoundLoop));
             wallrunStarted = true;
         }
-        else wallrunning = (mov.normalWallrun || mov.backWallrun);
+        else wallrunning = (wr.normalWallrun || wr.backWallrun);
     }
 
     public void FallSound(bool bigFall)

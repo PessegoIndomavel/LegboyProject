@@ -7,7 +7,7 @@ using UnityEngine;
 public class MovingPlatform : MonoBehaviour
 {
     private PlayerMovement playerMov;
-    private Collision playerCol;
+    private PlayerCollision playerCol;
 
     private bool playerAttached;
     private bool playerColliding;
@@ -18,7 +18,7 @@ public class MovingPlatform : MonoBehaviour
             if (!playerMov)
             {
                 playerMov = other.gameObject.GetComponent<PlayerMovement>();
-                playerCol = other.gameObject.GetComponent<Collision>();
+                playerCol = other.gameObject.GetComponent<PlayerCollision>();
             }
 
             playerColliding = true;

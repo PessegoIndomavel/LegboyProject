@@ -52,7 +52,7 @@ public class TextBoxManager : MonoBehaviour
         ControlsManager.instance.controlInput.UI.Submit.performed += NextPage;
         ControlsManager.instance.controlInput.UI.Enable();
         ControlsManager.instance.controlInput.UI.Submit.Enable();
-        if (ScenesManager.instance.isLevel) LevelManager.instance.player.GetComponent<PlayerMovement>().DisableControls();
+        if (ScenesManager.instance.isLevel) LevelManager.instance.player.GetComponent<PlayerBrain>().DisableControls();
         textBox.SetActive(true);
         StartCoroutine(CanNextAfterTime(canCloseAfterTime));
     }
@@ -60,7 +60,7 @@ public class TextBoxManager : MonoBehaviour
     public void HideTextBox()
     {   
         ControlsManager.instance.controlInput.UI.Submit.performed -= NextPage;
-        if (ScenesManager.instance.isLevel) LevelManager.instance.player.GetComponent<PlayerMovement>().EnableControls();
+        if (ScenesManager.instance.isLevel) LevelManager.instance.player.GetComponent<PlayerBrain>().EnableControls();
         StopTextTeletype();
         textBox.SetActive(false);
         teletype = false;
@@ -74,7 +74,7 @@ public class TextBoxManager : MonoBehaviour
     public void ForceHideTextBox()
     {
         ControlsManager.instance.controlInput.UI.Submit.performed -= NextPage;
-        if (ScenesManager.instance.isLevel) LevelManager.instance.player.GetComponent<PlayerMovement>().EnableControls();
+        if (ScenesManager.instance.isLevel) LevelManager.instance.player.GetComponent<PlayerBrain>().EnableControls();
         StopTextTeletype();
         textBox.SetActive(false);
         teletype = false;

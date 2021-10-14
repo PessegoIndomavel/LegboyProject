@@ -8,16 +8,28 @@ public class PlayerAnimation : MonoBehaviour
 {
     public float xVelScaleMult = 0.1f;
     public float yVelScaleMultiplier = 0.3f;
+    
+    public float jumpParticlesTime = 0.05f;
+    
     [SerializeField]
     private GameObject sweatGO;
+    
+    [Header("Particle Systems")]
+    public ParticleSystem landingParticles;
+    public ParticleSystem wallrunParticles;
+    public ParticleSystem jumpingParticles;
+    public ParticleSystem dyingParticles;
+    
     [HideInInspector]
     public SpriteRenderer sr;
 
+    private PlayerBrain brain;
+    private PlayerWallRun wr;
     private SpriteRenderer sweatSr;
     private Animator anim;
-    private Animator sweatAnim;
+    public Animator sweatAnim;
     private PlayerMovement move;
-    private Collision coll;
+    private PlayerCollision coll;
     private Rigidbody2D rb;
     private Transform myTransform;
 
@@ -35,16 +47,21 @@ public class PlayerAnimation : MonoBehaviour
     private static readonly int HorizontalVelocity = Animator.StringToHash("HorizontalVelocity");
     private static readonly int BwrEndPause = Animator.StringToHash("bwrEndPause");
 
-    void Start()
+    private void Start()
     {
+        brain = GetComponentInParent<PlayerBrain>();
+        wr = GetComponentInParent<PlayerWallRun>();
         anim = GetComponent<Animator>();
-        coll = GetComponentInParent<Collision>();
+        coll = GetComponentInParent<PlayerCollision>();
         move = GetComponentInParent<PlayerMovement>();
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponentInParent<Rigidbody2D>();
         sweatAnim = sweatGO.GetComponent<Animator>();
         sweatSr = sweatGO.GetComponent<SpriteRenderer>();
         myTransform = transform;
+
+        brain.onDie += OnDie;
+        move.onJump += OnJump;
     }
 
     private void Update()
@@ -53,13 +70,16 @@ public class PlayerAnimation : MonoBehaviour
         anim.SetBool(ONGround, coll.onGround);
         anim.SetBool(ONWall, coll.onWall);
         anim.SetBool(ONRightWall, coll.onRightWall);
-        anim.SetBool(NormalWallrun, move.normalWallrun);
+        anim.SetBool(NormalWallrun, wr.normalWallrun);
         anim.SetBool(CanMove, move.canMove);
-        anim.SetBool(BackWallrun, move.backWallrun);
-        anim.SetBool(BwrEndPause, move.bwrEndPause);
+        anim.SetBool(BackWallrun, wr.backWallrun);
+        //anim.SetBool(BwrEndPause, move.bwrEndPause);
         anim.SetBool(Dead, LifeManager.instance.isDead);
         
-        if(!move.normalWallrun) VelocitySquish();
+        if(!wr.normalWallrun) VelocitySquish();
+        
+        if (wr.normalWallrun || wr.backWallrun) return;
+        SetLookDirection(rb.velocity.x);
     }
 
     public void SetMovementVars(float x,float y, float xVel, float yVel)
@@ -96,10 +116,49 @@ public class PlayerAnimation : MonoBehaviour
         myTransform.localPosition = new Vector2(xPos, yPos);
     }
 
-    public void Sweat(bool value)
+    /*public void Sweat(bool value)
     {
         sweatAnim.gameObject.SetActive(value);
         if(value) sweatAnim.Play("sweatAnim");
+    }*/
+
+    private void OnDie()
+    {
+        StopAllDistanceParticles();
+        dyingParticles.Play();
+    }
+
+    private void OnJump()
+    {
+        jumpingParticles.Play();
+        StartCoroutine(StopJumpParticlesAfterSeconds(jumpParticlesTime));
+        anim.SetTrigger("Jump");
     }
     
+    public void SetLookDirection(float xDir)
+    {
+        if(xDir > 0)
+        {
+            move.side = 1;
+            Flip(move.side);
+            TabletFollowPoint.instance.FlipPos(-move.side);
+        } else if (xDir < 0)
+        {
+            move.side = -1;
+            Flip(move.side);
+            TabletFollowPoint.instance.FlipPos(-move.side);
+        }
+    }
+
+    private IEnumerator StopJumpParticlesAfterSeconds(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        jumpingParticles.Stop();
+    }
+
+    public void StopAllDistanceParticles()
+    {
+        jumpingParticles.Stop();
+        wallrunParticles.Stop();
+    }
 }

@@ -736,11 +736,13 @@
             <e p="UiScrollToSelection.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
-            <e p="Collision.cs" t="Include" />
             <e p="PlayerAnimation.cs" t="Include" />
+            <e p="PlayerBrain.cs" t="Include" />
+            <e p="PlayerCollision.cs" t="Include" />
             <e p="PlayerJump.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
             <e p="PlayerSounds.cs" t="Include" />
+            <e p="PlayerWallRun.cs" t="Include" />
             <e p="SquishDetection.cs" t="Include" />
             <e p="ThreatCollision.cs" t="Include" />
           </e>

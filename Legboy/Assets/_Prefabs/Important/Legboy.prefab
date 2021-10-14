@@ -19732,8 +19732,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xVelScaleMult: 0.0065
   yVelScaleMultiplier: 0.007
+  jumpParticlesTime: 0.05
   sweatGO: {fileID: 2395569670448465847}
+  landingParticles: {fileID: 3071473113722905739}
+  wallrunParticles: {fileID: 3071473115628953363}
+  jumpingParticles: {fileID: 3071473113687315324}
+  dyingParticles: {fileID: 3071473113800235042}
   sr: {fileID: 0}
+  sweatAnim: {fileID: 4880763322366043840}
 --- !u!95 &3071473113836679660
 Animator:
   serializedVersion: 3
@@ -19766,7 +19772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stepsEventPath: event:/steps
-  wallrunStepsEventPath: event:/wallrun
+  wallrunStepsEventPath: event:/steps
   jumpEventPath: event:/jump
   fallEventPath: event:/fall
   stepsInterval: 0.12
@@ -19882,8 +19888,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3071473114536793101}
+  - component: {fileID: 8403348023861250938}
   - component: {fileID: 3071473114536793104}
   - component: {fileID: 3071473114536793102}
+  - component: {fileID: 856321564100535108}
   - component: {fileID: 3071473114536793105}
   - component: {fileID: 3071473114536793099}
   - component: {fileID: 3071473114536793106}
@@ -19916,6 +19924,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8403348023861250938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3071473114536793096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40d98112f1d17264fb7dd0a0e83f3e57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3071473114536793104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19936,43 +19956,19 @@ MonoBehaviour:
   jumpBufferTime: 0.25
   enemyHeadJumpForce: 40
   stoppedThreshold: 0.05
-  jumpParticlesTime: 0.05
   fallTimeToBigFall: 0.6
   bigFallScreenShakeAmplitude: 2
   bigFallScreenShakeFrequency: 0.2
   bigFallScreenShakeDuration: 0.2
-  afterWJGravity: 0.1
-  percentToSweat: 0.5
-  fWallJumpMultiplier: 1.15
-  fWallJumpForceDuration: 0.15
-  fWallJumpAngle: 45
-  bwrJumpCoyoteTime: 0.1
-  bwrEndPauseTime: 0.3
-  horBWallJumpMultiplier: 1.15
-  horBWallJumpForceDuration: 0.25
-  horBWallJumpAngle: 45
-  vertBWallJumpMultiplier: 1.15
-  vertBWallJumpForceDuration: 0.15
-  vertBWallJumpAngle: 45
-  wallRunSpeed: 16
-  wallRunTime: 0.6
-  wallRunBufferTime: 0.15
-  landingParticles: {fileID: 3071473113722905739}
-  wallrunParticles: {fileID: 3071473115628953363}
-  jumpingParticles: {fileID: 3071473113687315324}
-  dyingParticles: {fileID: 3071473113800235042}
-  wallJumpLerp: 10
   walking: 0
   canMove: 1
   jumpHold: 0
   wallGrab: 0
-  wallJumped: 0
-  normalWallrun: 0
-  backWallrun: 0
-  bwrEndPause: 0
   side: 1
   falling: 0
   currentSpeed: 1e-45
+  initialGravityScale: 0
+  movInput: {x: 0, y: 0}
 --- !u!114 &3071473114536793102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19987,6 +19983,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fallMultiplier: 15
   lowJumpMultiplier: 8
+--- !u!114 &856321564100535108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3071473114536793096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45a0c823eb1f082468797bccc54ef0c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallRunSpeed: 16
+  wallRunTime: 0.6
+  wallRunBufferTime: 0.15
+  percentToSweat: 0.5
+  bwrJumpCoyoteTime: 0.1
+  afterWJGravity: 0.1
+  fWallJumpMultiplier: 1.15
+  fWallJumpForceDuration: 0.15
+  fWallJumpAngle: 45
+  horBWallJumpMultiplier: 1.15
+  horBWallJumpForceDuration: 0.25
+  horBWallJumpAngle: 45
+  vertBWallJumpMultiplier: 1.15
+  vertBWallJumpForceDuration: 0.15
+  vertBWallJumpAngle: 45
+  wallJumped: 0
+  normalWallrun: 0
+  backWallrun: 0
+  wallJumpLerp: 10
 --- !u!114 &3071473114536793105
 MonoBehaviour:
   m_ObjectHideFlags: 0

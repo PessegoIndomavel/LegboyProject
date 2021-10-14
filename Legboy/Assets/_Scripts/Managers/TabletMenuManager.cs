@@ -69,7 +69,7 @@ public class TabletMenuManager : MonoBehaviour
     {
         if (!canOpenTabletMenu || GameStateManager.instance.isPaused()) return;
         GameStateManager.instance.PauseTime();
-        LevelManager.instance.player.GetComponent<PlayerMovement>().DisableControls();
+        LevelManager.instance.player.GetComponent<PlayerBrain>().DisableControls();
         
         tabletMenu.SetActive(true);
         OpenSelectionScreen();
@@ -82,7 +82,7 @@ public class TabletMenuManager : MonoBehaviour
     {
         if (GameStateManager.instance.isPaused() || !isOpen) return;
         GameStateManager.instance.ResumeTime();
-        LevelManager.instance.player.GetComponent<PlayerMovement>().EnableControls();
+        LevelManager.instance.player.GetComponent<PlayerBrain>().EnableControls();
         
         tabletMenu.SetActive(false);
         isOpen = false;

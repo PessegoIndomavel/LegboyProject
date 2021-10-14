@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class GameplayUIManager : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class GameplayUIManager : MonoBehaviour
     [SerializeField] private GameObject uiObject;
     [SerializeField] private TextMeshProUGUI crystalCounterText;
     [SerializeField] private TextMeshProUGUI tabletCounterText;
+    [SerializeField] private Image wallRunBarFill;
 
     private Coroutine turnOffCoroutine;
 
@@ -44,5 +46,10 @@ public class GameplayUIManager : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         uiObject.SetActive(false);
+    }
+
+    public void UpdateWallRunBarFill(float value)
+    {
+        wallRunBarFill.fillAmount = value;
     }
 }

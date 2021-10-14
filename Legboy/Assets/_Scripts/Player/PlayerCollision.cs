@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Collision : MonoBehaviour
+public class PlayerCollision : MonoBehaviour
 {
     [Header("Layers")]
     public LayerMask groundLayer;
@@ -25,6 +25,10 @@ public class Collision : MonoBehaviour
     public float collisionRadius = 0.25f, backWallColRadius = 0.4f, groundDetectDistance = 0.1f;
     public Vector2 groundDetectOffsetLeft, groundDetectOffsetRight, rightOffset, leftOffset, upOffset, backWallOffset;//, bottomOffset;
     public Color debugCollisionColor = Color.red;
+
+    public Action onGroundTouch;
+
+    private bool groundTouched;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +54,17 @@ public class Collision : MonoBehaviour
         onRightWall = Physics2D.OverlapCircle(pos + rightOffset, collisionRadius, groundLayer);
         onLeftWall = Physics2D.OverlapCircle(pos + leftOffset, collisionRadius, groundLayer);
         onWall = onRightWall || onLeftWall;
+        
+        if (onGround && !groundTouched)
+        {
+            onGroundTouch();
+            groundTouched = true;
+        }
+
+        if(!onGround && groundTouched)
+        {
+            groundTouched = false;
+        }
     }
 
     private void OnDrawGizmos()

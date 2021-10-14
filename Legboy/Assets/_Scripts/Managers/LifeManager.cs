@@ -9,6 +9,7 @@ public class LifeManager : MonoBehaviour
     private Transform playerTransform;
     private PlayerMovement playerMov;
     private PlayerAnimation playerAnim;
+    public PlayerBrain playerBrain;
 
     private bool dead = false;
     private int deathCounter;
@@ -26,10 +27,11 @@ public class LifeManager : MonoBehaviour
         ScenesManager.instance.onLoadScene += SetPlayer;
     }
 
-    public void SetPlayer()
+    private void SetPlayer()
     {
         if (!ScenesManager.instance.isLevel) return;
         playerTransform = LevelManager.instance.player.transform;
+        playerBrain = playerTransform.GetComponent<PlayerBrain>();
         playerMov = playerTransform.GetComponent<PlayerMovement>();
         playerAnim = playerTransform.GetComponent<PlayerAnimation>();
     }
@@ -38,7 +40,7 @@ public class LifeManager : MonoBehaviour
     {
         GameStateManager.instance.CanPause = false;
         deathCounter++;
-        playerMov.OnDie();
+        playerBrain.Die();
         dead = true;
         playerTransform.GetComponentInChildren<Animator>().SetTrigger("died");
         GameStateManager.instance.DisablePauseControls();
@@ -76,7 +78,7 @@ public class LifeManager : MonoBehaviour
     public void Respawn()
     {
         dead = false;
-        playerMov.EnableControls();
+        playerBrain.EnableControls();
         GameStateManager.instance.ResumeTime();
         /*var vCamBrain = Camera.main.GetComponent<CinemachineBrain>();
         if (vCamBrain != null)
