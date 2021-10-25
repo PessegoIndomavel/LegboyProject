@@ -218,9 +218,10 @@ public class PlayerMovement : MonoBehaviour
     }
 
     //called by LifeManager singleton
-    public void OnDie()
+    private void OnDie()
     {
         triedToJump = false;
+        fallingTime = 0f;
     }
 
     private IEnumerator JumpCoyoteTime(float cTime)

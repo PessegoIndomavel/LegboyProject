@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{56a3b8a5-c013-454a-9f7a-415201c15aad}">
+		<property name="assetPath">
+			<value>legboy_fall_short.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.44519274376417234</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b8831648-461b-4820-bd00-2055c4153ca6}</destination>
+		</relationship>
+	</object>
+</objects>

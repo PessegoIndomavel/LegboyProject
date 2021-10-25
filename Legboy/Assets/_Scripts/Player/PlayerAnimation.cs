@@ -137,12 +137,12 @@ public class PlayerAnimation : MonoBehaviour
     
     public void SetLookDirection(float xDir)
     {
-        if(xDir > 0)
+        if(xDir > 0.05f)
         {
             move.side = 1;
             Flip(move.side);
             TabletFollowPoint.instance.FlipPos(-move.side);
-        } else if (xDir < 0)
+        } else if (xDir < -0.05f)
         {
             move.side = -1;
             Flip(move.side);

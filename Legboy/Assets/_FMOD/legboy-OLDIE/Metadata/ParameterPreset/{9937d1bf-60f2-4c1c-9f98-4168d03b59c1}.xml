@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{9937d1bf-60f2-4c1c-9f98-4168d03b59c1}">
+		<property name="name">
+			<value>wallrun</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2f58d339-866e-47c6-a658-dd81825e6dbb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c5f421bf-6548-4cf0-a6f9-1bb93b1dc5ff}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c5f421bf-6548-4cf0-a6f9-1bb93b1dc5ff}">
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

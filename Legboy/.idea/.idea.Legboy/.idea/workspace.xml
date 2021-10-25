@@ -12,22 +12,850 @@
   <component name="ChangeListManager">
     <list default="true" id="45942391-441a-4443-8cb6-b3de1e1a6461" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/Legboy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/Legboy.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/.unsaved/Metadata/Group/{42b50f84-5c1b-4844-a5e5-1953d23447cf}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/.unsaved/metadataFileMapping.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/Legboy - Fantasy Caves 3.8.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/Legboy - Fantasy Caves 3.8.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 1.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 1.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 10.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 10.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 11.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 11.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 12.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 12.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 13.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 13.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 14.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 14.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 15.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 15.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 16.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 16.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 17.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 17.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 18.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 18.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 19.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 19.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 2.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 2.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 20.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 20.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 21.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 21.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 22.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 22.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 23.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 23.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 24.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 24.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 25.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 25.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 3.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 3.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 4.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 4.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 5.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 5.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 6.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 6.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 7.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 7.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 8.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 8.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 9.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx 9.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx pc checkpoint bounce.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/legboy sfx pc checkpoint bounce.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/passos - Trimmed (2).wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/passos - Trimmed (2).wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/passos - Trimmed (3).wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/passos - Trimmed (3).wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/passos - Trimmed.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/passos - Trimmed.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/passos.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Assets/passos.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Build.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Build.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Asset/{b8831648-461b-4820-bd00-2055c4153ca6}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Asset/{b8831648-461b-4820-bd00-2055c4153ca6}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{10b5b504-fc53-4243-831c-96d87751ac82}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{10b5b504-fc53-4243-831c-96d87751ac82}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{10b9097c-b9ad-4b63-9a4c-84da1e65855a}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{10b9097c-b9ad-4b63-9a4c-84da1e65855a}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{1653d6b5-744c-41b7-be77-a444976f8d91}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{1653d6b5-744c-41b7-be77-a444976f8d91}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{177bba4e-b43a-4d23-915a-6e938426f05b}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{177bba4e-b43a-4d23-915a-6e938426f05b}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{25289349-a038-4ab7-8bf8-2b14481702a8}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{25289349-a038-4ab7-8bf8-2b14481702a8}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{2d80ce5d-68f0-4c09-a599-16b978d9db9e}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{2d80ce5d-68f0-4c09-a599-16b978d9db9e}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{3ec45328-50a4-42ce-8dcc-2358f9e305e6}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{3ec45328-50a4-42ce-8dcc-2358f9e305e6}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{564a8d30-81fb-413a-b4ad-b22911895e38}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{564a8d30-81fb-413a-b4ad-b22911895e38}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{58dc1dff-cfc4-49c9-be60-78bb42cf0ca0}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{58dc1dff-cfc4-49c9-be60-78bb42cf0ca0}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{5cb597a5-1d2b-4bc0-bead-a97e96dc1f10}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{5cb597a5-1d2b-4bc0-bead-a97e96dc1f10}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{5ee64b41-0f46-41c2-b62b-e11acea4ad70}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{5ee64b41-0f46-41c2-b62b-e11acea4ad70}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{6969c43d-f476-475c-b023-e215971cf60e}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{6969c43d-f476-475c-b023-e215971cf60e}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{93618c0f-0601-4979-ac96-3b9204d724d5}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{93618c0f-0601-4979-ac96-3b9204d724d5}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{9f7638fb-d64f-446b-b988-f749b1ea87f3}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{9f7638fb-d64f-446b-b988-f749b1ea87f3}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{a0ff0a07-c3fd-4161-bf69-a9278b4de59b}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{a0ff0a07-c3fd-4161-bf69-a9278b4de59b}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{a2b6a223-8de9-4724-91d8-af588ab72028}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{a2b6a223-8de9-4724-91d8-af588ab72028}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{a330bb2a-c99b-4f88-a05a-286dd7e762ff}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{a330bb2a-c99b-4f88-a05a-286dd7e762ff}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{a7e6c8ec-345b-4a83-9765-378ed7569278}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{a7e6c8ec-345b-4a83-9765-378ed7569278}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{aa216d43-cd26-40ce-932b-b70e585b8c19}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{aa216d43-cd26-40ce-932b-b70e585b8c19}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{ab88e4c0-7747-49f4-b70b-eb96f9d67ecf}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{ab88e4c0-7747-49f4-b70b-eb96f9d67ecf}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{af5d36b3-ce6c-44a7-89fd-68c2d09e0a88}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{af5d36b3-ce6c-44a7-89fd-68c2d09e0a88}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{b99145c5-b4e0-4813-8b3c-c80ec0fdc25c}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{b99145c5-b4e0-4813-8b3c-c80ec0fdc25c}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{ba6c0131-2875-408a-a189-c3ff3162d2e6}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{ba6c0131-2875-408a-a189-c3ff3162d2e6}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{be867af9-67dc-4a3d-a5cb-7af5afbd2cc6}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{be867af9-67dc-4a3d-a5cb-7af5afbd2cc6}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{bef5978f-fa9c-49c9-bdfe-557161822613}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{bef5978f-fa9c-49c9-bdfe-557161822613}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{c19fd39c-d46d-469d-a272-48ea0d9c1895}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{c19fd39c-d46d-469d-a272-48ea0d9c1895}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{c2e296ef-c44b-4fc2-b872-aec57962d90b}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{c2e296ef-c44b-4fc2-b872-aec57962d90b}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{c93a42f1-9bf3-4a0c-aa2c-5ab95c7ad034}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{c93a42f1-9bf3-4a0c-aa2c-5ab95c7ad034}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{c9b67d32-fa46-44d8-b4b5-8b54fb830eb4}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{c9b67d32-fa46-44d8-b4b5-8b54fb830eb4}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{cc33e5b4-358a-4838-84fb-558b0a69f663}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{cc33e5b4-358a-4838-84fb-558b0a69f663}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{e9da0c98-2738-4476-b532-572e5fde147b}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/AudioFile/{e9da0c98-2738-4476-b532-572e5fde147b}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Bank.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Bank.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Bank/{481d7042-e722-4380-8eea-97e8c24cff68}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Bank/{481d7042-e722-4380-8eea-97e8c24cff68}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/BankFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/BankFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/BankFolder/{230cd6ae-9eb4-49e8-b903-f05f4693ea29}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/BankFolder/{230cd6ae-9eb4-49e8-b903-f05f4693ea29}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/DAWAsset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/DAWAsset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/DAWProject.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/DAWProject.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/DataFile.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/DataFile.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/EffectPreset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/EffectPreset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/EffectPresetFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/EffectPresetFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/EffectPresetFolder/{815708d2-6e70-4297-865b-f6d333755012}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/EffectPresetFolder/{815708d2-6e70-4297-865b-f6d333755012}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/EncodingSetting.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/EncodingSetting.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/EncodingSetting/{2ceaec49-226a-4606-a8b5-19fbba48f769}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/EncodingSetting/{2ceaec49-226a-4606-a8b5-19fbba48f769}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event/{21447f98-1fd4-4cf1-bb76-319b4b5035c9}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event/{21447f98-1fd4-4cf1-bb76-319b4b5035c9}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event/{21447f98-1fd4-4cf1-bb76-319b4b5035c9}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event/{21447f98-1fd4-4cf1-bb76-319b4b5035c9}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event/{3186567d-29e6-483f-84c6-1d71785c7396}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event/{3186567d-29e6-483f-84c6-1d71785c7396}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event/{3186567d-29e6-483f-84c6-1d71785c7396}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event/{3186567d-29e6-483f-84c6-1d71785c7396}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event/{75e5dd1c-7efb-4419-b195-f3c935a28f03}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event/{75e5dd1c-7efb-4419-b195-f3c935a28f03}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event/{83d6cd79-eb24-4dd2-9eda-08d52be27496}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event/{83d6cd79-eb24-4dd2-9eda-08d52be27496}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event/{bd723ab9-bd0b-4be2-a022-88f293111e2b}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Event/{bd723ab9-bd0b-4be2-a022-88f293111e2b}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/EventFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/EventFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/EventFolder/{323b6587-fea1-4cd2-bee6-2aa3b82e0c0a}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/EventFolder/{323b6587-fea1-4cd2-bee6-2aa3b82e0c0a}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Group.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Group.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Locale.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Locale.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Master.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Master.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Mixer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Mixer.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/MixerView.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/MixerView.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset/{00a44ae7-10e0-4e3f-b76a-2505fa3c4d17}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset/{00a44ae7-10e0-4e3f-b76a-2505fa3c4d17}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset/{50d8ed84-dc1a-4bf5-a21a-8932d0b2e8e9}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset/{50d8ed84-dc1a-4bf5-a21a-8932d0b2e8e9}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset/{73cbcce9-51a2-4e28-a1e8-c3e0dff052d3}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset/{73cbcce9-51a2-4e28-a1e8-c3e0dff052d3}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset/{9937d1bf-60f2-4c1c-9f98-4168d03b59c1}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset/{9937d1bf-60f2-4c1c-9f98-4168d03b59c1}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset/{ac19891c-6f96-45c7-82b8-a0695019c43b}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset/{ac19891c-6f96-45c7-82b8-a0695019c43b}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset/{b8d9e23a-5228-48bf-aba4-de1cb30562e7}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset/{b8d9e23a-5228-48bf-aba4-de1cb30562e7}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset/{e7cf0231-f881-45e7-88fe-d1c1538ba2f6}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPreset/{e7cf0231-f881-45e7-88fe-d1c1538ba2f6}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPresetFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPresetFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPresetFolder/{2f58d339-866e-47c6-a658-dd81825e6dbb}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ParameterPresetFolder/{2f58d339-866e-47c6-a658-dd81825e6dbb}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Platform.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Platform.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Platform/{0bf6164e-2623-4c89-8dd9-946418732089}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Platform/{0bf6164e-2623-4c89-8dd9-946418732089}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ProfilerFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ProfilerFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ProfilerFolder/{e52da9c4-0c05-46cd-94a4-a270a0308be4}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ProfilerFolder/{e52da9c4-0c05-46cd-94a4-a270a0308be4}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ProfilerSession.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/ProfilerSession.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Return.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Return.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Return/{04f0671e-c31c-42e7-b072-abe505c6e577}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Return/{04f0671e-c31c-42e7-b072-abe505c6e577}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/SandboxFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/SandboxFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/SandboxFolder/{1a66ad80-656a-4a6e-a333-8a3ff801f7f2}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/SandboxFolder/{1a66ad80-656a-4a6e-a333-8a3ff801f7f2}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/SandboxScene.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/SandboxScene.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Snapshot.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Snapshot.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/SnapshotGroup.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/SnapshotGroup.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/SnapshotGroup/{719a19d6-6021-40cf-92f3-968f0b7e5267}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/SnapshotGroup/{719a19d6-6021-40cf-92f3-968f0b7e5267}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Tags.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Tags.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/VCA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/VCA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Workspace.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Metadata/Workspace.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/legboy.fspro.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLD/legboy.fspro.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/1F7924E4.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/21F02E23.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/2F8028DA.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/2FA23EB7.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/361C9A56.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/3ED600D5.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/513A2193.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/59F9E6A9.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/60BAC96F.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/62C21683.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/6667F34B.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/6A78E810.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/7EFDC147.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/7F1FC595.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/86DE3F8B.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/8DD75825.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/90198B51.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/9551A09F.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/957049A6.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/9E0DC4AC.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/A849D6D0.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/A8E147AD.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/AE5BCA82.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/AFCC650E.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/D25465D4.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/DD3FDD61.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/E6D19B9E.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/EC2CB942.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/FAF31E63.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/fsbcache/Desktop/FE551DD2.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{02ace997-7f34-4cfc-9047-036413fd4098}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{10b5b504-fc53-4243-831c-96d87751ac82}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{10b9097c-b9ad-4b63-9a4c-84da1e65855a}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{1653d6b5-744c-41b7-be77-a444976f8d91}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{177bba4e-b43a-4d23-915a-6e938426f05b}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{25289349-a038-4ab7-8bf8-2b14481702a8}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{2d80ce5d-68f0-4c09-a599-16b978d9db9e}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{3ec45328-50a4-42ce-8dcc-2358f9e305e6}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{55bc2472-bf58-458a-bcd4-cb949debf056}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{564a8d30-81fb-413a-b4ad-b22911895e38}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{58dc1dff-cfc4-49c9-be60-78bb42cf0ca0}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{5aac53bf-3d76-4109-8adf-a68f103d1810}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{5cb597a5-1d2b-4bc0-bead-a97e96dc1f10}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{5ee64b41-0f46-41c2-b62b-e11acea4ad70}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{6969c43d-f476-475c-b023-e215971cf60e}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{89f642e2-54f2-4fda-8936-fa8a6bd17bf9}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{93618c0f-0601-4979-ac96-3b9204d724d5}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{9f7638fb-d64f-446b-b988-f749b1ea87f3}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{a0ff0a07-c3fd-4161-bf69-a9278b4de59b}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{a2b6a223-8de9-4724-91d8-af588ab72028}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{a330bb2a-c99b-4f88-a05a-286dd7e762ff}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{a7e6c8ec-345b-4a83-9765-378ed7569278}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{aa216d43-cd26-40ce-932b-b70e585b8c19}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{aaddef34-6e44-4b76-9baf-4f9ae45409be}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{ab88e4c0-7747-49f4-b70b-eb96f9d67ecf}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{af5d36b3-ce6c-44a7-89fd-68c2d09e0a88}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{b99145c5-b4e0-4813-8b3c-c80ec0fdc25c}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{ba6c0131-2875-408a-a189-c3ff3162d2e6}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{be867af9-67dc-4a3d-a5cb-7af5afbd2cc6}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{bef5978f-fa9c-49c9-bdfe-557161822613}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{c19fd39c-d46d-469d-a272-48ea0d9c1895}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{c2e296ef-c44b-4fc2-b872-aec57962d90b}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{c93a42f1-9bf3-4a0c-aa2c-5ab95c7ad034}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{c9b67d32-fa46-44d8-b4b5-8b54fb830eb4}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{cc33e5b4-358a-4838-84fb-558b0a69f663}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{e9da0c98-2738-4476-b532-572e5fde147b}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{fe234d2f-5db2-46a6-96b0-e15f6c69df88}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/.cache/{fe995456-e5c0-4be7-8709-a5bd3b3c7cb4}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/Legboy - Fantasy Caves 3.8.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/Legboy - Fantasy Caves 3.8.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 10.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 10.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 11.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 11.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 12.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 12.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 13.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 13.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 14.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 14.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 15.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 15.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 16.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 16.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 17.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 17.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 18.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 18.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 19.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 19.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 20.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 20.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 21.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 21.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 22.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 22.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 23.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 23.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 24.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 24.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 25.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 25.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 4.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 5.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 5.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 6.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 6.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 7.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 7.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 8.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 8.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 9.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx 9.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx pc checkpoint bounce.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/legboy sfx pc checkpoint bounce.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/passos - Trimmed (2).wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/passos - Trimmed (2).wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/passos - Trimmed (3).wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/passos - Trimmed (3).wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/passos - Trimmed.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/passos - Trimmed.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/passos.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Assets/passos.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Build.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Asset/{b8831648-461b-4820-bd00-2055c4153ca6}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Asset/{b8831648-461b-4820-bd00-2055c4153ca6}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{10b5b504-fc53-4243-831c-96d87751ac82}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{10b5b504-fc53-4243-831c-96d87751ac82}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{10b9097c-b9ad-4b63-9a4c-84da1e65855a}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{10b9097c-b9ad-4b63-9a4c-84da1e65855a}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{1653d6b5-744c-41b7-be77-a444976f8d91}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{1653d6b5-744c-41b7-be77-a444976f8d91}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{177bba4e-b43a-4d23-915a-6e938426f05b}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{177bba4e-b43a-4d23-915a-6e938426f05b}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{25289349-a038-4ab7-8bf8-2b14481702a8}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{25289349-a038-4ab7-8bf8-2b14481702a8}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{2d80ce5d-68f0-4c09-a599-16b978d9db9e}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{2d80ce5d-68f0-4c09-a599-16b978d9db9e}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{3ec45328-50a4-42ce-8dcc-2358f9e305e6}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{3ec45328-50a4-42ce-8dcc-2358f9e305e6}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{564a8d30-81fb-413a-b4ad-b22911895e38}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{564a8d30-81fb-413a-b4ad-b22911895e38}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{58dc1dff-cfc4-49c9-be60-78bb42cf0ca0}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{58dc1dff-cfc4-49c9-be60-78bb42cf0ca0}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{5cb597a5-1d2b-4bc0-bead-a97e96dc1f10}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{5cb597a5-1d2b-4bc0-bead-a97e96dc1f10}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{5ee64b41-0f46-41c2-b62b-e11acea4ad70}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{5ee64b41-0f46-41c2-b62b-e11acea4ad70}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{6969c43d-f476-475c-b023-e215971cf60e}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{6969c43d-f476-475c-b023-e215971cf60e}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{93618c0f-0601-4979-ac96-3b9204d724d5}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{93618c0f-0601-4979-ac96-3b9204d724d5}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{9f7638fb-d64f-446b-b988-f749b1ea87f3}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{9f7638fb-d64f-446b-b988-f749b1ea87f3}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{a0ff0a07-c3fd-4161-bf69-a9278b4de59b}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{a0ff0a07-c3fd-4161-bf69-a9278b4de59b}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{a2b6a223-8de9-4724-91d8-af588ab72028}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{a2b6a223-8de9-4724-91d8-af588ab72028}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{a330bb2a-c99b-4f88-a05a-286dd7e762ff}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{a330bb2a-c99b-4f88-a05a-286dd7e762ff}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{a7e6c8ec-345b-4a83-9765-378ed7569278}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{a7e6c8ec-345b-4a83-9765-378ed7569278}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{aa216d43-cd26-40ce-932b-b70e585b8c19}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{aa216d43-cd26-40ce-932b-b70e585b8c19}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{ab88e4c0-7747-49f4-b70b-eb96f9d67ecf}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{ab88e4c0-7747-49f4-b70b-eb96f9d67ecf}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{af5d36b3-ce6c-44a7-89fd-68c2d09e0a88}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{af5d36b3-ce6c-44a7-89fd-68c2d09e0a88}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{b99145c5-b4e0-4813-8b3c-c80ec0fdc25c}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{b99145c5-b4e0-4813-8b3c-c80ec0fdc25c}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{ba6c0131-2875-408a-a189-c3ff3162d2e6}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{ba6c0131-2875-408a-a189-c3ff3162d2e6}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{be867af9-67dc-4a3d-a5cb-7af5afbd2cc6}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{be867af9-67dc-4a3d-a5cb-7af5afbd2cc6}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{bef5978f-fa9c-49c9-bdfe-557161822613}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{bef5978f-fa9c-49c9-bdfe-557161822613}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{c19fd39c-d46d-469d-a272-48ea0d9c1895}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{c19fd39c-d46d-469d-a272-48ea0d9c1895}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{c2e296ef-c44b-4fc2-b872-aec57962d90b}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{c2e296ef-c44b-4fc2-b872-aec57962d90b}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{c93a42f1-9bf3-4a0c-aa2c-5ab95c7ad034}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{c93a42f1-9bf3-4a0c-aa2c-5ab95c7ad034}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{c9b67d32-fa46-44d8-b4b5-8b54fb830eb4}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{c9b67d32-fa46-44d8-b4b5-8b54fb830eb4}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{cc33e5b4-358a-4838-84fb-558b0a69f663}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{cc33e5b4-358a-4838-84fb-558b0a69f663}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{e9da0c98-2738-4476-b532-572e5fde147b}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/AudioFile/{e9da0c98-2738-4476-b532-572e5fde147b}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Bank.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Bank/{481d7042-e722-4380-8eea-97e8c24cff68}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Bank/{481d7042-e722-4380-8eea-97e8c24cff68}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/BankFolder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/BankFolder/{230cd6ae-9eb4-49e8-b903-f05f4693ea29}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/BankFolder/{230cd6ae-9eb4-49e8-b903-f05f4693ea29}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/DAWAsset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/DAWProject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/DataFile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/EffectPreset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/EffectPresetFolder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/EffectPresetFolder/{815708d2-6e70-4297-865b-f6d333755012}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/EffectPresetFolder/{815708d2-6e70-4297-865b-f6d333755012}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/EncodingSetting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/EncodingSetting/{2ceaec49-226a-4606-a8b5-19fbba48f769}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/EncodingSetting/{2ceaec49-226a-4606-a8b5-19fbba48f769}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Event.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Event/{21447f98-1fd4-4cf1-bb76-319b4b5035c9}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Event/{21447f98-1fd4-4cf1-bb76-319b4b5035c9}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Event/{3186567d-29e6-483f-84c6-1d71785c7396}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Event/{3186567d-29e6-483f-84c6-1d71785c7396}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Event/{75e5dd1c-7efb-4419-b195-f3c935a28f03}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Event/{75e5dd1c-7efb-4419-b195-f3c935a28f03}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Event/{83d6cd79-eb24-4dd2-9eda-08d52be27496}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Event/{83d6cd79-eb24-4dd2-9eda-08d52be27496}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Event/{bd723ab9-bd0b-4be2-a022-88f293111e2b}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Event/{bd723ab9-bd0b-4be2-a022-88f293111e2b}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/EventFolder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/EventFolder/{323b6587-fea1-4cd2-bee6-2aa3b82e0c0a}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/EventFolder/{323b6587-fea1-4cd2-bee6-2aa3b82e0c0a}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Group.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Locale.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Master.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Mixer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Mixer.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/MixerView.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/ParameterPreset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/ParameterPreset/{b8d9e23a-5228-48bf-aba4-de1cb30562e7}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/ParameterPreset/{b8d9e23a-5228-48bf-aba4-de1cb30562e7}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/ParameterPresetFolder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/ParameterPresetFolder/{2f58d339-866e-47c6-a658-dd81825e6dbb}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/ParameterPresetFolder/{2f58d339-866e-47c6-a658-dd81825e6dbb}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Platform.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Platform/{0bf6164e-2623-4c89-8dd9-946418732089}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Platform/{0bf6164e-2623-4c89-8dd9-946418732089}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/ProfilerFolder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/ProfilerFolder/{e52da9c4-0c05-46cd-94a4-a270a0308be4}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/ProfilerFolder/{e52da9c4-0c05-46cd-94a4-a270a0308be4}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/ProfilerSession.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Return.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Return/{04f0671e-c31c-42e7-b072-abe505c6e577}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Return/{04f0671e-c31c-42e7-b072-abe505c6e577}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/SandboxFolder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/SandboxFolder/{1a66ad80-656a-4a6e-a333-8a3ff801f7f2}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/SandboxFolder/{1a66ad80-656a-4a6e-a333-8a3ff801f7f2}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/SandboxScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Snapshot.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/SnapshotGroup.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/SnapshotGroup/{719a19d6-6021-40cf-92f3-968f0b7e5267}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/SnapshotGroup/{719a19d6-6021-40cf-92f3-968f0b7e5267}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Tags.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Tags.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/VCA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Metadata/Workspace.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/legboy.fspro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDD/legboy.fspro.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Assets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Assets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Assets/passos - Trimmed (2).wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Assets/passos - Trimmed (2).wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Assets/passos - Trimmed (3).wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Assets/passos - Trimmed (3).wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Assets/passos - Trimmed.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Assets/passos - Trimmed.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Assets/passos.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Assets/passos.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Assets/pc checkpoint.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Assets/pc checkpoint.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Build.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Build.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Asset/{b8831648-461b-4820-bd00-2055c4153ca6}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Asset/{b8831648-461b-4820-bd00-2055c4153ca6}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/AudioFile.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/AudioFile.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/AudioFile/{02ace997-7f34-4cfc-9047-036413fd4098}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/AudioFile/{02ace997-7f34-4cfc-9047-036413fd4098}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/AudioFile/{a330bb2a-c99b-4f88-a05a-286dd7e762ff}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/AudioFile/{a330bb2a-c99b-4f88-a05a-286dd7e762ff}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/AudioFile/{aa216d43-cd26-40ce-932b-b70e585b8c19}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/AudioFile/{aa216d43-cd26-40ce-932b-b70e585b8c19}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/AudioFile/{ba6c0131-2875-408a-a189-c3ff3162d2e6}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/AudioFile/{ba6c0131-2875-408a-a189-c3ff3162d2e6}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/AudioFile/{c19fd39c-d46d-469d-a272-48ea0d9c1895}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/AudioFile/{c19fd39c-d46d-469d-a272-48ea0d9c1895}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Bank.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Bank.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Bank/{481d7042-e722-4380-8eea-97e8c24cff68}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Bank/{481d7042-e722-4380-8eea-97e8c24cff68}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/BankFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/BankFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/BankFolder/{230cd6ae-9eb4-49e8-b903-f05f4693ea29}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/BankFolder/{230cd6ae-9eb4-49e8-b903-f05f4693ea29}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/DAWAsset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/DAWAsset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/DAWProject.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/DAWProject.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/DataFile.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/DataFile.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/EffectPreset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/EffectPreset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/EffectPresetFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/EffectPresetFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/EffectPresetFolder/{815708d2-6e70-4297-865b-f6d333755012}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/EffectPresetFolder/{815708d2-6e70-4297-865b-f6d333755012}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/EncodingSetting.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/EncodingSetting.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/EncodingSetting/{2ceaec49-226a-4606-a8b5-19fbba48f769}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/EncodingSetting/{2ceaec49-226a-4606-a8b5-19fbba48f769}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Event.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Event.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Event/{3186567d-29e6-483f-84c6-1d71785c7396}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Event/{3186567d-29e6-483f-84c6-1d71785c7396}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Event/{3186567d-29e6-483f-84c6-1d71785c7396}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Event/{3186567d-29e6-483f-84c6-1d71785c7396}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Event/{75e5dd1c-7efb-4419-b195-f3c935a28f03}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Event/{75e5dd1c-7efb-4419-b195-f3c935a28f03}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Event/{83d6cd79-eb24-4dd2-9eda-08d52be27496}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Event/{83d6cd79-eb24-4dd2-9eda-08d52be27496}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/EventFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/EventFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/EventFolder/{323b6587-fea1-4cd2-bee6-2aa3b82e0c0a}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/EventFolder/{323b6587-fea1-4cd2-bee6-2aa3b82e0c0a}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Group.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Group.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Locale.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Locale.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Master.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Master.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Mixer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Mixer.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/MixerView.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/MixerView.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/ParameterPreset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/ParameterPreset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/ParameterPreset/{b8d9e23a-5228-48bf-aba4-de1cb30562e7}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/ParameterPreset/{b8d9e23a-5228-48bf-aba4-de1cb30562e7}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/ParameterPresetFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/ParameterPresetFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/ParameterPresetFolder/{2f58d339-866e-47c6-a658-dd81825e6dbb}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/ParameterPresetFolder/{2f58d339-866e-47c6-a658-dd81825e6dbb}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Platform.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Platform.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Platform/{0bf6164e-2623-4c89-8dd9-946418732089}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Platform/{0bf6164e-2623-4c89-8dd9-946418732089}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/ProfilerFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/ProfilerFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/ProfilerFolder/{e52da9c4-0c05-46cd-94a4-a270a0308be4}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/ProfilerFolder/{e52da9c4-0c05-46cd-94a4-a270a0308be4}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/ProfilerSession.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/ProfilerSession.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Return.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Return.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Return/{04f0671e-c31c-42e7-b072-abe505c6e577}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Return/{04f0671e-c31c-42e7-b072-abe505c6e577}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/SandboxFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/SandboxFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/SandboxFolder/{1a66ad80-656a-4a6e-a333-8a3ff801f7f2}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/SandboxFolder/{1a66ad80-656a-4a6e-a333-8a3ff801f7f2}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/SandboxScene.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/SandboxScene.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Snapshot.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Snapshot.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/SnapshotGroup.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/SnapshotGroup.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/SnapshotGroup/{719a19d6-6021-40cf-92f3-968f0b7e5267}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/SnapshotGroup/{719a19d6-6021-40cf-92f3-968f0b7e5267}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Tags.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Tags.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/VCA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/VCA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Workspace.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Metadata/Workspace.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/legboy.fspro.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy-OLDEST/legboy.fspro.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/1F7924E4.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/1FEDA5C0.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/21F02E23.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/2F8028DA.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/2FA23EB7.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/361C9A56.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/3B173968.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/3C924FE2.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/3ED600D5.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/513A2193.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/59F9E6A9.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/60BAC96F.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/62C21683.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/6667F34B.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/6A78E810.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/7EFDC147.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/7F1FC595.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/86DE3F8B.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/8DD75825.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/90198B51.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/9551A09F.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/957049A6.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/9E0DC4AC.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/A849D6D0.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/A8E147AD.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/AE5BCA82.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/AFCC650E.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/D25465D4.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/DD3FDD61.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/E5A8876B.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/E6D19B9E.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/EA13C861.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/EC2CB942.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/FAF31E63.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/fsbcache/Desktop/FE551DD2.fobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{02ace997-7f34-4cfc-9047-036413fd4098}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{10b5b504-fc53-4243-831c-96d87751ac82}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{10b9097c-b9ad-4b63-9a4c-84da1e65855a}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{1653d6b5-744c-41b7-be77-a444976f8d91}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{177bba4e-b43a-4d23-915a-6e938426f05b}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{25289349-a038-4ab7-8bf8-2b14481702a8}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{2d80ce5d-68f0-4c09-a599-16b978d9db9e}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{3ec45328-50a4-42ce-8dcc-2358f9e305e6}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{55bc2472-bf58-458a-bcd4-cb949debf056}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{564a8d30-81fb-413a-b4ad-b22911895e38}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{56a3b8a5-c013-454a-9f7a-415201c15aad}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{58dc1dff-cfc4-49c9-be60-78bb42cf0ca0}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{5aac53bf-3d76-4109-8adf-a68f103d1810}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{5cb597a5-1d2b-4bc0-bead-a97e96dc1f10}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{5ee64b41-0f46-41c2-b62b-e11acea4ad70}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{6969c43d-f476-475c-b023-e215971cf60e}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{6f2da271-ad86-4b1c-bec1-cf83bcbab5c2}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{7d87379a-4658-41f5-b345-ab17fbe530e4}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{89f642e2-54f2-4fda-8936-fa8a6bd17bf9}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{93618c0f-0601-4979-ac96-3b9204d724d5}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{9f7638fb-d64f-446b-b988-f749b1ea87f3}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{a0ff0a07-c3fd-4161-bf69-a9278b4de59b}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{a2b6a223-8de9-4724-91d8-af588ab72028}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{a330bb2a-c99b-4f88-a05a-286dd7e762ff}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{a7e6c8ec-345b-4a83-9765-378ed7569278}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{aa216d43-cd26-40ce-932b-b70e585b8c19}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{aaddef34-6e44-4b76-9baf-4f9ae45409be}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{ab88e4c0-7747-49f4-b70b-eb96f9d67ecf}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{acf57fde-4b29-4721-9246-aa80a3a157ef}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{acfb1305-fa39-4d07-b4f9-f2e7519cd9d4}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{af5d36b3-ce6c-44a7-89fd-68c2d09e0a88}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{b99145c5-b4e0-4813-8b3c-c80ec0fdc25c}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{ba6c0131-2875-408a-a189-c3ff3162d2e6}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{be867af9-67dc-4a3d-a5cb-7af5afbd2cc6}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{bef5978f-fa9c-49c9-bdfe-557161822613}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{c19fd39c-d46d-469d-a272-48ea0d9c1895}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{c2e296ef-c44b-4fc2-b872-aec57962d90b}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{c93a42f1-9bf3-4a0c-aa2c-5ab95c7ad034}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{c9b67d32-fa46-44d8-b4b5-8b54fb830eb4}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{cc33e5b4-358a-4838-84fb-558b0a69f663}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{dc44d0a2-ca11-42c8-af5e-6aa54cbc0fce}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{dc696c7d-03a9-4b7b-b7b4-38df9430b9c8}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{e9da0c98-2738-4476-b532-572e5fde147b}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{fe234d2f-5db2-46a6-96b0-e15f6c69df88}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/.cache/{fe995456-e5c0-4be7-8709-a5bd3b3c7cb4}.pdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/Legboy - Fantasy Caves 3.8.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/Legboy - Fantasy Caves 3.8.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy pc checkpoint updated.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy pc checkpoint updated.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy sfx 1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy sfx 1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy sfx 2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy sfx 2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy sfx 3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy sfx 3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy sfx 4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy sfx 4.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy sfx 5.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy sfx 5.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy_fall_long.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy_fall_long.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy_fall_short.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy_fall_short.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy_jump1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy_jump1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy_jump2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/legboy_jump2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/passos - Trimmed (3).wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/passos - Trimmed (3).wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/passos - Trimmed.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Assets/passos - Trimmed.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Build.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Asset/{b8831648-461b-4820-bd00-2055c4153ca6}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Asset/{b8831648-461b-4820-bd00-2055c4153ca6}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{10b9097c-b9ad-4b63-9a4c-84da1e65855a}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{10b9097c-b9ad-4b63-9a4c-84da1e65855a}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{1653d6b5-744c-41b7-be77-a444976f8d91}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{1653d6b5-744c-41b7-be77-a444976f8d91}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{564a8d30-81fb-413a-b4ad-b22911895e38}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{564a8d30-81fb-413a-b4ad-b22911895e38}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{56a3b8a5-c013-454a-9f7a-415201c15aad}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{56a3b8a5-c013-454a-9f7a-415201c15aad}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{5ee64b41-0f46-41c2-b62b-e11acea4ad70}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{5ee64b41-0f46-41c2-b62b-e11acea4ad70}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{6f2da271-ad86-4b1c-bec1-cf83bcbab5c2}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{6f2da271-ad86-4b1c-bec1-cf83bcbab5c2}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{acf57fde-4b29-4721-9246-aa80a3a157ef}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{acf57fde-4b29-4721-9246-aa80a3a157ef}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{acfb1305-fa39-4d07-b4f9-f2e7519cd9d4}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{acfb1305-fa39-4d07-b4f9-f2e7519cd9d4}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{ba6c0131-2875-408a-a189-c3ff3162d2e6}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{ba6c0131-2875-408a-a189-c3ff3162d2e6}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{bef5978f-fa9c-49c9-bdfe-557161822613}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{bef5978f-fa9c-49c9-bdfe-557161822613}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{c19fd39c-d46d-469d-a272-48ea0d9c1895}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{c19fd39c-d46d-469d-a272-48ea0d9c1895}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{c93a42f1-9bf3-4a0c-aa2c-5ab95c7ad034}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{c93a42f1-9bf3-4a0c-aa2c-5ab95c7ad034}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{dc44d0a2-ca11-42c8-af5e-6aa54cbc0fce}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/AudioFile/{dc44d0a2-ca11-42c8-af5e-6aa54cbc0fce}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Bank.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Bank/{481d7042-e722-4380-8eea-97e8c24cff68}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Bank/{481d7042-e722-4380-8eea-97e8c24cff68}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/BankFolder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/BankFolder/{230cd6ae-9eb4-49e8-b903-f05f4693ea29}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/BankFolder/{230cd6ae-9eb4-49e8-b903-f05f4693ea29}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/DAWAsset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/DAWProject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/DataFile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/EffectPreset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/EffectPresetFolder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/EffectPresetFolder/{815708d2-6e70-4297-865b-f6d333755012}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/EffectPresetFolder/{815708d2-6e70-4297-865b-f6d333755012}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/EncodingSetting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/EncodingSetting/{2ceaec49-226a-4606-a8b5-19fbba48f769}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/EncodingSetting/{2ceaec49-226a-4606-a8b5-19fbba48f769}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Event.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Event/{21447f98-1fd4-4cf1-bb76-319b4b5035c9}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Event/{21447f98-1fd4-4cf1-bb76-319b4b5035c9}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Event/{241afdc5-2a2c-4c5d-b267-a1f52a71aa8f}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Event/{241afdc5-2a2c-4c5d-b267-a1f52a71aa8f}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Event/{310007b1-aee2-4d6d-8333-6d4e8458f104}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Event/{310007b1-aee2-4d6d-8333-6d4e8458f104}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Event/{3186567d-29e6-483f-84c6-1d71785c7396}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Event/{3186567d-29e6-483f-84c6-1d71785c7396}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Event/{75e5dd1c-7efb-4419-b195-f3c935a28f03}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Event/{75e5dd1c-7efb-4419-b195-f3c935a28f03}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Event/{83d6cd79-eb24-4dd2-9eda-08d52be27496}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Event/{83d6cd79-eb24-4dd2-9eda-08d52be27496}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Event/{bd723ab9-bd0b-4be2-a022-88f293111e2b}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Event/{bd723ab9-bd0b-4be2-a022-88f293111e2b}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/EventFolder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/EventFolder/{323b6587-fea1-4cd2-bee6-2aa3b82e0c0a}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/EventFolder/{323b6587-fea1-4cd2-bee6-2aa3b82e0c0a}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Group.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Locale.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Master.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Mixer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Mixer.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/MixerView.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{00a44ae7-10e0-4e3f-b76a-2505fa3c4d17}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{00a44ae7-10e0-4e3f-b76a-2505fa3c4d17}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{50d8ed84-dc1a-4bf5-a21a-8932d0b2e8e9}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{50d8ed84-dc1a-4bf5-a21a-8932d0b2e8e9}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{678579c7-e843-4767-8e2d-0bf18e70c0e0}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{678579c7-e843-4767-8e2d-0bf18e70c0e0}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{73cbcce9-51a2-4e28-a1e8-c3e0dff052d3}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{73cbcce9-51a2-4e28-a1e8-c3e0dff052d3}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{9937d1bf-60f2-4c1c-9f98-4168d03b59c1}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{9937d1bf-60f2-4c1c-9f98-4168d03b59c1}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{ac19891c-6f96-45c7-82b8-a0695019c43b}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{ac19891c-6f96-45c7-82b8-a0695019c43b}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{b8d9e23a-5228-48bf-aba4-de1cb30562e7}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{b8d9e23a-5228-48bf-aba4-de1cb30562e7}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{e7cf0231-f881-45e7-88fe-d1c1538ba2f6}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPreset/{e7cf0231-f881-45e7-88fe-d1c1538ba2f6}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPresetFolder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPresetFolder/{2f58d339-866e-47c6-a658-dd81825e6dbb}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ParameterPresetFolder/{2f58d339-866e-47c6-a658-dd81825e6dbb}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Platform.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Platform/{0bf6164e-2623-4c89-8dd9-946418732089}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Platform/{0bf6164e-2623-4c89-8dd9-946418732089}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ProfilerFolder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ProfilerFolder/{e52da9c4-0c05-46cd-94a4-a270a0308be4}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ProfilerFolder/{e52da9c4-0c05-46cd-94a4-a270a0308be4}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/ProfilerSession.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Return.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Return/{04f0671e-c31c-42e7-b072-abe505c6e577}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Return/{04f0671e-c31c-42e7-b072-abe505c6e577}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/SandboxFolder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/SandboxFolder/{1a66ad80-656a-4a6e-a333-8a3ff801f7f2}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/SandboxFolder/{1a66ad80-656a-4a6e-a333-8a3ff801f7f2}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/SandboxScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Snapshot.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/SnapshotGroup.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/SnapshotGroup/{719a19d6-6021-40cf-92f3-968f0b7e5267}.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/SnapshotGroup/{719a19d6-6021-40cf-92f3-968f0b7e5267}.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Tags.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Tags.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/VCA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Metadata/Workspace.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/legboy.fspro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy-backup/legboy.fspro.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/Legboy - Fantasy Caves 3.8.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/Legboy - Fantasy Caves 3.8.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy pc checkpoint updated.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy pc checkpoint updated.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy sfx 1.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy sfx 1.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy sfx 2.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy sfx 2.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy sfx 3.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy sfx 3.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy sfx 4.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy sfx 4.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy sfx 5.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy sfx 5.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy_fall_long.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy_fall_long.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy_fall_short.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy_fall_short.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy_jump1.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy_jump1.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy_jump2.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/legboy_jump2.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/passos - Trimmed (3).wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/passos - Trimmed (3).wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/passos - Trimmed.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Assets/passos - Trimmed.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Build.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Build.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Asset/{b8831648-461b-4820-bd00-2055c4153ca6}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Asset/{b8831648-461b-4820-bd00-2055c4153ca6}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{10b9097c-b9ad-4b63-9a4c-84da1e65855a}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{10b9097c-b9ad-4b63-9a4c-84da1e65855a}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{1653d6b5-744c-41b7-be77-a444976f8d91}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{1653d6b5-744c-41b7-be77-a444976f8d91}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{564a8d30-81fb-413a-b4ad-b22911895e38}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{564a8d30-81fb-413a-b4ad-b22911895e38}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{56a3b8a5-c013-454a-9f7a-415201c15aad}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{56a3b8a5-c013-454a-9f7a-415201c15aad}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{5ee64b41-0f46-41c2-b62b-e11acea4ad70}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{5ee64b41-0f46-41c2-b62b-e11acea4ad70}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{6f2da271-ad86-4b1c-bec1-cf83bcbab5c2}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{6f2da271-ad86-4b1c-bec1-cf83bcbab5c2}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{acf57fde-4b29-4721-9246-aa80a3a157ef}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{acf57fde-4b29-4721-9246-aa80a3a157ef}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{acfb1305-fa39-4d07-b4f9-f2e7519cd9d4}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{acfb1305-fa39-4d07-b4f9-f2e7519cd9d4}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{ba6c0131-2875-408a-a189-c3ff3162d2e6}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{ba6c0131-2875-408a-a189-c3ff3162d2e6}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{bef5978f-fa9c-49c9-bdfe-557161822613}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{bef5978f-fa9c-49c9-bdfe-557161822613}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{c19fd39c-d46d-469d-a272-48ea0d9c1895}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{c19fd39c-d46d-469d-a272-48ea0d9c1895}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{c93a42f1-9bf3-4a0c-aa2c-5ab95c7ad034}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{c93a42f1-9bf3-4a0c-aa2c-5ab95c7ad034}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{dc44d0a2-ca11-42c8-af5e-6aa54cbc0fce}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/AudioFile/{dc44d0a2-ca11-42c8-af5e-6aa54cbc0fce}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Bank.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Bank.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Bank/{481d7042-e722-4380-8eea-97e8c24cff68}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Bank/{481d7042-e722-4380-8eea-97e8c24cff68}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/BankFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/BankFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/BankFolder/{230cd6ae-9eb4-49e8-b903-f05f4693ea29}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/BankFolder/{230cd6ae-9eb4-49e8-b903-f05f4693ea29}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/DAWAsset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/DAWAsset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/DAWProject.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/DAWProject.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/DataFile.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/DataFile.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/EffectPreset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/EffectPreset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/EffectPresetFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/EffectPresetFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/EffectPresetFolder/{815708d2-6e70-4297-865b-f6d333755012}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/EffectPresetFolder/{815708d2-6e70-4297-865b-f6d333755012}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/EncodingSetting.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/EncodingSetting.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/EncodingSetting/{2ceaec49-226a-4606-a8b5-19fbba48f769}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/EncodingSetting/{2ceaec49-226a-4606-a8b5-19fbba48f769}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event/{21447f98-1fd4-4cf1-bb76-319b4b5035c9}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event/{21447f98-1fd4-4cf1-bb76-319b4b5035c9}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event/{241afdc5-2a2c-4c5d-b267-a1f52a71aa8f}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event/{241afdc5-2a2c-4c5d-b267-a1f52a71aa8f}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event/{310007b1-aee2-4d6d-8333-6d4e8458f104}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event/{310007b1-aee2-4d6d-8333-6d4e8458f104}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event/{3186567d-29e6-483f-84c6-1d71785c7396}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event/{3186567d-29e6-483f-84c6-1d71785c7396}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event/{75e5dd1c-7efb-4419-b195-f3c935a28f03}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event/{75e5dd1c-7efb-4419-b195-f3c935a28f03}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event/{83d6cd79-eb24-4dd2-9eda-08d52be27496}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event/{83d6cd79-eb24-4dd2-9eda-08d52be27496}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event/{bd723ab9-bd0b-4be2-a022-88f293111e2b}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Event/{bd723ab9-bd0b-4be2-a022-88f293111e2b}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/EventFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/EventFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/EventFolder/{323b6587-fea1-4cd2-bee6-2aa3b82e0c0a}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/EventFolder/{323b6587-fea1-4cd2-bee6-2aa3b82e0c0a}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Group.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Group.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Locale.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Locale.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Master.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Master.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Mixer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Mixer.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/MixerView.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/MixerView.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{00a44ae7-10e0-4e3f-b76a-2505fa3c4d17}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{00a44ae7-10e0-4e3f-b76a-2505fa3c4d17}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{50d8ed84-dc1a-4bf5-a21a-8932d0b2e8e9}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{50d8ed84-dc1a-4bf5-a21a-8932d0b2e8e9}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{678579c7-e843-4767-8e2d-0bf18e70c0e0}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{678579c7-e843-4767-8e2d-0bf18e70c0e0}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{73cbcce9-51a2-4e28-a1e8-c3e0dff052d3}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{73cbcce9-51a2-4e28-a1e8-c3e0dff052d3}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{9937d1bf-60f2-4c1c-9f98-4168d03b59c1}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{9937d1bf-60f2-4c1c-9f98-4168d03b59c1}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{ac19891c-6f96-45c7-82b8-a0695019c43b}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{ac19891c-6f96-45c7-82b8-a0695019c43b}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{b8d9e23a-5228-48bf-aba4-de1cb30562e7}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{b8d9e23a-5228-48bf-aba4-de1cb30562e7}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{e7cf0231-f881-45e7-88fe-d1c1538ba2f6}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPreset/{e7cf0231-f881-45e7-88fe-d1c1538ba2f6}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPresetFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPresetFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPresetFolder/{2f58d339-866e-47c6-a658-dd81825e6dbb}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ParameterPresetFolder/{2f58d339-866e-47c6-a658-dd81825e6dbb}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Platform.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Platform.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Platform/{0bf6164e-2623-4c89-8dd9-946418732089}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Platform/{0bf6164e-2623-4c89-8dd9-946418732089}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ProfilerFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ProfilerFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ProfilerFolder/{e52da9c4-0c05-46cd-94a4-a270a0308be4}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ProfilerFolder/{e52da9c4-0c05-46cd-94a4-a270a0308be4}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ProfilerSession.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/ProfilerSession.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Return.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Return.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Return/{04f0671e-c31c-42e7-b072-abe505c6e577}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Return/{04f0671e-c31c-42e7-b072-abe505c6e577}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/SandboxFolder.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/SandboxFolder.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/SandboxFolder/{1a66ad80-656a-4a6e-a333-8a3ff801f7f2}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/SandboxFolder/{1a66ad80-656a-4a6e-a333-8a3ff801f7f2}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/SandboxScene.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/SandboxScene.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Snapshot.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Snapshot.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/SnapshotGroup.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/SnapshotGroup.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/SnapshotGroup/{719a19d6-6021-40cf-92f3-968f0b7e5267}.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/SnapshotGroup/{719a19d6-6021-40cf-92f3-968f0b7e5267}.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Tags.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Tags.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/VCA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/VCA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Workspace.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Metadata/Workspace.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FMOD/legboy/legboy.fspro.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_FMOD/legboy/legboy.fspro.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Enemies/Test Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Enemies/Test Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Important/Legboy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Important/Legboy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Important/Level Kit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Important/Level Kit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Old/00 - Tutorial Level (backup).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/00 - Old/00 - Tutorial Level (backup).unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Overlay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Enemies/EnemyLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Enemies/EnemyLife.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/TabletMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/TabletMenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/TextBoxManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/TextBoxManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Other/MovingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Other/MovingPlatform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/Collision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerCollision.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/Collision.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerCollision.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/LevelManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerSounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerSounds.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerWallRun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerWallRun.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +884,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0049532E-C432-485C-A342-60937DA7A054/db/80d3be44/ResourcesAPI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0049532E-C432-485C-A342-60937DA7A054/8d/efc66835/ResourcesAPIInternal.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Other/TransparentWall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Other/ScreenShake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Managers/DiamondsManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Player/PlayerSounds.cs" root0="FORCE_HIGHLIGHTING" />
@@ -74,7 +903,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/ClipperLib/ClipperOffset.cs" />
         <option value="$PROJECT_DIR$/Assets/ClipperLib/ClipperTriangulation.cs" />
         <option value="$PROJECT_DIR$/Assets/ClipperLib/Clipper.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/GenerateColAreas.cs" />
@@ -85,7 +913,6 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/CountChildren.cs" />
         <option value="$PROJECT_DIR$/Assets/_Story/Tablets/tablets_data.txt" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/TabletInfo.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/ScreenTransitionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LevitationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/GameOverTrigger.cs" />
@@ -93,7 +920,6 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/SquishDetection.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/Collision.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/PauseMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Enemies/EnemyLife.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/CheckpointManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/_Story/Tablets/tabletsData.txt" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/GameStateManager.cs" />
@@ -115,16 +941,19 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/CameraZonesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/CameraZone.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/ScreenShake.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerCollision.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/TabletMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerSounds.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/TextBoxManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerWallRun.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerBrain.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerWallRun.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Enemies/EnemyLife.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Other/TransparentWall.cs" />
       </list>
     </option>
   </component>
@@ -328,6 +1157,13 @@
       <workItem from="1634153223062" duration="593000" />
       <workItem from="1634160189983" duration="2235000" />
       <workItem from="1634237608373" duration="7791000" />
+      <workItem from="1634685148292" duration="613000" />
+      <workItem from="1634758121465" duration="2445000" />
+      <workItem from="1634844401808" duration="5783000" />
+      <workItem from="1634924997186" duration="5222000" />
+      <workItem from="1634944621867" duration="2694000" />
+      <workItem from="1635104002769" duration="5675000" />
+      <workItem from="1635196790436" duration="3030000" />
     </task>
     <servers />
   </component>
@@ -356,10 +1192,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1628367120427" />
-    <state x="92" y="92" width="1416" height="676" key="VCS.FileHistoryDialog" timestamp="1629428418714">
+    <state x="92" y="92" width="1416" height="676" key="VCS.FileHistoryDialog" timestamp="1635116069735">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="VCS.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1629428418714" />
+    <state x="92" y="92" width="1416" height="676" key="VCS.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1635116069735" />
     <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1628367383887">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

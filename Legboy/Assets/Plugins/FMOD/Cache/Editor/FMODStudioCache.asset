@@ -146,6 +146,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 132
+--- !u!114 &-7120548843009773864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/pc checkpoint
+  m_EditorClassIdentifier: 
+  Path: event:/pc checkpoint
+  guid: 7d568631e6293f4884c61d71785c7396
+  Banks:
+  - {fileID: -4604000810870152189}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 26000
 --- !u!114 &-6810310670470554874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,6 +296,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-4604000810870152189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/_FMOD/legboy/Build/Desktop/Master.bank
+  Name: Master
+  lastModified: 637686773440000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-4601121790774169199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,6 +361,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 50
+--- !u!114 &-3851502464230296515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/steps
+  m_EditorClassIdentifier: 
+  Path: event:/steps
+  guid: 1cdde575fb7e1944b195f3c935a28f03
+  Banks:
+  - {fileID: -4604000810870152189}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 180
 --- !u!114 &-3800076272967894506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,6 +532,30 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-1622013369456495384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/fall
+  m_EditorClassIdentifier: 
+  Path: event:/fall
+  guid: c5fd1a242c2a5d4cb267a1f52a71aa8f
+  Banks:
+  - {fileID: -4604000810870152189}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5570334063263593687}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 580
 --- !u!114 &-1232846647156425127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,6 +600,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 750
   Exists: 1
+--- !u!114 &-919482289984618744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/wallrun/wallrun certo
+  m_EditorClassIdentifier: 
+  Name: wallrun certo
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-656504121421779754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -548,20 +656,20 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -4891372446387473636}
-  - {fileID: 6146494887521824859}
+  - {fileID: 1369075846058045233}
+  - {fileID: -4604000810870152189}
   EditorEvents:
-  - {fileID: -656504121421779754}
-  - {fileID: -4735622111303750613}
-  - {fileID: -3988492689471841270}
-  - {fileID: 6420885400868564231}
-  - {fileID: -7822723351498778625}
-  - {fileID: 5818864254574081837}
+  - {fileID: -3851502464230296515}
+  - {fileID: -7120548843009773864}
+  - {fileID: 7431706355147462601}
+  - {fileID: 6165565982379505250}
+  - {fileID: 2882813400074891466}
+  - {fileID: -1622013369456495384}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 6146494887521824859}
+  - {fileID: -4604000810870152189}
   StringsBanks:
-  - {fileID: -4891372446387473636}
+  - {fileID: 1369075846058045233}
   stringsBankWriteTime: 637686773440000000
   cacheVersion: 5
 --- !u!114 &352916170973816986
@@ -583,6 +691,26 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
+  Exists: 1
+--- !u!114 &1369075846058045233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/_FMOD/legboy/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  lastModified: 637686773440000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1084
   Exists: 1
 --- !u!114 &1693791583304751789
 MonoBehaviour:
@@ -645,6 +773,30 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 33518
+--- !u!114 &2882813400074891466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/wallrun
+  m_EditorClassIdentifier: 
+  Path: event:/wallrun
+  guid: b93a72bd0bbde24ba02288f293111e2b
+  Banks:
+  - {fileID: -4604000810870152189}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -919482289984618744}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 50
 --- !u!114 &3844298953570797947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -807,6 +959,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &5570334063263593687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/fall/queda
+  m_EditorClassIdentifier: 
+  Name: queda
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &5818864254574081837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -872,6 +1044,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &6165565982379505250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/jump
+  m_EditorClassIdentifier: 
+  Path: event:/jump
+  guid: b1070031e2ae6d4d83336d4e8458f104
+  Banks:
+  - {fileID: -4604000810870152189}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 132
 --- !u!114 &6420885400868564231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -888,6 +1083,29 @@ MonoBehaviour:
   guid: 987f4421d41ff14cbb76319b4b5035c9
   Banks:
   - {fileID: 6146494887521824859}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 258586
+--- !u!114 &7431706355147462601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music
+  m_EditorClassIdentifier: 
+  Path: event:/music
+  guid: 987f4421d41ff14cbb76319b4b5035c9
+  Banks:
+  - {fileID: -4604000810870152189}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0

@@ -1,30 +1,33 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Patrol))]
-[RequireComponent(typeof(Collider2D))]
 public class EnemyLife : MonoBehaviour
 {
-    public GameObject threatCollider;
     public Animator anim;
     public float disappearTime = 1f;
+    public float playerColRadius = 2f;
+    public float playerColHeight = 0.5f;
+    public LayerMask playerFeetLayer;
     
     private Patrol myEnemyPatrol;
-    private Collider2D myCol;
+    private bool dead;
     private Coroutine disappearCoroutine;
     
     private void Awake()
     {
         myEnemyPatrol = GetComponent<Patrol>();
-        myCol = GetComponent<Collider2D>();
     }
-    
+
+    private void Update()
+    {
+        if (dead) return;
+        CheckForPlayerCollision();
+    }
+
     void Die()
     {
-        threatCollider.SetActive(false);
-        myCol.enabled = false;
+        dead = true;
         myEnemyPatrol.StopTween();
         myEnemyPatrol.enabled = false;
         anim.SetTrigger("Die");
@@ -44,21 +47,31 @@ public class EnemyLife : MonoBehaviour
         disappearCoroutine = null;
         
         this.gameObject.SetActive(true);
-        threatCollider.SetActive(true);
-        myCol.enabled = true;
+        dead = false;
         myEnemyPatrol.enabled = true;
         myEnemyPatrol.RestartTween();
         anim.Rebind();
         anim.Update(0f);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void CheckForPlayerCollision()
     {
-        if (other.CompareTag("PlayerFeet") && !LifeManager.instance.isDead)
+        var hit = Physics2D.OverlapCircle(transform.position, playerColRadius, playerFeetLayer);
+        if (!hit || LifeManager.instance.isDead) return;
+        if (transform.position.y + playerColHeight < hit.bounds.center.y - hit.bounds.extents.y)
         {
-            if (!GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().falling) return;
+            LevelManager.instance.player.GetComponent<PlayerMovement>().EnemyHeadJump();
             Die();
-            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().EnemyHeadJump();
         }
+        else
+        {
+            LifeManager.instance.Die();
+        }
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(transform.position, playerColRadius);
+        Gizmos.DrawLine(new Vector3(-0.5f, playerColHeight, 0f) + transform.position, new Vector3(0.5f, playerColHeight, 0f) + transform.position);
     }
 }

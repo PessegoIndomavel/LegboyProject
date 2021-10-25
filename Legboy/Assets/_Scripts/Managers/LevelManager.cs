@@ -1,7 +1,6 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
@@ -25,6 +24,8 @@ public class LevelManager : MonoBehaviour
     public Checkpoint[] checkpoints;
     public Checkpoint initialCheckpoint;
     public GameObject player;
+    public Image staminaBarFill;
+    public GameObject exclamation;
 
     private List<Tablet> tabletsCollected;
     private List<Collectable> collected;

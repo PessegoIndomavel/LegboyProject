@@ -28,7 +28,7 @@ TagManager:
   - EnemyWeakPoint
   - LegboyFeet
   - Tablet
-  - 
+  - TransparentWall
   - 
   - 
   - 
@@ -68,4 +68,7 @@ TagManager:
     locked: 0
   - name: Crystal
     uniqueID: 389651189
+    locked: 0
+  - name: Transparent Wall
+    uniqueID: 494702915
     locked: 0

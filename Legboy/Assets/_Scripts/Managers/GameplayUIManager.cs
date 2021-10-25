@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,7 @@ public class GameplayUIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI crystalCounterText;
     [SerializeField] private TextMeshProUGUI tabletCounterText;
     [SerializeField] private Image wallRunBarFill;
+    [SerializeField] private GameObject exclamation;
 
     private Coroutine turnOffCoroutine;
 
@@ -28,7 +30,12 @@ public class GameplayUIManager : MonoBehaviour
 
         #endregion
     }
-    
+
+    private void Start()
+    {
+        ScenesManager.instance.onLoadScene += GetReferences;
+    }
+
     //mexer nessa funcao e nas paradas associadas a ela futuramente pq esta um coco
     public void ShowUI(bool turnOffAfterTime = true)
     {
@@ -52,4 +59,19 @@ public class GameplayUIManager : MonoBehaviour
     {
         wallRunBarFill.fillAmount = value;
     }
+
+    public void Exclamation(bool value)
+    {
+        exclamation.SetActive(value);
+    }
+
+    private void GetReferences()
+    {
+        if (ScenesManager.instance.isLevel)
+        {
+            wallRunBarFill = LevelManager.instance.staminaBarFill;
+            exclamation = LevelManager.instance.exclamation;
+        }
+    }
+    
 }

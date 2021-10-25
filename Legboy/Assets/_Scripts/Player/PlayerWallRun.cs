@@ -55,6 +55,7 @@ public class PlayerWallRun : MonoBehaviour
     private bool triedBWRjump;
     private bool triedToWallrun;
     private int lastWallrunSide = -1; //-1 == null; 0 == left; 1 == right; 2 == back
+    private float curWallrunTime;
     private Vector2 backWallrunDir = Vector2.up;
     private IEnumerator wallrunCoroutine;
     private Coroutine wallrunBufferCoroutine, bwrBufferCoroutine, sweatCoroutine;
@@ -157,6 +158,8 @@ public class PlayerWallRun : MonoBehaviour
     {
         if(!coll.onWall || coll.onGround) CancelWallrun();
 
+        WallrunTimeCount();
+        
         rb.velocity = new Vector2(0f, wallRunSpeed);
     }
 
@@ -174,8 +177,10 @@ public class PlayerWallRun : MonoBehaviour
              CancelWallrun();
              rb.velocity = Vector2.zero;
          }
-
+         
          if (!backWallrun) return;
+         
+         WallrunTimeCount();
          rb.velocity = backWallrunDir == Vector2.up ? new Vector2(0f, wallRunSpeed) : new Vector2(wallRunSpeed * backWallrunDir.x, 0f);
     }
 
@@ -270,6 +275,13 @@ public class PlayerWallRun : MonoBehaviour
         anim.wallrunParticles.Stop();
         StopSweat();
         StopCoroutine(wallrunCoroutine);
+        ResetWallrunTimeCount();
+        Invoke("Exclamation", 0.2f);
+    }
+
+    private void Exclamation()
+    {
+        GameplayUIManager.instance.Exclamation(false);
     }
 
     private void StartWallrunTimer()
@@ -277,6 +289,7 @@ public class PlayerWallRun : MonoBehaviour
         StopCoroutine(wallrunCoroutine);
         wallrunCoroutine = WallrunTimer();
         StartCoroutine(wallrunCoroutine);
+        ResetWallrunTimeCount();
     }
     
     private void WallJump()
@@ -363,7 +376,20 @@ public class PlayerWallRun : MonoBehaviour
         if(sweatCoroutine != null) StopCoroutine(sweatCoroutine); 
         Sweat(false);
     }
-    
+
+    private void ResetWallrunTimeCount()
+    {
+        curWallrunTime = wallRunTime;
+        GameplayUIManager.instance.UpdateWallRunBarFill(curWallrunTime/wallRunTime);
+    }
+
+    private void WallrunTimeCount()
+    {
+        curWallrunTime -= Time.deltaTime;
+        if(curWallrunTime < wallRunTime*0.1f) GameplayUIManager.instance.Exclamation(true);
+        GameplayUIManager.instance.UpdateWallRunBarFill(curWallrunTime/wallRunTime);
+    }
+
     private IEnumerator BWRJumpCoyoteTime(float cTime)
     {
         yield return new WaitForSeconds(cTime);
@@ -421,7 +447,6 @@ public class PlayerWallRun : MonoBehaviour
     
     void WallrunHandler(InputAction.CallbackContext callbackContext)
     {
-        print("aeea");
         if (GameStateManager.instance.isPaused()) return;
         if (coll.onGround) return;
         if (backWallrun || normalWallrun)
@@ -431,7 +456,6 @@ public class PlayerWallRun : MonoBehaviour
         }
         if(wallrunBufferCoroutine != null) StopCoroutine(wallrunBufferCoroutine);
         wallrunBufferCoroutine = StartCoroutine(TriedToWallrun());
-        print("uhull");
     }
 
     public bool OnJumpKeyPress()
@@ -447,7 +471,6 @@ public class PlayerWallRun : MonoBehaviour
         if(bwrBufferCoroutine != null) StopCoroutine(bwrBufferCoroutine);
         bwrBufferCoroutine = StartCoroutine(TriedToBWRJump());
         return true;
-
     }
     
     #endregion
