@@ -14,6 +14,7 @@ public class GameplayUIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI crystalCounterText;
     [SerializeField] private TextMeshProUGUI tabletCounterText;
     [SerializeField] private float staminaBarUptime = 2f;
+    [SerializeField] private bool deactivateStaminaBar;
 
     private Animator staminaBarAnim;
     
@@ -71,6 +72,7 @@ public class GameplayUIManager : MonoBehaviour
 
     public void ShowStaminaBar()
     {
+        if(deactivateStaminaBar) return;
         staminaBar.SetActive(true);
         canFade = true;
         staminaBarAnim.SetTrigger("idle");
