@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using DG.Tweening;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -12,11 +13,19 @@ public class GameplayUIManager : MonoBehaviour
     [SerializeField] private GameObject uiObject;
     [SerializeField] private TextMeshProUGUI crystalCounterText;
     [SerializeField] private TextMeshProUGUI tabletCounterText;
-    [SerializeField] private Image wallRunBarFill;
-    [SerializeField] private GameObject exclamation;
+    [SerializeField] private float staminaBarUptime = 2f;
 
+    private Animator staminaBarAnim;
+    
+    private GameObject staminaBar;
+    private Image staminaBarFill;
+    private Image staminaBarBG;
+    private float currentSBarUptime;
+    private bool canFade;
+    
     private Coroutine turnOffCoroutine;
-
+    
+    
     public static GameplayUIManager instance;
 
     private void Awake()
@@ -34,6 +43,11 @@ public class GameplayUIManager : MonoBehaviour
     private void Start()
     {
         ScenesManager.instance.onLoadScene += GetReferences;
+    }
+
+    private void Update()
+    {
+        if(canFade) FadeStaminaBar();
     }
 
     //mexer nessa funcao e nas paradas associadas a ela futuramente pq esta um coco
@@ -55,23 +69,42 @@ public class GameplayUIManager : MonoBehaviour
         uiObject.SetActive(false);
     }
 
-    public void UpdateWallRunBarFill(float value)
+    public void ShowStaminaBar()
     {
-        wallRunBarFill.fillAmount = value;
+        staminaBar.SetActive(true);
+        canFade = true;
+        staminaBarAnim.SetTrigger("idle");
     }
 
-    public void Exclamation(bool value)
+    public void UpdateStaminaBarFill(float value)
     {
-        exclamation.SetActive(value);
+        staminaBarFill.fillAmount = value;
+        currentSBarUptime = staminaBarUptime;
+    }
+
+    private void FadeStaminaBar()
+    {
+        if (currentSBarUptime > 0f) currentSBarUptime -= Time.deltaTime;
+        else
+        {
+            canFade = false;
+            staminaBarAnim.SetTrigger("fadeOut");
+        }
     }
 
     private void GetReferences()
     {
         if (ScenesManager.instance.isLevel)
         {
-            wallRunBarFill = LevelManager.instance.staminaBarFill;
-            exclamation = LevelManager.instance.exclamation;
+            staminaBar = LevelManager.instance.player.GetComponent<PlayerBrain>().staminaBar;
+            staminaBarAnim = staminaBar.GetComponent<Animator>();
+            var temp = staminaBar.GetComponentsInChildren<Image>();
+            staminaBarFill = temp[1];
+            canFade = true;
+        }
+        else
+        {
+            canFade = false;
         }
     }
-    
 }

@@ -15,8 +15,10 @@ public class PlayerBrain : MonoBehaviour
     private Collider2D myColl;
 
     #endregion
-
+    
     public Action onEnableControls, onDisableControls, onDie;
+
+    public GameObject staminaBar;
     
     private void Awake()
     {

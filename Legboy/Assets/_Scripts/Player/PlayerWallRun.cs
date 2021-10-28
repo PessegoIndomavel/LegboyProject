@@ -223,6 +223,8 @@ public class PlayerWallRun : MonoBehaviour
         
         FrontalWallrun();
         
+        GameplayUIManager.instance.ShowStaminaBar();
+        
         anim.SetTrigger("StartNormalWallrun");
 
         StartWallrunTimer();
@@ -258,6 +260,8 @@ public class PlayerWallRun : MonoBehaviour
         
         BackWallrun();
         
+        GameplayUIManager.instance.ShowStaminaBar();
+        
         anim.SetTrigger("StartBackWallrun");
         
         //wallrunParticles.transform.localPosition = new Vector3(0.277f*side, wallrunParticles.transform.localPosition.y);
@@ -276,12 +280,6 @@ public class PlayerWallRun : MonoBehaviour
         StopSweat();
         StopCoroutine(wallrunCoroutine);
         ResetWallrunTimeCount();
-        Invoke("Exclamation", 0.2f);
-    }
-
-    private void Exclamation()
-    {
-        GameplayUIManager.instance.Exclamation(false);
     }
 
     private void StartWallrunTimer()
@@ -380,14 +378,13 @@ public class PlayerWallRun : MonoBehaviour
     private void ResetWallrunTimeCount()
     {
         curWallrunTime = wallRunTime;
-        GameplayUIManager.instance.UpdateWallRunBarFill(curWallrunTime/wallRunTime);
+        GameplayUIManager.instance.UpdateStaminaBarFill(curWallrunTime/wallRunTime);
     }
 
     private void WallrunTimeCount()
     {
         curWallrunTime -= Time.deltaTime;
-        if(curWallrunTime < wallRunTime*0.1f) GameplayUIManager.instance.Exclamation(true);
-        GameplayUIManager.instance.UpdateWallRunBarFill(curWallrunTime/wallRunTime);
+        GameplayUIManager.instance.UpdateStaminaBarFill(curWallrunTime/wallRunTime);
     }
 
     private IEnumerator BWRJumpCoyoteTime(float cTime)

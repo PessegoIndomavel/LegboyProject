@@ -14,7 +14,6 @@ public class LevelManager : MonoBehaviour
             Destroy(this);
         #endregion
         checkpoints = FindObjectsOfType<Checkpoint>();
-        
         collected = new List<Collectable>();
         defeated = new List<EnemyLife>(); 
         tabletsCollected = new List<Tablet>();
@@ -24,8 +23,7 @@ public class LevelManager : MonoBehaviour
     public Checkpoint[] checkpoints;
     public Checkpoint initialCheckpoint;
     public GameObject player;
-    public Image staminaBarFill;
-    public GameObject exclamation;
+    public GameObject staminaBar;
 
     private List<Tablet> tabletsCollected;
     private List<Collectable> collected;
