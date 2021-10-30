@@ -2095,8 +2095,8 @@ MonoBehaviour:
   uiObject: {fileID: 892207778}
   crystalCounterText: {fileID: 1597938490}
   tabletCounterText: {fileID: 156691679}
-  staminaBarUptime: 2
-  deactivateStaminaBar: 1
+  staminaBarUptime: 0.5
+  deactivateStaminaBar: 0
 --- !u!1 &633917662
 GameObject:
   m_ObjectHideFlags: 0
