@@ -33,9 +33,9 @@ public class MusicManager : MonoBehaviour
 
     public void PlayMusic()
     {
-        if (!ScenesManager.instance.isLevel) return;
-        _musicInstance = RuntimeManager.CreateInstance(musicEventPath);
-        _musicInstance.start();
+     //   if (!ScenesManager.instance.isLevel) return;
+     //   _musicInstance = RuntimeManager.CreateInstance(musicEventPath);
+     //   _musicInstance.start();
     }
 
     public void StopMusic()
