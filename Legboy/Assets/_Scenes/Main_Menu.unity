@@ -1855,7 +1855,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Playtest do Legboy 1.0
+  m_text: Legboy Playtest 2.0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db3d4705e786639408a56f2b3529a8be, type: 2}
   m_sharedMaterial: {fileID: 8164146147795043691, guid: db3d4705e786639408a56f2b3529a8be, type: 2}
