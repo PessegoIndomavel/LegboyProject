@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEditor;
 
 [RequireComponent(typeof(TilemapRenderer))]
 public class GenerateVerticalIsleMap : MonoBehaviour
@@ -41,6 +42,7 @@ public class GenerateVerticalIsleMap : MonoBehaviour
         }
 
         SaveTexture(texture);
+        SetMatMask("VerticalIsleMap_" + gameObject.scene.handle + ".png");
     }
     
     private List<List<int>> GetTiles(Tilemap tilemap)
@@ -71,7 +73,19 @@ public class GenerateVerticalIsleMap : MonoBehaviour
         if(!Directory.Exists(dirPath)) {
             Directory.CreateDirectory(dirPath);
         }
-        File.WriteAllBytes(dirPath + "VerticalIsleMap" + ".png", bytes);
+        File.WriteAllBytes(dirPath + "VerticalIsleMap_" + gameObject.scene.handle + ".png", bytes);
         print("Vertical isle map generated.");
+    }
+
+    private void SetMatMask(string fileName)
+    {
+        var mat = GetComponent<Renderer>().sharedMaterial;
+        var tex = (Texture2D) AssetDatabase.LoadAssetAtPath("Assets/_Art/Sprites/Effects/" + fileName, typeof(Texture2D));
+        if (tex == null)
+        {
+            print("Error when assigning mask on material. File not found.");
+            return;
+        }
+        mat.SetTexture("_MaskTex", tex);
     }
 }

@@ -43,12 +43,12 @@ public class ScenesManager : MonoBehaviour
         LoadSecondaryScene("Main_Menu", false);
     }
 
-    public void LoadSecondaryScene(string sceneName, bool isLevel = true)
+    private void LoadSecondaryScene(string sceneName, bool isLevel = true)
     {
         StartCoroutine(LoadSceneCoroutine(sceneName, isLevel));
     }
 
-    IEnumerator LoadSceneCoroutine(string sceneName, bool isLevel = true)
+    private IEnumerator LoadSceneCoroutine(string sceneName, bool isLevel = true)
     {
         AsyncOperation loadOperation = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
         //loadOperation.completed += AsyncSceneLoaded;

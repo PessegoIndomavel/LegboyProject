@@ -1233,7 +1233,7 @@
     },
     "m_Name": "MaskTex",
     "m_DefaultReferenceName": "Texture2D_489f493cb78f48bb80a1eb00f96b7cd3",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "_MaskTex",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,

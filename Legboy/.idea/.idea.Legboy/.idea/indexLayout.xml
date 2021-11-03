@@ -25,7 +25,6 @@
       <Path>.idea</Path>
       <Path>Logs</Path>
       <Path>SaveImages</Path>
-      <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>
