@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
-        m_Texture: {fileID: 2800000, guid: ba1d7c0d5d715c146a804a2d78e4d9da, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0ef97749f9056ea4d84b21bc6c22fdf3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -67,6 +67,7 @@ Material:
     - Vector1_227f49f323584c3dbb5e29d868abbf41: 1
     - Vector1_3ecd0b363f9a4575805f2e3a2ace9fe6: 1
     - Vector1_5a46b5119be547079a0adae276a7742d: 1.53
+    - Vector1_d0a1c8d274c6456186c0c11a2d3a6055: 0
     - Vector1_d7ec6d4295e943b793009674d0b51210: 3
     - Vector1_d8310b12affe471d90340fbc11dcde99: 1.23
     - Vector1_ee65ada5cc6d4035ae38281bd91bbf54: 523
@@ -78,8 +79,9 @@ Material:
     - Vector2_026a2d1fba4148e2b15f746b251fd691: {r: 0.7, g: 1, b: 0, a: 0}
     - Vector2_cd66b5bd187a46ac8eed6661241d26f2: {r: 1, g: 0, b: 0, a: 0}
     - Vector2_e783c6e4a5b04f8f9ffc5e8786ef1438: {r: 1, g: 1, b: 0, a: 0}
-    - Vector2_f60c270042e64e958b6648d5b6261ac1: {r: 0.3726, g: 0.67, b: 0, a: 0}
+    - Vector2_f60c270042e64e958b6648d5b6261ac1: {r: -0.62745, g: -0.27921, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskScale: {r: 523, g: 486, b: 0, a: 0}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

@@ -6,19 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/Overlay.unity
+    path: Assets/_Scenes/Off-levels/Overlay.unity
     guid: 1f7c4350d853b1848b6669a0985740a8
   - enabled: 1
-    path: Assets/_Scenes/Main_Menu.unity
+    path: Assets/_Scenes/Off-levels/Main_Menu.unity
     guid: 1227b890086ab7541955418a6f92acc1
   - enabled: 1
-    path: Assets/_Scenes/Playtest_End.unity
+    path: Assets/_Scenes/Off-levels/Playtest_End.unity
     guid: 1f5fd8eba6d6f4743aaf57b0e57a1339
   - enabled: 1
-    path: Assets/_Scenes/01 - Tutorial Level.unity
+    path: Assets/_Scenes/Levels/01 - Tutorial Level.unity
     guid: e2b4dc3e46f82a14686f63b6dea91ba1
   - enabled: 1
-    path: Assets/_Scenes/02 - Second Level.unity
+    path: Assets/_Scenes/Levels/02 - Second Level.unity
     guid: 105dffe4238f10c4f8f6596e60cb8054
   - enabled: 1
     path: Assets/_Scenes/00 - Old/00 - Tutorial Level (backup).unity
