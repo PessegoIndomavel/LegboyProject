@@ -1059,7 +1059,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &769107060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3610,9 +3610,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 4177539756555089615}
-    m_ColliderPaths: []
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths: []
   m_VertexDistance: 0.0005
@@ -4631,9 +4629,7 @@ CompositeCollider2D:
   m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 7731688603439452668}
-    m_ColliderPaths: []
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths: []
   m_VertexDistance: 0.0005
@@ -4669,25 +4665,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 3694860344690259124}
-    m_ColliderPaths:
-    - - X: 269999900
-        Y: 460000041
-      - X: 269999900
-        Y: 449999959
-      - X: 269999959
-        Y: 449999900
-      - X: 710000041
-        Y: 449999900
-      - X: 710000100
-        Y: 449999959
-      - X: 710000100
-        Y: 460000041
-      - X: 710000041
-        Y: 460000100
-      - X: 269999959
-        Y: 460000100
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: 71.000015, y: 44.999996}
@@ -12223,6 +12201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   path: /_Art/Sprites/Effects/
+  gradientVariation: 0.5
 --- !u!114 &6065019241323209362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17623,9 +17602,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 5020833133603501984}
-    m_ColliderPaths: []
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths: []
   m_VertexDistance: 0.0005
@@ -17900,6 +17877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   path: /_Art/Sprites/Effects/
+  gradientVariation: 0.5
 --- !u!4 &7887777944273422586
 Transform:
   m_ObjectHideFlags: 0
@@ -18989,7 +18967,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &8901801324497923241
 GameObject:
   m_ObjectHideFlags: 0
