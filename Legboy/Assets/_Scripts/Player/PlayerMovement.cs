@@ -23,7 +23,9 @@ public class PlayerMovement : MonoBehaviour
     [Header("Stats")]
     public float maxSpeed = 10;
     public float acceleration = 20f;
+    public float deacceleration = 20f;
     public float airAcceleration = 10f;
+    public float airDeacceleration = 10f;
     public float jumpForce = 50f;
     public float jumpCoyoteTime = 0.08f;
     public float jumpBufferTime = 0.1f;
@@ -204,13 +206,15 @@ public class PlayerMovement : MonoBehaviour
 
         if (coll.onGround)
         {
-            currentSpeed = Mathf.Lerp(currentSpeed, maxSpeed * dir.x, acceleration * Time.deltaTime);
-
             walking = movInput.x > stoppedThreshold || movInput.x < -stoppedThreshold;
+            
+            currentSpeed = walking ? Mathf.Lerp(currentSpeed, maxSpeed * dir.x, acceleration * Time.deltaTime) : Mathf.Lerp(currentSpeed, 0f, deacceleration * Time.deltaTime);
         }
         else
         {
-            currentSpeed = Mathf.Lerp(currentSpeed, maxSpeed * dir.x, airAcceleration * Time.deltaTime);
+            var moving = movInput.x > stoppedThreshold || movInput.x < -stoppedThreshold;
+
+            currentSpeed = moving ? Mathf.Lerp(currentSpeed, maxSpeed * dir.x, airAcceleration * Time.deltaTime) : Mathf.Lerp(currentSpeed, maxSpeed * dir.x, airDeacceleration * Time.deltaTime);
         }
 
         rb.velocity = !wr.wallJumped ? new Vector2(currentSpeed, rb.velocity.y) :

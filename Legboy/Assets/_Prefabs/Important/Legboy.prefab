@@ -20259,7 +20259,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 16
   acceleration: 14
+  deacceleration: 14
   airAcceleration: 20
+  airDeacceleration: 20
   jumpForce: 28
   jumpCoyoteTime: 0.08
   jumpBufferTime: 0.25
