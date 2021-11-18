@@ -11,9 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45942391-441a-4443-8cb6-b3de1e1a6461" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/CollectablesMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/Materials/CollectablesMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/TransparentWallMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/Materials/TransparentWallMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Old/00 - Tutorial Level (backup).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/00 - Old/00 - Tutorial Level (backup).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level/Post Processing Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level/Post Processing Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Off-levels/Overlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Off-levels/Overlay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Items/Tablet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Items/Tablet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/DiamondsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/DiamondsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +38,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Editor/GenerateVerticalIsleMapEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Managers/RareDiamondsManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Other/CameraZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Managers/GameStateManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Managers/LevelStatsManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -61,12 +74,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/ClipperLib/ClipperTriangulation.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClipperLib/Clipper.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/GenerateColAreas.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/BackWall.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/UIScrollToSelection.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/DiamondsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/PlaySound.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/CountChildren.cs" />
         <option value="$PROJECT_DIR$/Assets/_Story/Tablets/tablets_data.txt" />
@@ -83,7 +93,6 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/GameStateManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/TabletOrb.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/Levitation.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Items/Tablet.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Editor/GenerateVerticalIsleMapEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/_Art/Shaders/NewUnlitShader.shader" />
         <option value="$PROJECT_DIR$/Assets/_Art/Shaders/TilemapWithMask.shader" />
@@ -101,17 +110,21 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/TabletMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerSounds.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/TextBoxManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Enemies/EnemyLife.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/TransparentWall.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerWallRun.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerBrain.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/ScenesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/GenerateVerticalIsleMap.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Items/Tablet.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/DiamondsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Items/RareDiamond.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/RareDiamondsManager.cs" />
       </list>
     </option>
   </component>
@@ -330,6 +343,7 @@
       <workItem from="1636218562394" duration="2107000" />
       <workItem from="1636313065864" duration="7157000" />
       <workItem from="1637096081084" duration="862000" />
+      <workItem from="1637268167690" duration="2576000" />
     </task>
     <servers />
   </component>

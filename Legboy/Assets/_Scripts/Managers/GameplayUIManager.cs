@@ -12,6 +12,7 @@ public class GameplayUIManager : MonoBehaviour
     [SerializeField] private float activeTime = 3f;
     [SerializeField] private GameObject uiObject;
     [SerializeField] private TextMeshProUGUI crystalCounterText;
+    [SerializeField] private TextMeshProUGUI rCrystalCounterText;
     [SerializeField] private TextMeshProUGUI tabletCounterText;
     [SerializeField] private float staminaBarUptime = 2f;
     [SerializeField] private bool deactivateStaminaBar;
@@ -57,6 +58,7 @@ public class GameplayUIManager : MonoBehaviour
         if (turnOffCoroutine != null) StopCoroutine(turnOffCoroutine);
 
         crystalCounterText.text = DiamondsManager.instance.GetDiamonds().ToString() + " / 100";
+        rCrystalCounterText.text = RareDiamondsManager.instance.GetRDiamonds().ToString() + " / 10";
         tabletCounterText.text = TabletMenuManager.instance._tabletsAvailable.Count(t => t) + " / 1";
         
         uiObject.SetActive(true);

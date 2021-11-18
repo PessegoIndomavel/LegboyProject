@@ -72,19 +72,6 @@ public class Tablet : Collectable
     {
         Vector2 direction = tabletFollowPointTransform.position - myTransform.position;
         myRb.velocity = speed * direction + Vector2.Perpendicular(direction) * circularSpeed;
-        
-        //debugCircle.position = myRb.velocity + transform.position.AsVector2();
-        
-        /*if (!isIdle && Vector2.Distance(tabletFollowPointTransform.position.AsVector2(),
-            myTransform.position.AsVector2()) <= distToIdle)
-        {
-            isIdle = true;
-        }
-        else if (isIdle && Vector2.Distance(tabletFollowPointTransform.position.AsVector2(),
-            myTransform.position.AsVector2()) > distToIdle)
-        {
-            isIdle = false;
-        }*/
     }
 
     private void FollowPoint()

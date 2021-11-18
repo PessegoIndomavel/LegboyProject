@@ -625,6 +625,7 @@
           <e p="Items" t="Include">
             <e p="Collectable.cs" t="Include" />
             <e p="Diamond.cs" t="Include" />
+            <e p="RareDiamond.cs" t="Include" />
             <e p="Tablet.cs" t="Include" />
           </e>
           <e p="Managers" t="Include">
@@ -642,6 +643,7 @@
             <e p="MainMenuManager.cs" t="Include" />
             <e p="MusicManager.cs" t="Include" />
             <e p="PauseMenuManager.cs" t="Include" />
+            <e p="RareDiamondsManager.cs" t="Include" />
             <e p="ScenesManager.cs" t="Include" />
             <e p="ScreenTransitionManager.cs" t="Include" />
             <e p="TabletMenuManager.cs" t="Include" />

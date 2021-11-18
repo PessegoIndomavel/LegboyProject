@@ -58,6 +58,7 @@ public class LifeManager : MonoBehaviour
         playerTransform.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         playerAnim.Flip(playerMov.side);
         CameraZonesManager.instance.OnPlayerRespawn();
+        GameplayUIManager.instance.ShowUI();
         //StartCoroutine(ReturnToCPCoroutine());
     }
     

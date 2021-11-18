@@ -25,8 +25,8 @@ public class DiamondsManager : MonoBehaviour
 
     public void CountDiamonds()
     {
-        var diamondsFather = GameObject.Find("Diamonds").transform;
-        print(diamondsFather.childCount);
+        var diamondsParent = GameObject.Find("Diamonds").transform;
+        print(diamondsParent.childCount);
     }
 
     public void ResetDiamonds()
