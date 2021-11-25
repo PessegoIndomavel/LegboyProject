@@ -105,6 +105,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -115,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -754,6 +755,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Mushrooms_3: 7984067896440218411
+      Mushrooms_0: 8901842017000291208
+      Mushrooms_22: -4625744227408088043
+      Mushrooms_7: -9180973116910467
+      Mushrooms_14: -7294089734545683413
+      Mushrooms_13: -4782200708248010318
+      Mushrooms_23: 8399372266289984216
+      Mushrooms_19: 2264634339793979006
+      Mushrooms_4: -7452734229695302290
+      Mushrooms_8: -8343811899734127622
+      Mushrooms_11: -5524504641911343858
+      Mushrooms_21: -4367466178238860522
+      Mushrooms_18: 6680204013445068189
+      Mushrooms_2: -8612262464314026121
+      Mushrooms_12: -4836797003071857454
+      Mushrooms_20: 350670315621155779
+      Mushrooms_16: -8160026517544024341
+      Mushrooms_17: 4053803884656177018
+      Mushrooms_5: 7867013949421113598
+      Mushrooms_1: -4684916708011110980
+      Mushrooms_6: 2150037251790107788
+      Mushrooms_9: 3865670605412730120
+      Mushrooms_10: -6601640576500483663
+      Mushrooms_24: 9175077989965368846
+      Mushrooms_15: 5933316839877026164
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -14,19 +14,135 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/CollectablesMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/Materials/CollectablesMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/ConstructionLight_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/ConstructionLight_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/DryWallPainted_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/DryWallPainted_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/DryWall_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/DryWall_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Ground_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Ground_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Hammer_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Hammer_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/HardHat_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/HardHat_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Jigsaw_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Jigsaw_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/LightBulb_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/LightBulb_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Liquid_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Liquid_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Metal_Simple_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Metal_Simple_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/OBS_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/OBS_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Paint1G_WAnim_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Paint1G_WAnim_Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/PaintBrush_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/PaintBrush_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/PaintLabel_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/PaintLabel_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Plastic_Black_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Plastic_Black_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Plastic_Gray_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Plastic_Gray_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Plastic_Ridges_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Plastic_Ridges_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Plastic_Rough_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Plastic_Rough_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Plastic_Transparent.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Plastic_Transparent.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Plastic_White_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Plastic_White_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Plastic_Yellow_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Plastic_Yellow_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Strap_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Strap_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Stud_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/ExampleAssets/Materials/Stud_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/Settings/UniversalRP-LowQuality.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/Settings/UniversalRP-LowQuality.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Template Stuff/Settings/UniversalRP-MediumQuality.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Template Stuff/Settings/UniversalRP-MediumQuality.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Background/BG-FAR-v3 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Background/BG-FAR-v3 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Background/BG-FAR-v3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Background/BG-FAR-v3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Background/bgFar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Background/bgFar.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Background/bgFarFull.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Background/bgFarFull.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Background/bgMid.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Background/bgMid.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Background/bgNear.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Background/bgNear.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/CrystalEnemy/CrystalEnemy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/CrystalEnemy/CrystalEnemy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/CrystalEnemy/CrystalEnemyDead.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/CrystalEnemy/CrystalEnemyDead.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Decorations/Mushrooms.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Decorations/Mushrooms.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Decorations/cogumelos.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Decorations/cogumelos.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Edited/Atlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Edited/Atlas.spriteatlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Edited/FCaves-Ground.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Edited/FCaves-Ground.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Edited/Fixed Decoration Tileset.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Edited/Fixed Decoration Tileset.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Tileset Decoration/CaveTileset.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Tileset Decoration/CaveTileset.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Tileset Decoration/Crystals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Tileset Decoration/Crystals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Tileset Decoration/Mushrooms.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Tileset Decoration/Mushrooms.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Tileset/Atlas Caves.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Tileset/Atlas Caves.spriteatlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Tileset/CaveTileset.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Fantasy Caves Pack/Tileset/CaveTileset.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Free Pack/FreePlatformerNA/Background/BGBack.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Free Pack/FreePlatformerNA/Background/BGBack.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Free Pack/FreePlatformerNA/Background/BGFront.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Free Pack/FreePlatformerNA/Background/BGFront.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Free Pack/FreePlatformerNA/Background/CloudsBack.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Free Pack/FreePlatformerNA/Background/CloudsBack.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Free Pack/FreePlatformerNA/Background/CloudsFront.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Free Pack/FreePlatformerNA/Background/CloudsFront.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Free Pack/FreePlatformerNA/Foreground/Tileset.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Free Pack/FreePlatformerNA/Foreground/Tileset.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Free Pack/FreePlatformerNA/Foreground/Trees.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Free Pack/FreePlatformerNA/Foreground/Trees.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Materials/TransitionMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Materials/TransitionMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/AlphaTransitionShader.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/AlphaTransitionShader.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/BasicLit.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/BasicLit.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/EmissiveShader.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/EmissiveShader.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/GlowShader.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/GlowShader.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/SmearShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/SmearShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/SpinningSparklesShader.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/SpinningSparklesShader.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/Sway.shadersubgraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/Sway.shadersubgraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/Test.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/Test.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/TilemapSwayShader.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/TilemapSwayShader.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/TilemapWithMask.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/TilemapWithMask.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/TransparentWithPlayerShader.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Shaders/TransparentWithPlayerShader.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Items/tablet-closing-v5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Items/tablet-closing-v5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Items/tablet-idle-v2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Items/tablet-idle-v2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/7 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/7 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/cabecaprabaixo(1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/cabecaprabaixo(1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/corrida recolor(1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/corrida recolor(1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/direita(1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/direita(1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/idle recolor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/idle recolor.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/pulo recolor(1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/pulo recolor(1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/suor vertical-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/suor vertical-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/wallrun vertical-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/Current/wallrun vertical-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/andreWalkLegboy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/andreWalkLegboy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/cabecaprabaixo oldie.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/cabecaprabaixo oldie.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/corrida recolor lado(1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/corrida recolor lado(1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/corrida recolor old.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/corrida recolor old.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/direita oldie.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/direita oldie.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/legBoyWalk.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/legBoyWalk.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/luana spritesheet2 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/luana spritesheet2 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/luana spritesheet2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/luana spritesheet2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/pulo recolor old.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/pulo recolor old.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/pulo recolor oldie.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/pulo recolor oldie.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/pulo spriteshet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/pulo spriteshet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/spritesheet topdown oldie.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/spritesheet topdown oldie.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/spritesheet-idle old.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/spritesheet-idle old.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/spritesheet-idle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/spritesheet-idle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/walkLegboy2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Legboy/walkLegboy2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Other/Mushrooms.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Other/Mushrooms.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Other/checkpoint-activation-v4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Other/checkpoint-activation-v4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Other/checkpoint-idle-v2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Other/checkpoint-idle-v2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Other/cogumelos2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Other/cogumelos2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Sprites/Other/cristais.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Sprites/Other/cristais.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/DustParticleMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/Materials/DustParticleMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/SpikeShineParticleMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/Materials/SpikeShineParticleMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/TilemapMatMask.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/Materials/TilemapMatMask.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/TransparentWallMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/Materials/TransparentWallMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/UI.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/Materials/UI.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/WallrunParticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/Materials/WallrunParticle.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Other/Lighting/2D Lights Renderer Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Other/Lighting/2D Lights Renderer Data.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Other/Lighting/2DLightsUniversalRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Other/Lighting/2DLightsUniversalRenderPipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Other/Lighting/UniversalRP-HighQuality.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Other/Lighting/UniversalRP-HighQuality.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Other/PlayerControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Other/PlayerControls.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Other/atlas.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Other/atlas.spriteatlas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Old/00 - Tutorial Level (backup).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/00 - Old/00 - Tutorial Level (backup).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level/Post Processing Profile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Tutorial Level/Post Processing Profile.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Off-levels/Overlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Off-levels/Overlay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Items/Tablet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Items/Tablet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/DiamondsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/DiamondsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Items/Diamond.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Items/Diamond.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/GenerateColAreas.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Other/BackWall.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Other/UIScrollToSelection.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Other/PlaySound.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/CountChildren.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Story/Tablets/tablets_data.txt" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Utility/TabletInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/ScreenTransitionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LevitationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/GameOverTrigger.cs" />
@@ -125,6 +234,13 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/RareDiamondsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Art/VFX/Shaders/Test.shader" />
+        <option value="$PROJECT_DIR$/Assets/_Art/VFX/Shaders/NewImageEffectShader.shader" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Shaders/2D/Include/CombinedShapeLightShared.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/_Art/VFX/Shaders/NewImageEffectShader.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/_Art/VFX/Shaders/TilemapWithMask.shader" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/VFX/DiamondPickupVFX.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Items/Diamond.cs" />
       </list>
     </option>
   </component>
@@ -343,7 +459,12 @@
       <workItem from="1636218562394" duration="2107000" />
       <workItem from="1636313065864" duration="7157000" />
       <workItem from="1637096081084" duration="862000" />
-      <workItem from="1637268167690" duration="2576000" />
+      <workItem from="1637268167690" duration="3170000" />
+      <workItem from="1637610318917" duration="596000" />
+      <workItem from="1637698457753" duration="635000" />
+      <workItem from="1637702438447" duration="2686000" />
+      <workItem from="1637777849060" duration="3933000" />
+      <workItem from="1637809303581" duration="1395000" />
     </task>
     <servers />
   </component>

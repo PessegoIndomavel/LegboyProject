@@ -78,6 +78,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -88,7 +89,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -568,6 +569,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      checkpoint-idle-v2_6: 7062510498808610862
+      checkpoint-idle-v2_17: 3704112881058195192
+      checkpoint-idle-v2_11: 2454318298789948631
+      checkpoint-idle-v2_16: -552317939775796968
+      checkpoint-idle-v2_2: -5663175623812297068
+      checkpoint-idle-v2_0: 529606318333443620
+      checkpoint-idle-v2_1: 4292280525048821582
+      checkpoint-idle-v2_7: -8902171632872741134
+      checkpoint-idle-v2_4: 8795830955155179955
+      checkpoint-idle-v2_8: -3880590223963886693
+      checkpoint-idle-v2_10: 2917526507390193611
+      checkpoint-idle-v2_3: -2323267811191726989
+      checkpoint-idle-v2_5: -276897028343974736
+      checkpoint-idle-v2_12: -6766034784720715822
+      checkpoint-idle-v2_9: 6941552916918841022
+      checkpoint-idle-v2_15: 357874911758677784
+      checkpoint-idle-v2_13: -152058749656176817
+      checkpoint-idle-v2_14: -585638697123031118
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

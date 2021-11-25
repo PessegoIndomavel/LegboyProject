@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -52,7 +53,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -202,7 +203,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 025a2e2c31da12450800000000000000
-      internalID: 6062316873803015456
+      internalID: -4930841023736998203
       vertices: []
       indices: 
       edges: []
@@ -265,7 +266,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d2f3e156454600a60800000000000000
-      internalID: 7638215281656872749
+      internalID: 4202305800065523359
       vertices: []
       indices: 
       edges: []
@@ -280,6 +281,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      luana spritesheet2 1_4: -2805393006480724665
+      luana spritesheet2 1_3: 4202305800065523359
+      luana spritesheet2 1_0: -4930841023736998203
+      luana spritesheet2 1_2: -5845355838058220868
+      luana spritesheet2 1_5: -956185802278612750
+      luana spritesheet2 1_1: -5998099646777373856
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

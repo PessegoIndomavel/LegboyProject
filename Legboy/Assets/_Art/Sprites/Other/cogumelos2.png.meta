@@ -228,6 +228,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -238,7 +239,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -634,6 +635,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      cogumelos2_1: 3727808349709419044
+      cogumelos2_14: 4633781496362916509
+      cogumelos2_0: 1025288233923662854
+      cogumelos2_8: 1134231379357454296
+      cogumelos2_11: -9172582230221881764
+      cogumelos2_5: 8420349519486457343
+      cogumelos2_17: -6078470526394338805
+      cogumelos2_7: -2733081741860997471
+      cogumelos2_4: 1216025785525351797
+      cogumelos2_12: -8231662061623032360
+      cogumelos2_2: 8744743104502970356
+      cogumelos2_3: 5109479428261235380
+      cogumelos2_13: -1535395856791495112
+      cogumelos2_6: 4747128522155160162
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

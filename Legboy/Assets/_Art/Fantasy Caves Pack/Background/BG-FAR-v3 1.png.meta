@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -61,7 +62,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -352,6 +353,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      BG-FAR-v3_0: -7145345841023515115
+      BG-FAR-v3_6: 7763309884301749990
+      BG-FAR-v3_5: 2515054769406572721
+      BG-FAR-v3_meio: -1831246519163507451
+      BG-FAR-v3_7: -7359710746083721859
+      BG-FAR-v3_2: 5707366824169540074
+      BG-FAR-v3_3: -4549351419065177060
+      BG-FAR-v3_1: -7368289793073050290
+      BG-FAR-v3_8: -2650838329996121630
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

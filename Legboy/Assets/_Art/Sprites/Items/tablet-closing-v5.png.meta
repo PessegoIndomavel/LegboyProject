@@ -66,6 +66,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -76,7 +77,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -472,6 +473,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      tablet-closing-v5_1: -6770577219221122527
+      tablet-closing-v5_12: -6223167399976094612
+      tablet-closing-v5_2: -4590100148000877441
+      tablet-closing-v5_13: 8941563988060093122
+      tablet-closing-v5_3: 3123313990246323123
+      tablet-closing-v5_11: -6038081274309484338
+      tablet-closing-v5_5: -5069260224434825785
+      tablet-closing-v5_7: 3822721617515550192
+      tablet-closing-v5_9: -5404117295921599887
+      tablet-closing-v5_6: -1071816205651249780
+      tablet-closing-v5_10: -1148058191255610359
+      tablet-closing-v5_8: -7484507804671093133
+      tablet-closing-v5_4: -6355900771573962000
+      tablet-closing-v5_0: 8680855898128263685
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -8,6 +8,8 @@ public class Diamond : Collectable
     {
         LevelManager.instance.AddCollected(this);
         DiamondsManager.instance.AddDiamond();
+        if(DiamondPickupVFX.instance != null) DiamondPickupVFX.instance.PlayBurst(transform.position.AsVector2());
+        else print("DiamondPickupVFX instance not found!");
         base.Collect();
     }
 

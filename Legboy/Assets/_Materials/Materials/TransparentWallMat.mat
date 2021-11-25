@@ -99,6 +99,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Vector1_f9654f376f0949c487789a81510dba16: 0
     - _AlphaClip: 0
@@ -134,7 +135,7 @@ Material:
     - Color_6cd81d4d77dc4abda64a1961972279f7: {r: 2, g: 2, b: 2, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _CutoutPosition: {r: -85.4, g: -316.6, b: 0, a: 0}
+    - _CutoutPosition: {r: 46.843506, g: 95.45519, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}

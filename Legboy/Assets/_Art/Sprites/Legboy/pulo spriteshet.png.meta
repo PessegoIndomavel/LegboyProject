@@ -48,6 +48,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -58,7 +59,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -328,6 +329,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      pulo spriteshet_0: -5282809105855801691
+      pulo spriteshet_1: 287794896929293134
+      pulo spriteshet_4: -2314634149124559457
+      pulo spriteshet_2: 464215254791337128
+      pulo spriteshet_5: 7893028761888833815
+      pulo spriteshet_3: -4381806778692521742
+      pulo spriteshet_6: -2104804835553682859
+      pulo spriteshet_7: 4189875468160492716
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -107,8 +107,15 @@ Shader "Custom/TilemapWithMask"
             {
                 half4 main = i.color * SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.uv);
                 half4 mask = SAMPLE_TEXTURE2D(_MaskTex, sampler_MaskTex, i.uv);
-
-                return CombinedShapeLightShared(main, mask, i.lightingUV);
+                
+                SurfaceData2D surfaceData;
+                InputData2D inputData;
+                surfaceData.albedo = main.rgb;
+                surfaceData.alpha = 1;
+                surfaceData.mask = mask;
+                inputData.uv = i.uv;
+                inputData.lightingUV = i.lightingUV;
+                return half4(CombinedShapeLightShared(surfaceData, inputData).rgb, main.a);
             }
             ENDHLSL
         }

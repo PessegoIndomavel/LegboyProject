@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -52,7 +53,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -280,6 +281,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      wallrun vertical-Sheet_2: 6035964389672327981
+      wallrun vertical-Sheet_4: 3233851270139460301
+      wallrun vertical-Sheet_1: -3188155569093816088
+      wallrun vertical-Sheet_3: 7494059571186550056
+      wallrun vertical-Sheet_5: -7199599497452544678
+      wallrun vertical-Sheet_0: 1458049781553653498
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -52,7 +53,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -280,6 +281,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      corrida recolor lado(1)_3: 5228058791872183432
+      corrida recolor lado(1)_1: -2654775317848795397
+      corrida recolor lado(1)_2: 1120369922197161763
+      corrida recolor lado(1)_5: 8242555756375855225
+      corrida recolor lado(1)_4: 8929596327070324895
+      corrida recolor lado(1)_0: -5666139179576860903
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

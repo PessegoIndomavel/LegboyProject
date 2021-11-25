@@ -144,6 +144,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -154,7 +155,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -1096,6 +1097,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      CloudsBack_19: -1828290261029965529
+      CloudsBack_35: -8774034273271760899
+      CloudsBack_0: -37210481753236058
+      CloudsBack_2: 3308939130153926442
+      CloudsBack_13: -1733849763243060116
+      CloudsBack_16: 2600693371135847689
+      CloudsBack_7: 2826867826311904959
+      CloudsBack_17: -7226994214843267898
+      CloudsBack_5: -7681608421572863571
+      CloudsBack_10: 2197563586263539792
+      CloudsBack_36: 7157191820965571272
+      CloudsBack_21: 2961466137714917783
+      CloudsBack_37: -5593758374170283644
+      CloudsBack_33: 1674928579115310194
+      CloudsBack_38: -4700265224842738134
+      CloudsBack_4: 8252148798312590831
+      CloudsBack_31: -8239621647961531173
+      CloudsBack_39: -7285652694652287603
+      CloudsBack_1: -948466142001636470
+      CloudsBack_25: -3068430718153960549
+      CloudsBack_27: -2508883038679080304
+      CloudsBack_9: -2221086822634666989
+      CloudsBack_22: 3962957859513629520
+      CloudsBack_28: 3612580012935041076
+      CloudsBack_6: -5296090351814871697
+      CloudsBack_8: 450117140122327672
+      CloudsBack_14: -4582915727023817744
+      CloudsBack_26: -4639103064447876984
+      CloudsBack_11: -4723081270783634924
+      CloudsBack_29: 7182252539122233997
+      CloudsBack_23: -7530437299371881003
+      CloudsBack_24: -6416819064117176779
+      CloudsBack_12: 3333286203090922442
+      CloudsBack_3: -279575029716668131
+      CloudsBack_15: -7095337091117929185
+      CloudsBack_34: -4007797468560814803
+      CloudsBack_32: 1542776203640849992
+      CloudsBack_18: -7283051602055763859
+      CloudsBack_20: 6841829102286817230
+      CloudsBack_30: -6621478875213154351
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

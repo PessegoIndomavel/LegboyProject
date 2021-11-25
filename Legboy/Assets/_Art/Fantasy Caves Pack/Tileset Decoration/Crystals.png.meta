@@ -129,6 +129,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -139,7 +140,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -988,6 +989,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Crystals_18: 9191034073585359291
+      Crystals_2: -8237667901665138252
+      Crystals_10: 8446484670797891575
+      Crystals_13: 5166005433260654894
+      Crystals_16: -6103873729352232951
+      Crystals_21: -2879405259146173306
+      Crystals_17: -9133273588651352796
+      Crystals_4: -8602326965400858886
+      Crystals_11: 4736382922188801479
+      Crystals_31: -2547436453776669935
+      Crystals_5: -3283395716511959148
+      Crystals_15: -4778918847375056250
+      Crystals_34: 2754745740421914932
+      Crystals_14: 7954692425196772049
+      Crystals_33: 6877254389097556371
+      Crystals_22: 8211725306560410900
+      Crystals_32: -1070852788505195344
+      Crystals_0: 4775630859605534401
+      Crystals_9: -2321988763090295741
+      Crystals_24: -3771393699310263123
+      Crystals_19: -3464367271875045202
+      Crystals_25: -231726979322679103
+      Crystals_20: 6878356012282046251
+      Crystals_30: 4210162451299236585
+      Crystals_27: -1538428439566884588
+      Crystals_3: -2467140366469486843
+      Crystals_6: -5767893256424630917
+      Crystals_29: 3653672063902331237
+      Crystals_28: -5170834397940436891
+      Crystals_8: -8747334222587537330
+      Crystals_7: 8659395192287804456
+      Crystals_12: 7160417608231448423
+      Crystals_26: 664853656775549513
+      Crystals_1: 7308664677214642820
+      Crystals_23: 8692141581775191472
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

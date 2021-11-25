@@ -54,6 +54,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -64,7 +65,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -376,6 +377,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      tablet-idle-v2_8: -6412276842913711779
+      tablet-idle-v2_4: 6544035050007207103
+      tablet-idle-v2_5: -5666848802334139508
+      tablet-idle-v2_3: -4740434450564303467
+      tablet-idle-v2_9: 3131852096758608527
+      tablet-idle-v2_1: 1274157955283420273
+      tablet-idle-v2_2: 1751091630319272291
+      tablet-idle-v2_0: -8328138973226816672
+      tablet-idle-v2_6: -5027346587149095471
+      tablet-idle-v2_7: -1152113221389586891
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

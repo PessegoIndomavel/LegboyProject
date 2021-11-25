@@ -273,6 +273,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -283,7 +284,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -2128,6 +2129,90 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      FCaves-Ground_22: 5351725295092559576
+      FCaves-Ground_9: 7778306775950155246
+      FCaves-Ground_11: -1800194369489318290
+      FCaves-Ground_63: 7259941582257430561
+      FCaves-Ground_34: -3712511022045292326
+      FCaves-Ground_42: 8641130010000902657
+      FCaves-Ground_3: 8867330172527331644
+      FCaves-Ground_53: 5638164683455232
+      FCaves-Ground_39: -3766851298458718494
+      FCaves-Ground_57: 7987714549753147380
+      FCaves-Ground_60: 8208618712073948016
+      FCaves-Ground_77: -8469029997933779990
+      FCaves-Ground_48: -7416952413341141108
+      FCaves-Ground_82: -220892410207272135
+      FCaves-Ground_80: -5050670344104914358
+      FCaves-Ground_76: 2881040880900405136
+      FCaves-Ground_23: -88202318146216778
+      FCaves-Ground_43: 1339151682873148935
+      FCaves-Ground_40: -2341786737059450339
+      FCaves-Ground_66: -8297815433790576875
+      FCaves-Ground_37: 1806707591886761977
+      FCaves-Ground_45: -2847209769906153860
+      FCaves-Ground_13: -7982269297081567784
+      FCaves-Ground_21: -2146090901707073463
+      FCaves-Ground_25: -5465514872380687690
+      FCaves-Ground_72: 9086268696040851842
+      FCaves-Ground_79: 1010544181869058820
+      FCaves-Ground_68: 4465822643923712198
+      FCaves-Ground_62: -7040373418903561072
+      FCaves-Ground_29: -1174912069929051489
+      FCaves-Ground_20: 8764520819913964469
+      FCaves-Ground_26: -5432993368963741641
+      FCaves-Ground_36: 298483066427577644
+      FCaves-Ground_70: -1346868291455472144
+      FCaves-Ground_49: 1328022386006676850
+      FCaves-Ground_59: 3604033254416646513
+      FCaves-Ground_67: 6583035321034004796
+      FCaves-Ground_50: 7997054450976175295
+      FCaves-Ground_78: -6804385897256243279
+      FCaves-Ground_8: 3948033372223921389
+      FCaves-Ground_7: -1646447772640751175
+      FCaves-Ground_15: -6961669018607614396
+      FCaves-Ground_6: -103252846871740394
+      FCaves-Ground_51: 2230955776868824730
+      FCaves-Ground_2: -7147896597150326086
+      FCaves-Ground_31: 7451153565709971679
+      FCaves-Ground_64: 5748673357009528555
+      FCaves-Ground_27: 7361446411431385645
+      FCaves-Ground_44: 6873315114052237211
+      FCaves-Ground_75: 2837296929781233046
+      FCaves-Ground_5: -9048097800131054894
+      FCaves-Ground_12: -4365371817373056281
+      FCaves-Ground_33: -2008051933286411804
+      FCaves-Ground_1: -4715996205018349983
+      FCaves-Ground_69: -1992237836330600061
+      FCaves-Ground_38: -7062756719620907666
+      FCaves-Ground_32: 688686496290827911
+      FCaves-Ground_65: -7153616688182285824
+      FCaves-Ground_16: 6034839753997353440
+      FCaves-Ground_81: 8172697551778074638
+      FCaves-Ground_10: 5322773214949806172
+      FCaves-Ground_17: -7492117422277957976
+      FCaves-Ground_71: -6318123402849810475
+      FCaves-Ground_52: -1999987129241668138
+      FCaves-Ground_54: -3928518455142539843
+      FCaves-Ground_30: 4492873616093437686
+      FCaves-Ground_4: -6954876146405656821
+      FCaves-Ground_58: -4890598850895642368
+      FCaves-Ground_19: 5142972321318162131
+      FCaves-Ground_41: -8653230840818495985
+      FCaves-Ground_55: -3658458527542254960
+      FCaves-Ground_14: 4178532437782478013
+      FCaves-Ground_28: -7556576635203354169
+      FCaves-Ground_46: -4852598881867494504
+      FCaves-Ground_35: -8309077703930929603
+      FCaves-Ground_74: 8448850661114525925
+      FCaves-Ground_47: 7183018386222683578
+      FCaves-Ground_18: 8051106045133659175
+      FCaves-Ground_56: -2469310104958218282
+      FCaves-Ground_61: 3671309525740386706
+      FCaves-Ground_24: -2107797124535903046
+      FCaves-Ground_0: -7309566370485245891
+      FCaves-Ground_73: -2937379040974915372
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

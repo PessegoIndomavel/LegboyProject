@@ -144,6 +144,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -154,7 +155,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -1096,6 +1097,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      cogumelos_24: -72457011603980270
+      cogumelos_21: -37664838148090089
+      cogumelos_29: -144452054109651528
+      cogumelos_10: 7670705333275311546
+      cogumelos_34: 6831606652635030737
+      cogumelos_0: -345279942616170839
+      cogumelos_35: -703408718400308499
+      cogumelos_16: 5346688642808615787
+      cogumelos_19: 6248343261458077050
+      cogumelos_22: 156272888703345586
+      cogumelos_38: -8978042011856109793
+      cogumelos_27: 4798718232145787552
+      cogumelos_8: 7630065493953504366
+      cogumelos_17: -6386401172736209972
+      cogumelos_4: -8759738027244666171
+      cogumelos_14: -5270250832148763775
+      cogumelos_37: 78072640566424609
+      cogumelos_3: 1942667532785707264
+      cogumelos_12: -7515724066394980506
+      cogumelos_26: -7382145661787146912
+      cogumelos_13: -1102632216549348002
+      cogumelos_32: -2587066000430692742
+      cogumelos_30: -4469138706198639993
+      cogumelos_6: -6877285383755954368
+      cogumelos_33: 3310700714206241725
+      cogumelos_20: 1768744790454500588
+      cogumelos_36: 5340691313461725723
+      cogumelos_23: -4061476490937801434
+      cogumelos_9: -5255439584909266925
+      cogumelos_11: -9221900087915770830
+      cogumelos_25: -1439785226406628549
+      cogumelos_5: 4198604251472628504
+      cogumelos_15: -4804901379088340197
+      cogumelos_28: 896473119298938731
+      cogumelos_18: 1374600861060422329
+      cogumelos_31: 1968948740565594820
+      cogumelos_7: -923542795603374427
+      cogumelos_39: -6978710053802394192
+      cogumelos_2: -7519211452052552766
+      cogumelos_1: 2154808899590976255
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

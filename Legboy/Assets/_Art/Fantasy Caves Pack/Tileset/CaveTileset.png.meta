@@ -234,6 +234,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -244,7 +245,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -1828,6 +1829,77 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      CaveTileset_25: -4985469661342603651
+      CaveTileset_0: 3996583562502978639
+      CaveTileset_18: -4685276838920689357
+      CaveTileset_36: -5358635707834790695
+      CaveTileset_37: 5125240006883508483
+      CaveTileset_57: -8186585930481903482
+      CaveTileset_11: 7049224680614716245
+      CaveTileset_63: 1275718773578539687
+      CaveTileset_62: 6917298277951015363
+      CaveTileset_68: 5239755355987260208
+      CaveTileset_17: 6683707077133155585
+      CaveTileset_43: 6182245094724298303
+      CaveTileset_19: -538213359450886592
+      CaveTileset_16: 315434251828327588
+      CaveTileset_27: -1519577575022202450
+      CaveTileset_6: 4126254296993700365
+      CaveTileset_33: 6936233617476183470
+      CaveTileset_47: -3255906679739054512
+      CaveTileset_38: -6708882944798934787
+      CaveTileset_42: -5248412719492767109
+      CaveTileset_8: -8349186705381493971
+      CaveTileset_20: 1868719316402970164
+      CaveTileset_32: -352050419795948090
+      CaveTileset_13: -8968264529306661778
+      CaveTileset_22: -3237577664244079149
+      CaveTileset_3: 7749456262575455628
+      CaveTileset_46: 1168187352317183812
+      CaveTileset_28: 1728234455838875079
+      CaveTileset_50: 5163042742148854822
+      CaveTileset_9: -832927408412010641
+      CaveTileset_34: -8254484153137076502
+      CaveTileset_12: -160684090648081395
+      CaveTileset_40: -472533760608060453
+      CaveTileset_52: 3037958248483641460
+      CaveTileset_49: -2382075823174023856
+      CaveTileset_2: -7235696467860399920
+      CaveTileset_61: 2482238214110470398
+      CaveTileset_44: -1495591762981278286
+      CaveTileset_66: -7330688119930404163
+      CaveTileset_30: -1402014638032037716
+      CaveTileset_64: 6262367157150202623
+      CaveTileset_55: -605303914080055611
+      CaveTileset_5: -2818167687312129732
+      CaveTileset_26: 6398298910880093438
+      CaveTileset_29: 3762050927077552924
+      CaveTileset_24: 5511525547609306066
+      CaveTileset_56: 2940805170700485087
+      CaveTileset_45: -9096790574498294785
+      CaveTileset_59: 3670796025725482465
+      CaveTileset_48: -2855361039561674679
+      CaveTileset_21: -2838882918843023997
+      CaveTileset_1: -3248993407415612807
+      CaveTileset_15: -3695034813065263008
+      CaveTileset_23: -4985362935461023148
+      CaveTileset_51: -1532282588725534150
+      CaveTileset_31: -4223763077435854587
+      CaveTileset_7: -5477092454646911941
+      CaveTileset_10: 4317434540365866330
+      CaveTileset_35: -7496272504984513521
+      CaveTileset_41: -7270695244564744076
+      CaveTileset_39: 7096593382424627638
+      CaveTileset_14: 4672182829397797744
+      CaveTileset_65: -7014812700490330498
+      CaveTileset_53: -8106863566323663422
+      CaveTileset_69: -2821688705561683594
+      CaveTileset_54: -4280669730558905129
+      CaveTileset_58: 4391522627085861895
+      CaveTileset_60: 1373946241514796486
+      CaveTileset_67: -1794545007920525103
+      CaveTileset_4: 6552989492926296519
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
