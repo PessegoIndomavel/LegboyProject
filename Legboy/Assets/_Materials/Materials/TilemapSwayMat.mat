@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
-        m_Texture: {fileID: 2800000, guid: 0ef97749f9056ea4d84b21bc6c22fdf3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 90af6ddb56045ff4f87cecad2e93fa10, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -63,6 +63,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Vector1_227f49f323584c3dbb5e29d868abbf41: 1
     - Vector1_3ecd0b363f9a4575805f2e3a2ace9fe6: 1
