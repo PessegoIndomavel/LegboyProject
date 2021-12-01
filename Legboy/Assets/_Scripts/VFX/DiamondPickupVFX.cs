@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VFX;
+using UnityEngine.VFX.Utility;
 
 public class DiamondPickupVFX : MonoBehaviour
 {
@@ -32,4 +34,17 @@ public class DiamondPickupVFX : MonoBehaviour
         transform.position = pos;
         myVFX.Play();
     }
+    
+    public void OnParticleHit()
+    {
+        print("uiui");
+    }
+
+    /*public override bool canExecuteInEditor { get; }
+
+    public override void OnVFXOutputEvent(VFXEventAttribute eventAttribute)
+    {
+        Console.WriteLine("uiui");
+        myVFX.Play();
+    }*/
 }

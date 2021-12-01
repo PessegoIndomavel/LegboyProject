@@ -357,6 +357,7 @@
           <e p="Enemies" t="Include">
             <e p="EnemyLife.cs" t="Include" />
           </e>
+          <e p="EnumFlagsAttribute.cs" t="Include" />
           <e p="Items" t="Include">
             <e p="Collectable.cs" t="Include" />
             <e p="Diamond.cs" t="Include" />
@@ -416,6 +417,7 @@
             <e p="SquishDetection.cs" t="Include" />
             <e p="ThreatCollision.cs" t="Include" />
           </e>
+          <e p="tmep.cs" t="Include" />
           <e p="Utility" t="Include">
             <e p="CountChildren.cs" t="Include" />
             <e p="GenerateColAreas.cs" t="Include" />
@@ -425,6 +427,7 @@
           </e>
           <e p="VFX" t="Include">
             <e p="DiamondPickupVFX.cs" t="Include" />
+            <e p="VFXEvent.cs" t="Include" />
           </e>
         </e>
         <e p="Demigiant" t="Include">

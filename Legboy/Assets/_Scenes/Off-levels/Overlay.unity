@@ -658,7 +658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isLevel: 0
-  testLevelScene: 02 - Second Level
+  testLevelScene: 00 - Tutorial Level (backup)
 --- !u!114 &125916261
 MonoBehaviour:
   m_ObjectHideFlags: 0
