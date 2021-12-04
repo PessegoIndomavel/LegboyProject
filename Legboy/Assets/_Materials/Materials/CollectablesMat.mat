@@ -47,6 +47,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Vector1_227f49f323584c3dbb5e29d868abbf41: 1
     - Vector1_3ecd0b363f9a4575805f2e3a2ace9fe6: 1
