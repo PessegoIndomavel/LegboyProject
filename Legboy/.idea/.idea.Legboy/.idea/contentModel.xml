@@ -427,6 +427,7 @@
           </e>
           <e p="VFX" t="Include">
             <e p="DiamondPickupVFX.cs" t="Include" />
+            <e p="SetFlipbookIntervalSeed.cs" t="Include" />
             <e p="VFXEvent.cs" t="Include" />
           </e>
         </e>

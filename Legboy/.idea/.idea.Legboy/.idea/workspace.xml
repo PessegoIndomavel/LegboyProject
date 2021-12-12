@@ -13,19 +13,24 @@
     <list default="true" id="45942391-441a-4443-8cb6-b3de1e1a6461" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Art/VFX/DiamondPickupVFX.vfx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/VFX/DiamondPickupVFX.vfx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/VFX/Shaders/SpinningSparklesShader.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/VFX/Shaders/SpinningSparklesShader.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/CollectablesMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/CollectablesMat.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/TransparentWallMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/Materials/TransparentWallMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Diamond.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Items/Diamond.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/00 - Old/00 - Tutorial Level (backup).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/00 - Old/00 - Tutorial Level (backup).unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Levels/01 - Tutorial Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Levels/01 - Tutorial Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Levels/02 - Second Level 2.5 (backup).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Levels/02 - Second Level 2.5 (backup).unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Levels/02 - Second Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Levels/02 - Second Level.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Off-levels/Overlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Off-levels/Overlay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/VFX/DiamondPickupVFX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/VFX/DiamondPickupVFX.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -66,6 +71,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Other/TextBoxZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0049532E-C432-485C-A342-60937DA7A054/9c/24595b4f/Resources.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Other/Levitation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/VFX/SetFlipbookIntervalSeed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Managers/TabletMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Other/TabletFollowPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Player/ThreatCollision.cs" root0="FORCE_HIGHLIGHTING" />
@@ -76,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/Collision.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/PauseMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/CheckpointManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/_Story/Tablets/tabletsData.txt" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/GameStateManager.cs" />
@@ -127,6 +131,8 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/temp2.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/tmep.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/EnumFlagsAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/VFX/FlipbookAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/VFX/SetFlipbookIntervalSeed.cs" />
       </list>
     </option>
   </component>
@@ -355,6 +361,8 @@
       <workItem from="1638139274441" duration="4845000" />
       <workItem from="1638210507788" duration="596000" />
       <workItem from="1638382335496" duration="1774000" />
+      <workItem from="1639272951978" duration="4010000" />
+      <workItem from="1639338871476" duration="782000" />
     </task>
     <servers />
   </component>
