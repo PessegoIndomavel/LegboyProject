@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/Off-levels/Overlay.unity
+    path: Assets/_Scenes/Levels/Overlay.unity
     guid: 1f7c4350d853b1848b6669a0985740a8
   - enabled: 1
     path: Assets/_Scenes/Off-levels/Main_Menu.unity
