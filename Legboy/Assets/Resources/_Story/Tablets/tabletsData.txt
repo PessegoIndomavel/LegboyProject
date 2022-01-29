@@ -7,9 +7,18 @@ Estávamos errados.
 [FimTexto]
 
 [InicioTexto] [2] TABLET 02
-Nós superestimamos a vida na Terra.
+Legboy é uma criatura curiosa. Nos dois sentidos.
 
-Por muito tempo, pensamos: nada pode realmente destruir a natureza. A humanidade pode destruir a si mesma, seu ecossistema, sua própria capacidade de sobrevivência. Mas a natureza sempre continuará. Mesmo que a humanidade se autodestrua por completo, a natureza sempre dará um jeito de seguir em frente.
+Ele parece se sentir atraído por coisas brilhantes sem nenhum motivo aparente. Não sabemos se elas têm qualquer utilidade prática em sua vida. Talvez não tenham. Talvez ele sinta apenas algum tipo de prazer sensorial imediato ao coletá-las. Isso é suficiente. Devemos observar. Não queremos que ele corra riscos desnecessários.
 
-Estávamos errados.
+A humanidade já pagou um preço alto demais.
+[FimTexto]
+
+
+[InicioTexto] [3] TABLET 03
+Os terminais de backup orgânico parecem estar funcionando bem. 
+
+Nós não podemos voltar no tempo, mas pelo menos conseguimos restaurar o mundo ao seu último ponto de salvamento. Não podemos repetir o erro de permitir que a natureza seja perdida novamente. O que restou da humanidade gostaria de ver seu planeta vivo novamente e é isso que nós vamos fazer. Pessoas, plantas, animais. Tudo isso vai ser recuperado e nunca mais perdido de novo. 
+
+Nós vamos conseguir. Um passo de cada vez.
 [FimTexto]
