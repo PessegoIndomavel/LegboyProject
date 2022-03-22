@@ -3,13 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ScenesManager : MonoBehaviour
 {
     public static ScenesManager instance;
     [HideInInspector] public bool isLevel;
     private string currentSecondaryScene;
-    public string testLevelScene;
+    public List<string> scenesNames = new List<string>();
 
     public Action onLoadScene;
 
@@ -70,6 +71,15 @@ public class ScenesManager : MonoBehaviour
         onLoadScene();
     }*/
 
+    public Button.ButtonClickedEvent ButtonChangeSecondaryScene(string sceneName, bool isLevel = true)
+    {
+        SceneManager.UnloadSceneAsync(currentSecondaryScene);
+
+        StartCoroutine(LoadSceneCoroutine(sceneName, isLevel));
+
+        return null;
+    }
+    
     public void ChangeSecondaryScene(string sceneName, bool isLevel = true)
     {
         SceneManager.UnloadSceneAsync(currentSecondaryScene);

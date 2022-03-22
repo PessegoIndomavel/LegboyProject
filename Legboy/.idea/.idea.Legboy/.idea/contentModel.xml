@@ -373,6 +373,7 @@
             <e p="GameplayUIManager.cs" t="Include" />
             <e p="GameStateManager.cs" t="Include" />
             <e p="LevelManager.cs" t="Include" />
+            <e p="LevelSelectionMenuManager.cs" t="Include" />
             <e p="LevelStatsManager.cs" t="Include" />
             <e p="LevitationManager.cs" t="Include" />
             <e p="LifeManager.cs" t="Include" />

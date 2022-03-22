@@ -22,6 +22,11 @@ public class MainMenuManager : MonoBehaviour
         StartCoroutine(ActivateButtons());
     }
 
+    private void Start()
+    {
+        LevelSelectionMenuManager.instance.GenerateButtons(ScenesManager.instance.scenesNames);
+    }
+
     private IEnumerator ActivateButtons()
     {
         yield return new WaitForSecondsRealtime(2f);
@@ -41,10 +46,9 @@ public class MainMenuManager : MonoBehaviour
             "Dados da última partida:\n\n - Cristais: "+DiamondsManager.instance.GetDiamonds()+"/100\n\n - Tablets: "+temp+"/1\n\n - Mortes:  "+LifeManager.instance.getDeathCounter+"\n\n - Tempo:  "+LevelStatsManager.instance.getFormatedAccumulatedTime();
     }
 
-    public void StartPlaytestLevel()
+    public void OpenLevelSelection()
     {
-        if (!canPressButton) return;
-        ScenesManager.instance.ChangeSecondaryScene(ScenesManager.instance.testLevelScene, true);
+        LevelSelectionMenuManager.instance.gameObject.SetActive(true);
     }
 
     public void ToggleTextBoxes()
