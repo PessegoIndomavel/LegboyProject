@@ -11,16 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45942391-441a-4443-8cb6-b3de1e1a6461" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legboy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/Legboy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/Legboy.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/dieLegboy.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Art/Animations/Legboy/dieLegboy.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/RareDiamondMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/Materials/RareDiamondMat.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Materials/Materials/TransparentWallMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/Materials/TransparentWallMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Rare Diamond.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Items/Rare Diamond.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Levels/00 - Extra Cave Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Levels/00 - Extra Cave Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Levels/01 - Tutorial Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Levels/01 - Tutorial Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Levels/02 - Second Level v2.5 (backup).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Levels/02 - Second Level v2.5 (backup).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Levels/02 - Second Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Levels/02 - Second Level.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Levels/Overlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Levels/Overlay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Off-levels/Main_Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Off-levels/Main_Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/MainMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/MainMenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/ScenesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/ScenesManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +96,6 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/TabletMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerSounds.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/TextBoxManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Enemies/EnemyLife.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Other/TransparentWall.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerWallRun.cs" />
@@ -102,7 +107,6 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/DiamondsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Items/RareDiamond.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/GameplayUIManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/RareDiamondsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Art/VFX/Shaders/Test.shader" />
         <option value="$PROJECT_DIR$/Assets/_Art/VFX/Shaders/NewImageEffectShader.shader" />
@@ -118,9 +122,11 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/EnumFlagsAttribute.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/VFX/FlipbookAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/VFX/SetFlipbookIntervalSeed.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/MainMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/ScenesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LevelSelectionMenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/ScenesManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/MainMenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Managers/LifeManager.cs" />
       </list>
     </option>
   </component>
@@ -351,7 +357,8 @@
       <workItem from="1638382335496" duration="1774000" />
       <workItem from="1639272951978" duration="4010000" />
       <workItem from="1639338871476" duration="782000" />
-      <workItem from="1647977540170" duration="3385000" />
+      <workItem from="1647977540170" duration="4234000" />
+      <workItem from="1649357884692" duration="820000" />
     </task>
     <servers />
   </component>

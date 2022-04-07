@@ -42,7 +42,9 @@ public class LifeManager : MonoBehaviour
         deathCounter++;
         playerBrain.Die();
         dead = true;
+        playerTransform.GetComponentInChildren<Animator>().updateMode = AnimatorUpdateMode.UnscaledTime;
         playerTransform.GetComponentInChildren<Animator>().SetTrigger("died");
+        playerTransform.GetComponentInChildren<Animator>().SetBool("died", true);
         GameStateManager.instance.DisablePauseControls();
         TabletMenuManager.instance.CanOpenTabletMenu = false;
         ScreenTransitionManager.instance.StartTransition(ReturnToCheckpoint, Respawn);
@@ -54,6 +56,8 @@ public class LifeManager : MonoBehaviour
     {
         LevelManager.instance.RespawnCollectedAndDefeated();
         playerTransform.position = CheckpointManager.instance.CurrentCheckpoint.transform.position + new Vector3(0f, -0.225f, 0f);
+        playerTransform.GetComponentInChildren<Animator>().SetBool("died", false);
+        playerTransform.GetComponentInChildren<Animator>().updateMode = AnimatorUpdateMode.Normal;
         playerTransform.GetComponentInChildren<Animator>().Play("idleLegboy");
         playerTransform.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         playerAnim.Flip(playerMov.side);
